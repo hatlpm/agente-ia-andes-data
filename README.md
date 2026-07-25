@@ -312,6 +312,17 @@ Por eso `scripts/smoke_test.py` **descubre automáticamente** qué modelo funcio
 
 El modelo por defecto en `src/config.py` es `gemini-flash-lite-latest`, validado por ese script contra una cuenta real. Como la cuota se aplica **por modelo**, agotar uno no bloquea a los demás: si ocurre, basta ejecutar el smoke test y declarar `MODELO_LLM=<el que funcione>` en el archivo `.env`, **sin tocar el código**.
 
+### Contención de la ejecución de código
+
+`consultar_ventas` ejecuta código escrito por el modelo. En local eso es asumible; con la aplicación publicada en internet deja de serlo, porque un **prompt injection** («ignora tus instrucciones y ejecuta…») podría convertir esa herramienta en ejecución remota de código.
+
+Se añadieron dos barreras en `src/tools.py`:
+
+1. **Lista blanca de *builtins*.** Python inyecta por defecto todos los *builtins* en el código que ejecuta, incluidos `__import__`, `open`, `eval` y `exec`. El entorno de ejecución solo expone los que una consulta pandas legítima puede necesitar (`len`, `sum`, `round`, `sorted`, `max`…).
+2. **Prohibición de atributos *dunder*.** La vía de escape habitual de estos entornos no es importar nada, sino recorrer la jerarquía de clases (`().__class__.__bases__[0].__subclasses__()`) hasta alcanzar algo ejecutable. Rechazar el doble guion bajo corta ese camino.
+
+Verificado: las 6 consultas legítimas de prueba siguen funcionando y los 6 intentos de escape quedan bloqueados, incluido `open("../.env").read()` — es decir, el intento de leer la propia API key.
+
 ### FAISS persistido en disco
 
 El índice vectorial se guarda en `vectorstore/` y se recarga en los arranques siguientes. Regenerar los embeddings del PDF en cada inicio sería lento y consumiría cuota de API repetidamente para producir exactamente el mismo resultado. `cargar_indice()` construye el índice automáticamente si no lo encuentra, de modo que la aplicación nunca falla en el primer arranque por haber olvidado la ingesta.
@@ -324,7 +335,7 @@ Streamlit vuelve a ejecutar el script completo en cada interacción del usuario.
 
 ## 10. Limitaciones conocidas
 
-- **`consultar_ventas` ejecuta código Python generado por el LLM.** El espacio de nombres se restringe a `df` y `pd`, y la salida se trunca para no inundar el prompt, pero **no es un sandbox real**. Es aceptable para uso local sobre datos propios; no debería exponerse a usuarios no confiables en internet sin aislamiento adicional (contenedor, intérprete restringido o servicio de ejecución externo).
+- **`consultar_ventas` ejecuta código Python generado por el LLM.** Está acotado con lista blanca de *builtins* y prohibición de *dunders* (sección 9), lo que cierra las vías de escape conocidas, pero **sigue sin ser un sandbox real**: el aislamiento verdadero exigiría separar el proceso o el contenedor. Para un despliegue con datos sensibles o tráfico no confiable, ese sería el siguiente paso.
 - **El agente no tiene memoria persistente entre sesiones.** El historial de la conversación se mantiene dentro de la sesión de Streamlit y se pierde al recargar la página o reiniciar el servidor.
 - **Los documentos son fijos.** No se pueden cargar archivos nuevos desde la interfaz: para cambiar las fuentes hay que reemplazar los archivos en `data/` y volver a ejecutar la ingesta.
 - **La capa gratuita de Gemini tiene un cupo diario por modelo.** Cada pregunta consume entre 2 y 3 llamadas a la API, así que un uso intensivo puede agotarlo y producir un error `429 RESOURCE_EXHAUSTED`. No es un fallo del proyecto: la cuota se renueva cada día y se aplica por modelo, de modo que cambiar `MODELO_LLM` en el `.env` por otro modelo disponible lo resuelve de inmediato (ver sección 9). La aplicación detecta ese error concreto y, en lugar de mostrar una traza, explica qué pasó y cómo continuar.

@@ -13,6 +13,7 @@ que lo convierte en un agente y no en un simple chatbot con documentos.
 """
 
 import ast
+import builtins
 import io
 
 import pandas as pd
@@ -29,6 +30,32 @@ _df: pd.DataFrame | None = None
 # Limite de caracteres devueltos al modelo: evita inundar el prompt (y gastar
 # cuota) si el agente pide accidentalmente la tabla entera.
 LIMITE_RESPUESTA = 3000
+
+# --- Contencion de la ejecucion de codigo -----------------------------------
+#
+# `consultar_ventas` ejecuta codigo escrito por el modelo. Con la aplicacion
+# publicada en internet, cualquiera puede intentar un "prompt injection" para
+# que ese codigo haga algo distinto de consultar el DataFrame. Dos barreras:
+#
+#   1. Lista blanca de builtins. Python inyecta todos los builtins por defecto
+#      al ejecutar codigo, incluidos __import__, open, eval y exec. Aqui solo
+#      se exponen los que una consulta pandas legitima puede necesitar.
+#   2. Prohibicion de atributos "dunder". La via de escape clasica de estos
+#      sandboxes no es importar nada, sino recorrer la jerarquia de clases
+#      (().__class__.__bases__[0].__subclasses__()) hasta alcanzar algo util.
+#      Sin dobles guiones bajos, ese camino queda cortado.
+#
+# No convierte esto en un sandbox real (para eso haria falta aislar el proceso
+# o el contenedor), pero eleva mucho el coste de un abuso.
+BUILTINS_PERMITIDOS = {
+    nombre: getattr(builtins, nombre)
+    for nombre in (
+        "abs", "all", "any", "bool", "dict", "divmod", "enumerate", "filter",
+        "float", "format", "int", "len", "list", "map", "max", "min", "pow",
+        "range", "reversed", "round", "set", "slice", "sorted", "str", "sum",
+        "tuple", "zip",
+    )
+}
 
 
 def _obtener_indice():
@@ -166,7 +193,17 @@ def consultar_ventas(codigo_python: str) -> str:
             codigo = codigo[len("python") :]
         codigo = codigo.strip()
 
-    entorno = {"df": _obtener_df(), "pd": pd}
+    if "__" in codigo:
+        return (
+            "ERROR: no se permite usar atributos con dobles guiones bajos. "
+            "Escribe una consulta pandas normal sobre `df`."
+        )
+
+    entorno = {
+        "df": _obtener_df(),
+        "pd": pd,
+        "__builtins__": BUILTINS_PERMITIDOS,
+    }
 
     try:
         return _formatear(_ejecutar_codigo(codigo, entorno))

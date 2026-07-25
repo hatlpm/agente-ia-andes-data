@@ -18,8 +18,28 @@ RAIZ = Path(__file__).resolve().parent.parent
 
 load_dotenv(RAIZ / ".env")
 
+
+def _ajuste(clave: str, por_defecto: str = "") -> str:
+    """Lee un valor de configuracion sin atarse a un unico entorno.
+
+    En local viene del archivo .env; en un despliegue tipo Streamlit Cloud no
+    existe ese archivo y la clave se define como "secret" de la plataforma. Se
+    consultan ambas fuentes para que el mismo codigo funcione en los dos sitios.
+    """
+    valor = os.getenv(clave, "").strip()
+    if valor:
+        return valor
+
+    try:
+        import streamlit as st
+
+        return str(st.secrets.get(clave, por_defecto)).strip()
+    except Exception:  # noqa: BLE001 - fuera de Streamlit o sin secrets definidos
+        return por_defecto
+
+
 # --- Credenciales ----------------------------------------------------------
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "").strip()
+GOOGLE_API_KEY = _ajuste("GOOGLE_API_KEY")
 
 # --- Modelos ---------------------------------------------------------------
 # Se prefiere un modelo "lite" por su cuota gratuita: los modelos de ultima
@@ -30,8 +50,8 @@ GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "").strip()
 # Si esta cuota tambien se agota, ejecuta `python scripts/smoke_test.py`: prueba
 # varios candidatos y dice cual responde. Luego basta con anadir la linea
 # MODELO_LLM=<el que funcione> al archivo .env, sin tocar el codigo.
-MODELO_LLM = os.getenv("MODELO_LLM", "gemini-flash-lite-latest")
-MODELO_EMBEDDING = os.getenv("MODELO_EMBEDDING", "models/gemini-embedding-001")
+MODELO_LLM = _ajuste("MODELO_LLM", "gemini-flash-lite-latest")
+MODELO_EMBEDDING = _ajuste("MODELO_EMBEDDING", "models/gemini-embedding-001")
 
 # --- Rutas de datos --------------------------------------------------------
 RUTA_PDF = RAIZ / "data" / "politicas_internas.pdf"
