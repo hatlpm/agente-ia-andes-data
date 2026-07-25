@@ -11,7 +11,7 @@ from langchain.agents import create_agent
 from langchain_core.messages import AIMessage, HumanMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-from src import config
+from src import config, uso
 from src.tools import obtener_herramientas
 
 INSTRUCCIONES = """\
@@ -102,9 +102,10 @@ def responder(agente, pregunta: str, historial: list[dict] | None = None) -> dic
         historial: turnos previos, como [{"role": "user"|"assistant", "content": str}].
 
     Returns:
-        {"respuesta": str, "herramientas": list[str]} - el texto final y los
-        nombres de las herramientas que el agente decidio usar (util para
-        comprobar en las pruebas que enruto bien la pregunta).
+        {"respuesta": str, "herramientas": list[str], "consumo": dict} - el texto
+        final, los nombres de las herramientas que el agente decidio usar (util
+        para comprobar en las pruebas que enruto bien la pregunta) y el consumo
+        de API de esta interaccion.
     """
     mensajes = []
     for turno in historial or []:
@@ -122,9 +123,27 @@ def responder(agente, pregunta: str, historial: list[dict] | None = None) -> dic
         for llamada in getattr(mensaje, "tool_calls", []) or []
     ]
 
+    # Solo las respuestas que vienen de la API traen `usage_metadata`; los
+    # mensajes del historial que reconstruimos nosotros no la tienen, asi que
+    # contarlas equivale a contar las llamadas reales de esta interaccion.
+    peticiones = tokens_entrada = tokens_salida = 0
+    for mensaje in resultado["messages"]:
+        metadatos = getattr(mensaje, "usage_metadata", None)
+        if metadatos:
+            peticiones += 1
+            tokens_entrada += metadatos.get("input_tokens", 0)
+            tokens_salida += metadatos.get("output_tokens", 0)
+
+    uso.registrar(peticiones, tokens_entrada, tokens_salida)
+
     return {
         "respuesta": _extraer_texto(resultado["messages"][-1].content),
         "herramientas": herramientas_usadas,
+        "consumo": {
+            "peticiones": peticiones,
+            "tokens_entrada": tokens_entrada,
+            "tokens_salida": tokens_salida,
+        },
     }
 
 
