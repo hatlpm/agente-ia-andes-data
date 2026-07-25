@@ -1,0 +1,29 @@
+# --- Secretos: NUNCA subir la API key ---
+.env
+.streamlit/secrets.toml
+
+# --- Entorno virtual ---
+.venv/
+venv/
+env/
+
+# --- Artefactos generados (se reconstruyen con: python -m src.ingest) ---
+vectorstore/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Windows / OneDrive ---
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+
+# --- Editores y herramientas locales ---
+.vscode/
+.idea/
+.claude/
