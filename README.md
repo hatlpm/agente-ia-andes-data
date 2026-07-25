@@ -2,6 +2,11 @@
 
 Agente de IA que responde en lenguaje natural preguntas sobre los documentos internos de una empresa, consultando un manual de políticas en PDF y un histórico de ventas en CSV.
 
+### ▶️ Aplicación en vivo: **https://agente-ia-andes-data-wxfthkyy56s3cfy6gnugk8.streamlit.app/**
+
+> Desplegada en Streamlit Community Cloud. Se puede probar directamente en el navegador, sin instalar nada.
+> Al ser una demostración sobre la capa gratuita de Gemini, existe un cupo diario de peticiones compartido por todos los visitantes; si se agota, la propia aplicación lo explica y se renueva al día siguiente.
+
 ---
 
 ## 1. Descripción del proyecto y problema que resuelve
@@ -346,17 +351,27 @@ Streamlit vuelve a ejecutar el script completo en cada interacción del usuario.
 
 ## 11. Despliegue
 
-**El despliegue en la nube está pendiente.** La aplicación se entrega funcionando en local, con instrucciones reproducibles paso a paso (sección 6).
+**La aplicación está desplegada y accesible públicamente:**
 
-La arquitectura ya lo facilita: la interfaz es Streamlit, la lógica está separada en `src/` y las dependencias están acotadas por rango en `requirements.txt`. Opciones evaluadas, ordenadas por esfuerzo:
+### 👉 https://agente-ia-andes-data-wxfthkyy56s3cfy6gnugk8.streamlit.app/
+
+Plataforma: **Streamlit Community Cloud**, conectada directamente a este repositorio. Cada `push` a `main` redespliega la aplicación automáticamente.
+
+### Cómo se resolvieron los dos puntos críticos del despliegue
+
+| Problema | Solución aplicada |
+|---|---|
+| La API key no puede viajar en el repositorio | `src/config.py` lee la configuración de dos fuentes: el archivo `.env` en local y los *secrets* de la plataforma en la nube. El mismo código funciona en ambos entornos sin condicionales dispersos. |
+| `vectorstore/` no está versionado, así que en la nube no existe | `cargar_indice()` detecta su ausencia y construye el índice en el primer arranque. Por eso un despliegue limpio nunca falla, solo tarda algo más la primera vez. |
+| La ejecución de código pasa a estar expuesta a internet | Se acotó con lista blanca de *builtins* y prohibición de *dunders* antes de publicar (sección 9). |
+
+### Alternativas evaluadas
 
 | Opción | Consideraciones |
 |---|---|
-| **Streamlit Community Cloud** | La vía más directa: despliegue desde el repositorio de GitHub, con la API key cargada como secreto de la plataforma. |
-| **Hugging Face Spaces** | También soporta Streamlit de forma nativa; la clave se gestiona como *secret* del Space. |
-| **OCI Compute (Always Free)** | La opción sugerida por el enunciado del desafío. Requiere aprovisionar la instancia, instalar el entorno y exponer el puerto; a cambio da control total sobre la máquina. |
-
-En cualquiera de las tres hay que tener en cuenta dos puntos: la carpeta `vectorstore/` no se versiona, por lo que el índice debe generarse en el arranque del despliegue; y la limitación del sandbox descrita en la sección 10 pasa a ser relevante en cuanto la aplicación quede accesible públicamente.
+| **Streamlit Community Cloud** ✅ | La elegida: gratuita, sin tarjeta, despliegue desde GitHub en minutos y redespliegue automático. |
+| **Hugging Face Spaces** | Soporta Streamlit de forma nativa y gestiona la clave como *secret* del Space. Esfuerzo equivalente. |
+| **OCI Compute (Always Free)** | La opción sugerida por el enunciado del desafío. Da control total sobre la máquina, a cambio de aprovisionar la instancia, configurar el firewall y montar un servicio permanente. Queda como siguiente paso natural del proyecto. |
 
 ---
 
