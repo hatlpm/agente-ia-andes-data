@@ -22,8 +22,15 @@ load_dotenv(RAIZ / ".env")
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "").strip()
 
 # --- Modelos ---------------------------------------------------------------
-# gemini-flash-latest: rapido, economico y con soporte de tool calling.
-MODELO_LLM = os.getenv("MODELO_LLM", "gemini-flash-latest")
+# Se prefiere un modelo "lite" por su cuota gratuita: los modelos de ultima
+# generacion tienen cupos diarios muy bajos (gemini-flash-latest, que resuelve
+# al flash mas reciente, permite solo 20 peticiones al dia en la capa gratuita,
+# y una sola pregunta consume entre 2 y 3).
+#
+# Si esta cuota tambien se agota, ejecuta `python scripts/smoke_test.py`: prueba
+# varios candidatos y dice cual responde. Luego basta con anadir la linea
+# MODELO_LLM=<el que funcione> al archivo .env, sin tocar el codigo.
+MODELO_LLM = os.getenv("MODELO_LLM", "gemini-flash-lite-latest")
 MODELO_EMBEDDING = os.getenv("MODELO_EMBEDDING", "models/gemini-embedding-001")
 
 # --- Rutas de datos --------------------------------------------------------

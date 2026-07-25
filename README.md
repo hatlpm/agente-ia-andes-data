@@ -87,7 +87,7 @@ Versiones verificadas, instaladas y en funcionamiento:
 
 **Modelos de Google Gemini:**
 
-- LLM: `gemini-flash-latest`, con `temperature=0` (respuestas deterministas: en un asistente que cita políticas y cifras no se busca creatividad, sino exactitud).
+- LLM: `gemini-flash-lite-latest`, con `temperature=0` (respuestas deterministas: en un asistente que cita políticas y cifras no se busca creatividad, sino exactitud).
 - Embeddings: `models/gemini-embedding-001`, vectores de 3072 dimensiones.
 
 `requirements.txt` incluye además `reportlab`, usado solo por el generador de datos ficticios, no por la aplicación.
@@ -296,11 +296,16 @@ El camino habitual para consultar un DataFrame con LangChain es `create_pandas_d
 
 La alternativa elegida fue escribir la herramienta a mano: `consultar_ventas` se declara con el decorador `@tool` de LangChain y la ejecuta el `create_agent` de LangChain. Es decir, **se resolvió sin salir del framework y sin depender de su rama experimental**, con la ventaja añadida de controlar exactamente qué se ejecuta, cómo se formatea el resultado y qué pasa cuando el código falla.
 
-### Por qué `gemini-flash-latest`
+### Por qué el modelo se descubre en vez de fijarse a ciegas
 
-`gemini-2.5-flash` devuelve un error 404 con el mensaje *"no longer available to new users"* en cuentas creadas recientemente. Fijar un nombre de modelo a ciegas en el código habría hecho que el proyecto fallara en la máquina de cualquiera que lo clonara con una cuenta nueva.
+Durante el desarrollo aparecieron dos problemas que ningún tutorial anticipa, y los dos se resolvieron con la misma decisión de diseño:
 
-Por eso `scripts/smoke_test.py` **descubre automáticamente** qué modelo funciona: recorre una lista de candidatos y se queda con el primero que responda. Y no se limita a comprobar que devuelve texto: verifica también que **soporta *tool calling***, porque sin esa capacidad no hay agente posible, solo un chatbot. Los valores por defecto en `src/config.py` son los que ese script validó contra la cuenta real.
+1. **`gemini-2.5-flash` devuelve 404** con el mensaje *"no longer available to new users"* en cuentas creadas recientemente. El nombre de modelo que aparece en la mayoría de los ejemplos publicados simplemente no funciona en una cuenta nueva.
+2. **Los alias `latest` apuntan a los modelos con menor cuota gratuita.** `gemini-flash-latest` resolvía a `gemini-3.6-flash`, cuyo cupo en capa gratuita es de **20 peticiones por día**. Como cada pregunta consume entre 2 y 3 llamadas (una para decidir la herramienta, otra para redactar tras leer su resultado), ese cupo se agota en menos de diez preguntas y la aplicación devuelve `429 RESOURCE_EXHAUSTED`.
+
+Por eso `scripts/smoke_test.py` **descubre automáticamente** qué modelo funciona: recorre una lista de candidatos **ordenada por cuota gratuita, no por potencia**, y se queda con el primero que responda. Y no se limita a comprobar que devuelve texto: verifica también que **soporta *tool calling***, porque sin esa capacidad no hay agente posible, solo un chatbot.
+
+El modelo por defecto en `src/config.py` es `gemini-flash-lite-latest`, validado por ese script contra una cuenta real. Como la cuota se aplica **por modelo**, agotar uno no bloquea a los demás: si ocurre, basta ejecutar el smoke test y declarar `MODELO_LLM=<el que funcione>` en el archivo `.env`, **sin tocar el código**.
 
 ### FAISS persistido en disco
 
@@ -317,6 +322,7 @@ Streamlit vuelve a ejecutar el script completo en cada interacción del usuario.
 - **`consultar_ventas` ejecuta código Python generado por el LLM.** El espacio de nombres se restringe a `df` y `pd`, y la salida se trunca para no inundar el prompt, pero **no es un sandbox real**. Es aceptable para uso local sobre datos propios; no debería exponerse a usuarios no confiables en internet sin aislamiento adicional (contenedor, intérprete restringido o servicio de ejecución externo).
 - **El agente no tiene memoria persistente entre sesiones.** El historial de la conversación se mantiene dentro de la sesión de Streamlit y se pierde al recargar la página o reiniciar el servidor.
 - **Los documentos son fijos.** No se pueden cargar archivos nuevos desde la interfaz: para cambiar las fuentes hay que reemplazar los archivos en `data/` y volver a ejecutar la ingesta.
+- **La capa gratuita de Gemini tiene un cupo diario por modelo.** Cada pregunta consume entre 2 y 3 llamadas a la API, así que un uso intensivo puede agotarlo y producir un error `429 RESOURCE_EXHAUSTED`. No es un fallo del proyecto: la cuota se renueva cada día y se aplica por modelo, de modo que cambiar `MODELO_LLM` en el `.env` por otro modelo disponible lo resuelve de inmediato (ver sección 9).
 - **`langchain-community` emite un `DeprecationWarning`** al importarse. El paquete está siendo descontinuado en favor de paquetes independientes por integración. No afecta al funcionamiento actual.
 
 ---

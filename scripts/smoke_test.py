@@ -35,13 +35,20 @@ if not API_KEY or API_KEY.startswith("pega_aqui"):
 
 print(f"[OK] API key detectada (termina en ...{API_KEY[-4:]})\n")
 
-# Candidatos ordenados por preferencia: rapidos, economicos y estables primero.
+# Candidatos ordenados por CUOTA GRATUITA, no por potencia.
+#
+# Los alias "latest" apuntan siempre al modelo mas nuevo, que es justamente el
+# que tiene el cupo gratuito mas restrictivo (gemini-flash-latest resolvia a
+# gemini-3.6-flash, con solo 20 peticiones por dia). Para un proyecto que debe
+# poder ejecutarse y evaluarse sin costo, un modelo estable con cupo amplio vale
+# mas que uno de ultima generacion que se agota a media tarde. La cuota se
+# aplica por modelo, asi que agotar uno no bloquea a los demas.
 CANDIDATOS_LLM = [
-    "gemini-flash-latest",
-    "gemini-3-flash-preview",
-    "gemini-3.1-flash-lite",
     "gemini-2.0-flash",
     "gemini-2.5-flash-lite",
+    "gemini-flash-lite-latest",
+    "gemini-2.0-flash-lite",
+    "gemini-flash-latest",
 ]
 
 CANDIDATOS_EMBEDDING = [
