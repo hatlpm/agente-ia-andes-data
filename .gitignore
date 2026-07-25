@@ -10,6 +10,12 @@ env/
 # --- Artefactos generados (se reconstruyen con: python -m src.ingest) ---
 vectorstore/
 
+# --- Contador local de consumo de la API ---
+.uso_api.json
+
+# --- Material de trabajo interno, no forma parte del entregable ---
+decription_project.md
+
 # --- Python ---
 __pycache__/
 *.py[cod]
