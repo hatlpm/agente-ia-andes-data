@@ -1,0 +1,1201 @@
+fecha,region,producto,categoria,cliente,vendedor,cantidad,precio_unitario,monto_total
+2023-01-01,Cusco,Data Warehouse,Licencias,Frutas de Exportacion Olmos S.A.,Patricia Vargas,6,16677.68,100066.08
+2023-01-02,Arequipa,Auditoria de Datos,Consultoria,Energia Renovable Ica S.A.C.,Ana Quispe,7,3500.69,24504.83
+2023-01-03,Lima,Auditoria de Datos,Consultoria,Hoteles Cusco Imperial S.A.C.,Ana Quispe,1,7703.12,7703.12
+2023-01-04,Lima,Capacitacion Analytics,Capacitacion,Transportes Andino Express S.A.C.,Miguel Torres,9,500.94,4508.46
+2023-01-05,Piura,Migracion Cloud,Consultoria,Gas Natural Altiplano S.A.C.,Diego Fernandez,1,15165.76,15165.76
+2023-01-06,Arequipa,Dashboard Corporativo,Licencias,Alimentos Selva Verde S.A.C.,Carlos Mendoza,8,2897.02,23176.16
+2023-01-06,Lima,Dashboard Corporativo,Licencias,Molinos San Agustin S.A.A.,Diego Fernandez,8,6822.97,54583.76
+2023-01-06,Arequipa,Capacitacion Analytics,Capacitacion,Clinica San Bernardo S.A.,Ana Quispe,4,1265.98,5063.92
+2023-01-07,Arequipa,Capacitacion Analytics,Capacitacion,Banco Continental del Sur S.A.A.,Jorge Salazar,5,1301.91,6509.55
+2023-01-08,Trujillo,Modelo Predictivo,Consultoria,Corporacion Avicola Piurana S.A.,Lucia Ramirez,2,14877.4,29754.8
+2023-01-12,Trujillo,Capacitacion Analytics,Capacitacion,Textiles Pima Norte S.A.C.,Miguel Torres,1,626.01,626.01
+2023-01-13,Arequipa,Capacitacion Analytics,Capacitacion,Aceros del Rimac S.A.A.,Jorge Salazar,7,679.93,4759.51
+2023-01-14,Lima,Dashboard Corporativo,Licencias,Corporacion Avicola Piurana S.A.,Ana Quispe,3,5085.03,15255.09
+2023-01-15,Piura,Dashboard Corporativo,Licencias,Distribuidora Molina Hermanos S.A.C.,Lucia Ramirez,5,3860.67,19303.35
+2023-01-17,Lima,Migracion Cloud,Consultoria,Tecnologia Medica Vitalis S.A.C.,Carlos Mendoza,9,18957.33,170615.97
+2023-01-17,Lima,Modelo Predictivo,Consultoria,Molinos San Agustin S.A.A.,Patricia Vargas,7,7393.43,51754.01
+2023-01-20,Cusco,Capacitacion Analytics,Capacitacion,Cerveceria Del Valle S.A.C.,Carlos Mendoza,6,542.98,3257.88
+2023-01-20,Trujillo,Dashboard Corporativo,Licencias,Gas Natural Altiplano S.A.C.,Jorge Salazar,8,6505.1,52040.8
+2023-01-20,Lima,Integracion ERP,Consultoria,Retail Plaza Sur S.A.C.,Jorge Salazar,7,13379.57,93656.99
+2023-01-21,Arequipa,Modelo Predictivo,Consultoria,Cementos Huascaran S.A.A.,Miguel Torres,2,16851.1,33702.2
+2023-01-24,Trujillo,Capacitacion Analytics,Capacitacion,Frutas de Exportacion Olmos S.A.,Miguel Torres,2,1092.81,2185.62
+2023-01-26,Arequipa,Dashboard Corporativo,Licencias,Hoteles Cusco Imperial S.A.C.,Jorge Salazar,2,6900.66,13801.32
+2023-01-26,Cusco,Capacitacion Analytics,Capacitacion,Energia Renovable Ica S.A.C.,Carlos Mendoza,8,1383.82,11070.56
+2023-01-29,Trujillo,Dashboard Corporativo,Licencias,Universidad Tecnologica del Pacifico,Ana Quispe,3,5980.57,17941.71
+2023-01-29,Lima,Dashboard Corporativo,Licencias,Banco Continental del Sur S.A.A.,Miguel Torres,7,5728.26,40097.82
+2023-01-29,Trujillo,Dashboard Corporativo,Licencias,Turismo Machu Travel S.A.C.,Carlos Mendoza,6,6570.33,39421.98
+2023-01-31,Lima,Migracion Cloud,Consultoria,Universidad Tecnologica del Pacifico,Rosa Huaman,8,20954.12,167632.96
+2023-01-31,Piura,Data Warehouse,Licencias,Clinica San Bernardo S.A.,Patricia Vargas,2,32338.16,64676.32
+2023-02-01,Trujillo,Migracion Cloud,Consultoria,Cerveceria Del Valle S.A.C.,Jorge Salazar,3,22559.87,67679.61
+2023-02-02,Arequipa,Migracion Cloud,Consultoria,Frutas de Exportacion Olmos S.A.,Rosa Huaman,5,16805.92,84029.6
+2023-02-05,Cusco,Auditoria de Datos,Consultoria,Aguas Cristalinas del Norte S.A.,Patricia Vargas,5,9014.99,45074.95
+2023-02-09,Lima,Dashboard Corporativo,Licencias,Financiera Credi Andes S.A.,Jorge Salazar,4,4219.42,16877.68
+2023-02-09,Lima,Capacitacion Analytics,Capacitacion,Inversiones Miraflores S.A.C.,Carlos Mendoza,6,1652.04,9912.24
+2023-02-10,Piura,Capacitacion Analytics,Capacitacion,Grupo Logistico Callao S.A.,Ana Quispe,2,1237.06,2474.12
+2023-02-11,Lima,Auditoria de Datos,Consultoria,Pesquera Costa Azul S.A.C.,Jorge Salazar,2,6366.55,12733.1
+2023-02-12,Arequipa,Dashboard Corporativo,Licencias,Textiles Pima Norte S.A.C.,Diego Fernandez,2,5560.27,11120.54
+2023-02-13,Cusco,Dashboard Corporativo,Licencias,Tecnologia Medica Vitalis S.A.C.,Diego Fernandez,7,3947.98,27635.86
+2023-02-13,Trujillo,Capacitacion Analytics,Capacitacion,Textiles Pima Norte S.A.C.,Rosa Huaman,1,631.27,631.27
+2023-02-14,Cusco,Dashboard Corporativo,Licencias,Seguridad Integral Halcon S.A.C.,Miguel Torres,2,6443.89,12887.78
+2023-02-18,Piura,Auditoria de Datos,Consultoria,Clinica San Bernardo S.A.,Diego Fernandez,2,9231.38,18462.76
+2023-02-20,Lima,Auditoria de Datos,Consultoria,Supermercados Mi Barrio S.A.C.,Miguel Torres,8,4291.36,34330.88
+2023-02-20,Piura,Dashboard Corporativo,Licencias,Automotriz Lima Norte S.A.C.,Patricia Vargas,2,5475.66,10951.32
+2023-02-21,Lima,Data Warehouse,Licencias,Automotriz Lima Norte S.A.C.,Jorge Salazar,1,26169.29,26169.29
+2023-02-21,Lima,Migracion Cloud,Consultoria,Tecnologia Medica Vitalis S.A.C.,Miguel Torres,7,11787.78,82514.46
+2023-02-22,Lima,Integracion ERP,Consultoria,Consorcio Vial Sierra Sur S.A.,Carlos Mendoza,1,15488.46,15488.46
+2023-02-22,Lima,Migracion Cloud,Consultoria,Aceros del Rimac S.A.A.,Lucia Ramirez,8,19014.0,152112.0
+2023-02-22,Arequipa,Dashboard Corporativo,Licencias,Constructora Los Incas S.A.,Carlos Mendoza,7,3428.96,24002.72
+2023-02-24,Lima,Dashboard Corporativo,Licencias,Universidad Tecnologica del Pacifico,Miguel Torres,8,3247.74,25981.92
+2023-02-25,Lima,Data Warehouse,Licencias,Supermercados Mi Barrio S.A.C.,Jorge Salazar,8,24463.68,195709.44
+2023-02-25,Cusco,Integracion ERP,Consultoria,Corporacion Avicola Piurana S.A.,Carlos Mendoza,9,11847.17,106624.53
+2023-02-26,Arequipa,Dashboard Corporativo,Licencias,Inversiones Miraflores S.A.C.,Miguel Torres,2,4485.45,8970.9
+2023-02-28,Trujillo,Capacitacion Analytics,Capacitacion,Universidad Tecnologica del Pacifico,Rosa Huaman,7,1600.37,11202.59
+2023-03-01,Lima,Dashboard Corporativo,Licencias,Telecom Peru Conecta S.A.C.,Ana Quispe,3,6821.41,20464.23
+2023-03-01,Arequipa,Integracion ERP,Consultoria,Textiles Pima Norte S.A.C.,Lucia Ramirez,5,9717.31,48586.55
+2023-03-01,Trujillo,Capacitacion Analytics,Capacitacion,Turismo Machu Travel S.A.C.,Rosa Huaman,10,922.93,9229.3
+2023-03-03,Lima,Dashboard Corporativo,Licencias,Editorial Amauta S.A.C.,Patricia Vargas,10,3679.03,36790.3
+2023-03-05,Arequipa,Auditoria de Datos,Consultoria,Cementos Huascaran S.A.A.,Rosa Huaman,8,10228.81,81830.48
+2023-03-06,Trujillo,Auditoria de Datos,Consultoria,Supermercados Mi Barrio S.A.C.,Rosa Huaman,2,7512.28,15024.56
+2023-03-07,Piura,Capacitacion Analytics,Capacitacion,Hoteles Cusco Imperial S.A.C.,Patricia Vargas,10,814.43,8144.3
+2023-03-07,Trujillo,Dashboard Corporativo,Licencias,Tecnologia Medica Vitalis S.A.C.,Lucia Ramirez,6,6814.03,40884.18
+2023-03-08,Arequipa,Capacitacion Analytics,Capacitacion,Clinica San Bernardo S.A.,Patricia Vargas,8,1202.69,9621.52
+2023-03-09,Arequipa,Capacitacion Analytics,Capacitacion,Agroindustrias Chavimochic S.A.,Miguel Torres,9,1612.68,14514.12
+2023-03-10,Lima,Auditoria de Datos,Consultoria,Inversiones Miraflores S.A.C.,Ana Quispe,6,7495.59,44973.54
+2023-03-15,Piura,Capacitacion Analytics,Capacitacion,Tecnologia Medica Vitalis S.A.C.,Rosa Huaman,1,1011.54,1011.54
+2023-03-15,Lima,Capacitacion Analytics,Capacitacion,Farmacias Salud Total S.A.C.,Diego Fernandez,2,883.19,1766.38
+2023-03-17,Lima,Auditoria de Datos,Consultoria,Seguridad Integral Halcon S.A.C.,Carlos Mendoza,6,3511.86,21071.16
+2023-03-17,Cusco,Modelo Predictivo,Consultoria,Universidad Tecnologica del Pacifico,Ana Quispe,10,17081.93,170819.3
+2023-03-18,Trujillo,Integracion ERP,Consultoria,Muebles Diseno Trujillo S.A.C.,Ana Quispe,7,9350.05,65450.35
+2023-03-20,Lima,Migracion Cloud,Consultoria,Gas Natural Altiplano S.A.C.,Miguel Torres,6,27874.83,167248.98
+2023-03-21,Piura,Auditoria de Datos,Consultoria,Servicios Portuarios Paita S.A.C.,Patricia Vargas,2,6031.35,12062.7
+2023-03-22,Arequipa,Capacitacion Analytics,Capacitacion,Energia Renovable Ica S.A.C.,Carlos Mendoza,9,889.92,8009.28
+2023-03-23,Piura,Auditoria de Datos,Consultoria,Tecnologia Medica Vitalis S.A.C.,Carlos Mendoza,8,8669.37,69354.96
+2023-03-23,Arequipa,Migracion Cloud,Consultoria,Gas Natural Altiplano S.A.C.,Jorge Salazar,2,26947.47,53894.94
+2023-03-23,Lima,Auditoria de Datos,Consultoria,Universidad Tecnologica del Pacifico,Patricia Vargas,4,5696.25,22785.0
+2023-03-24,Lima,Capacitacion Analytics,Capacitacion,Plasticos Industriales Ate S.A.C.,Diego Fernandez,9,654.81,5893.29
+2023-03-24,Lima,Capacitacion Analytics,Capacitacion,Clinica San Bernardo S.A.,Ana Quispe,6,1435.13,8610.78
+2023-03-26,Lima,Auditoria de Datos,Consultoria,Seguridad Integral Halcon S.A.C.,Diego Fernandez,6,5881.22,35287.32
+2023-03-27,Lima,Auditoria de Datos,Consultoria,Corporacion Avicola Piurana S.A.,Rosa Huaman,9,3804.9,34244.1
+2023-03-30,Trujillo,Migracion Cloud,Consultoria,Grupo Logistico Callao S.A.,Patricia Vargas,6,19646.65,117879.9
+2023-03-31,Lima,Modelo Predictivo,Consultoria,Alimentos Selva Verde S.A.C.,Diego Fernandez,1,7324.15,7324.15
+2023-04-01,Trujillo,Migracion Cloud,Consultoria,Cementos Huascaran S.A.A.,Carlos Mendoza,4,15960.73,63842.92
+2023-04-01,Cusco,Migracion Cloud,Consultoria,Financiera Credi Andes S.A.,Rosa Huaman,8,26592.53,212740.24
+2023-04-03,Lima,Auditoria de Datos,Consultoria,Agroindustrias Chavimochic S.A.,Miguel Torres,7,10349.03,72443.21
+2023-04-04,Arequipa,Capacitacion Analytics,Capacitacion,Pesquera Costa Azul S.A.C.,Lucia Ramirez,10,1326.33,13263.3
+2023-04-04,Cusco,Modelo Predictivo,Consultoria,Aceros del Rimac S.A.A.,Rosa Huaman,4,9325.42,37301.68
+2023-04-05,Lima,Capacitacion Analytics,Capacitacion,Distribuidora Molina Hermanos S.A.C.,Carlos Mendoza,6,1131.38,6788.28
+2023-04-05,Piura,Modelo Predictivo,Consultoria,Turismo Machu Travel S.A.C.,Patricia Vargas,2,11140.3,22280.6
+2023-04-07,Lima,Auditoria de Datos,Consultoria,Clinica San Bernardo S.A.,Ana Quispe,1,10141.03,10141.03
+2023-04-11,Lima,Auditoria de Datos,Consultoria,Aceros del Rimac S.A.A.,Ana Quispe,4,7065.01,28260.04
+2023-04-13,Piura,Data Warehouse,Licencias,Retail Plaza Sur S.A.C.,Ana Quispe,8,42925.46,343403.68
+2023-04-13,Lima,Dashboard Corporativo,Licencias,Inversiones Miraflores S.A.C.,Carlos Mendoza,3,6178.34,18535.02
+2023-04-13,Lima,Capacitacion Analytics,Capacitacion,Corporacion Avicola Piurana S.A.,Lucia Ramirez,3,783.98,2351.94
+2023-04-14,Lima,Capacitacion Analytics,Capacitacion,Consorcio Vial Sierra Sur S.A.,Ana Quispe,5,886.14,4430.7
+2023-04-14,Trujillo,Data Warehouse,Licencias,Laboratorios Quimica Andina S.A.,Jorge Salazar,2,17152.38,34304.76
+2023-04-15,Lima,Data Warehouse,Licencias,Frutas de Exportacion Olmos S.A.,Ana Quispe,4,34737.64,138950.56
+2023-04-16,Lima,Migracion Cloud,Consultoria,Universidad Tecnologica del Pacifico,Jorge Salazar,4,15895.92,63583.68
+2023-04-16,Lima,Data Warehouse,Licencias,Aguas Cristalinas del Norte S.A.,Rosa Huaman,10,15183.94,151839.4
+2023-04-17,Arequipa,Modelo Predictivo,Consultoria,Supermercados Mi Barrio S.A.C.,Carlos Mendoza,6,17593.16,105558.96
+2023-04-20,Cusco,Capacitacion Analytics,Capacitacion,Seguros Vida Andina S.A.,Rosa Huaman,5,1487.15,7435.75
+2023-04-21,Arequipa,Capacitacion Analytics,Capacitacion,Agroindustrias Chavimochic S.A.,Miguel Torres,4,1084.7,4338.8
+2023-04-22,Arequipa,Data Warehouse,Licencias,Clinica San Bernardo S.A.,Carlos Mendoza,2,32709.46,65418.92
+2023-04-22,Lima,Capacitacion Analytics,Capacitacion,Turismo Machu Travel S.A.C.,Lucia Ramirez,2,721.6,1443.2
+2023-04-25,Cusco,Capacitacion Analytics,Capacitacion,Laboratorios Quimica Andina S.A.,Ana Quispe,6,816.18,4897.08
+2023-04-25,Piura,Modelo Predictivo,Consultoria,Alimentos Selva Verde S.A.C.,Lucia Ramirez,8,16156.6,129252.8
+2023-04-27,Lima,Data Warehouse,Licencias,Tecnologia Medica Vitalis S.A.C.,Carlos Mendoza,3,36039.84,108119.52
+2023-04-28,Cusco,Dashboard Corporativo,Licencias,Automotriz Lima Norte S.A.C.,Lucia Ramirez,7,5593.22,39152.54
+2023-04-29,Cusco,Capacitacion Analytics,Capacitacion,Telecom Peru Conecta S.A.C.,Ana Quispe,9,1094.04,9846.36
+2023-04-30,Lima,Migracion Cloud,Consultoria,Agroindustrias Chavimochic S.A.,Diego Fernandez,3,10700.12,32100.36
+2023-05-01,Lima,Auditoria de Datos,Consultoria,Financiera Credi Andes S.A.,Lucia Ramirez,10,4908.42,49084.2
+2023-05-01,Lima,Dashboard Corporativo,Licencias,Telecom Peru Conecta S.A.C.,Diego Fernandez,2,3588.94,7177.88
+2023-05-03,Cusco,Auditoria de Datos,Consultoria,Consorcio Vial Sierra Sur S.A.,Miguel Torres,10,8686.35,86863.5
+2023-05-04,Trujillo,Auditoria de Datos,Consultoria,Financiera Credi Andes S.A.,Patricia Vargas,7,8169.2,57184.4
+2023-05-05,Trujillo,Modelo Predictivo,Consultoria,Alimentos Selva Verde S.A.C.,Carlos Mendoza,6,17940.01,107640.06
+2023-05-05,Cusco,Dashboard Corporativo,Licencias,Automotriz Lima Norte S.A.C.,Carlos Mendoza,2,3288.49,6576.98
+2023-05-05,Arequipa,Capacitacion Analytics,Capacitacion,Hoteles Cusco Imperial S.A.C.,Lucia Ramirez,5,1091.08,5455.4
+2023-05-08,Lima,Auditoria de Datos,Consultoria,Textiles Pima Norte S.A.C.,Patricia Vargas,2,8974.43,17948.86
+2023-05-10,Trujillo,Data Warehouse,Licencias,Supermercados Mi Barrio S.A.C.,Rosa Huaman,5,26699.48,133497.4
+2023-05-11,Piura,Capacitacion Analytics,Capacitacion,Minera Cerro Verde Andino S.A.,Rosa Huaman,1,627.22,627.22
+2023-05-12,Arequipa,Capacitacion Analytics,Capacitacion,Cementos Huascaran S.A.A.,Patricia Vargas,1,1602.2,1602.2
+2023-05-12,Lima,Auditoria de Datos,Consultoria,Tecnologia Medica Vitalis S.A.C.,Lucia Ramirez,10,5067.57,50675.7
+2023-05-14,Lima,Modelo Predictivo,Consultoria,Servicios Portuarios Paita S.A.C.,Jorge Salazar,6,13651.66,81909.96
+2023-05-16,Lima,Capacitacion Analytics,Capacitacion,Cerveceria Del Valle S.A.C.,Jorge Salazar,5,1008.89,5044.45
+2023-05-19,Lima,Dashboard Corporativo,Licencias,Aguas Cristalinas del Norte S.A.,Miguel Torres,7,2748.16,19237.12
+2023-05-20,Arequipa,Migracion Cloud,Consultoria,Universidad Tecnologica del Pacifico,Jorge Salazar,2,23982.67,47965.34
+2023-05-21,Cusco,Integracion ERP,Consultoria,Aguas Cristalinas del Norte S.A.,Patricia Vargas,3,16798.43,50395.29
+2023-05-21,Trujillo,Integracion ERP,Consultoria,Retail Plaza Sur S.A.C.,Miguel Torres,10,6205.92,62059.2
+2023-05-21,Trujillo,Auditoria de Datos,Consultoria,Alimentos Selva Verde S.A.C.,Rosa Huaman,10,5601.45,56014.5
+2023-05-21,Trujillo,Migracion Cloud,Consultoria,Agroindustrias Chavimochic S.A.,Patricia Vargas,4,12658.37,50633.48
+2023-05-21,Lima,Capacitacion Analytics,Capacitacion,Pesquera Costa Azul S.A.C.,Carlos Mendoza,10,1786.79,17867.9
+2023-05-22,Trujillo,Auditoria de Datos,Consultoria,Constructora Los Incas S.A.,Diego Fernandez,7,3554.13,24878.91
+2023-05-22,Arequipa,Modelo Predictivo,Consultoria,Molinos San Agustin S.A.A.,Carlos Mendoza,9,18435.3,165917.7
+2023-05-23,Trujillo,Migracion Cloud,Consultoria,Aceros del Rimac S.A.A.,Miguel Torres,1,19941.99,19941.99
+2023-05-23,Trujillo,Data Warehouse,Licencias,Turismo Machu Travel S.A.C.,Rosa Huaman,7,21417.84,149924.88
+2023-05-23,Trujillo,Dashboard Corporativo,Licencias,Financiera Credi Andes S.A.,Diego Fernandez,4,7418.09,29672.36
+2023-05-24,Lima,Capacitacion Analytics,Capacitacion,Consorcio Vial Sierra Sur S.A.,Patricia Vargas,8,764.54,6116.32
+2023-05-26,Lima,Dashboard Corporativo,Licencias,Plasticos Industriales Ate S.A.C.,Carlos Mendoza,10,5613.77,56137.7
+2023-05-26,Lima,Capacitacion Analytics,Capacitacion,Molinos San Agustin S.A.A.,Ana Quispe,10,588.07,5880.7
+2023-05-26,Arequipa,Capacitacion Analytics,Capacitacion,Textiles Pima Norte S.A.C.,Diego Fernandez,2,499.57,999.14
+2023-05-27,Lima,Modelo Predictivo,Consultoria,Tecnologia Medica Vitalis S.A.C.,Ana Quispe,4,15206.55,60826.2
+2023-05-27,Trujillo,Capacitacion Analytics,Capacitacion,Servicios Portuarios Paita S.A.C.,Lucia Ramirez,1,1274.97,1274.97
+2023-05-29,Arequipa,Capacitacion Analytics,Capacitacion,Distribuidora Molina Hermanos S.A.C.,Rosa Huaman,5,1198.6,5993.0
+2023-05-30,Piura,Capacitacion Analytics,Capacitacion,Distribuidora Molina Hermanos S.A.C.,Ana Quispe,10,982.34,9823.4
+2023-05-31,Lima,Auditoria de Datos,Consultoria,Cementos Huascaran S.A.A.,Patricia Vargas,10,5475.12,54751.2
+2023-06-01,Arequipa,Dashboard Corporativo,Licencias,Telecom Peru Conecta S.A.C.,Ana Quispe,2,4403.04,8806.08
+2023-06-01,Trujillo,Migracion Cloud,Consultoria,Frutas de Exportacion Olmos S.A.,Patricia Vargas,2,17848.21,35696.42
+2023-06-03,Cusco,Data Warehouse,Licencias,Tecnologia Medica Vitalis S.A.C.,Lucia Ramirez,3,29271.36,87814.08
+2023-06-03,Piura,Dashboard Corporativo,Licencias,Muebles Diseno Trujillo S.A.C.,Diego Fernandez,3,5935.26,17805.78
+2023-06-04,Trujillo,Dashboard Corporativo,Licencias,Energia Renovable Ica S.A.C.,Carlos Mendoza,4,4864.13,19456.52
+2023-06-04,Piura,Migracion Cloud,Consultoria,Seguros Vida Andina S.A.,Lucia Ramirez,2,19602.38,39204.76
+2023-06-04,Lima,Capacitacion Analytics,Capacitacion,Transportes Andino Express S.A.C.,Diego Fernandez,4,1074.93,4299.72
+2023-06-05,Piura,Capacitacion Analytics,Capacitacion,Telecom Peru Conecta S.A.C.,Diego Fernandez,8,1794.18,14353.44
+2023-06-08,Lima,Auditoria de Datos,Consultoria,Constructora Los Incas S.A.,Diego Fernandez,7,9183.0,64281.0
+2023-06-11,Trujillo,Dashboard Corporativo,Licencias,Minera Cerro Verde Andino S.A.,Lucia Ramirez,5,3106.19,15530.95
+2023-06-11,Lima,Data Warehouse,Licencias,Aguas Cristalinas del Norte S.A.,Miguel Torres,2,27913.06,55826.12
+2023-06-11,Arequipa,Auditoria de Datos,Consultoria,Textiles Pima Norte S.A.C.,Carlos Mendoza,1,6698.49,6698.49
+2023-06-13,Piura,Auditoria de Datos,Consultoria,Constructora Los Incas S.A.,Carlos Mendoza,2,6163.32,12326.64
+2023-06-14,Trujillo,Data Warehouse,Licencias,Automotriz Lima Norte S.A.C.,Miguel Torres,3,18774.82,56324.46
+2023-06-14,Cusco,Capacitacion Analytics,Capacitacion,Corporacion Avicola Piurana S.A.,Lucia Ramirez,7,1193.14,8351.98
+2023-06-14,Trujillo,Dashboard Corporativo,Licencias,Aguas Cristalinas del Norte S.A.,Carlos Mendoza,5,5102.89,25514.45
+2023-06-15,Trujillo,Capacitacion Analytics,Capacitacion,Energia Renovable Ica S.A.C.,Carlos Mendoza,4,1622.82,6491.28
+2023-06-16,Trujillo,Integracion ERP,Consultoria,Agroindustrias Chavimochic S.A.,Diego Fernandez,4,6063.26,24253.04
+2023-06-17,Cusco,Data Warehouse,Licencias,Constructora Los Incas S.A.,Miguel Torres,3,25745.02,77235.06
+2023-06-17,Trujillo,Migracion Cloud,Consultoria,Transportes Andino Express S.A.C.,Miguel Torres,4,20890.05,83560.2
+2023-06-21,Lima,Auditoria de Datos,Consultoria,Supermercados Mi Barrio S.A.C.,Carlos Mendoza,6,4898.13,29388.78
+2023-06-23,Lima,Dashboard Corporativo,Licencias,Pesquera Costa Azul S.A.C.,Lucia Ramirez,4,4023.92,16095.68
+2023-06-24,Trujillo,Auditoria de Datos,Consultoria,Cementos Huascaran S.A.A.,Ana Quispe,6,4625.67,27754.02
+2023-06-25,Lima,Data Warehouse,Licencias,Aceros del Rimac S.A.A.,Miguel Torres,6,23787.68,142726.08
+2023-06-25,Arequipa,Modelo Predictivo,Consultoria,Clinica San Bernardo S.A.,Lucia Ramirez,2,19813.16,39626.32
+2023-06-27,Lima,Dashboard Corporativo,Licencias,Distribuidora Molina Hermanos S.A.C.,Carlos Mendoza,5,4296.31,21481.55
+2023-06-28,Lima,Integracion ERP,Consultoria,Alimentos Selva Verde S.A.C.,Miguel Torres,7,8514.23,59599.61
+2023-06-30,Trujillo,Dashboard Corporativo,Licencias,Turismo Machu Travel S.A.C.,Carlos Mendoza,1,5627.3,5627.3
+2023-07-04,Lima,Capacitacion Analytics,Capacitacion,Supermercados Mi Barrio S.A.C.,Rosa Huaman,7,1288.18,9017.26
+2023-07-04,Lima,Dashboard Corporativo,Licencias,Farmacias Salud Total S.A.C.,Miguel Torres,9,2848.04,25632.36
+2023-07-05,Lima,Dashboard Corporativo,Licencias,Turismo Machu Travel S.A.C.,Rosa Huaman,2,3088.25,6176.5
+2023-07-06,Lima,Auditoria de Datos,Consultoria,Cerveceria Del Valle S.A.C.,Miguel Torres,6,8411.25,50467.5
+2023-07-06,Piura,Dashboard Corporativo,Licencias,Energia Renovable Ica S.A.C.,Miguel Torres,3,4082.44,12247.32
+2023-07-07,Trujillo,Migracion Cloud,Consultoria,Consorcio Vial Sierra Sur S.A.,Carlos Mendoza,9,18968.28,170714.52
+2023-07-07,Piura,Auditoria de Datos,Consultoria,Aguas Cristalinas del Norte S.A.,Rosa Huaman,4,10980.92,43923.68
+2023-07-09,Trujillo,Capacitacion Analytics,Capacitacion,Muebles Diseno Trujillo S.A.C.,Diego Fernandez,2,1548.65,3097.3
+2023-07-09,Arequipa,Auditoria de Datos,Consultoria,Telecom Peru Conecta S.A.C.,Carlos Mendoza,9,7443.66,66992.94
+2023-07-10,Trujillo,Dashboard Corporativo,Licencias,Universidad Tecnologica del Pacifico,Carlos Mendoza,8,4401.87,35214.96
+2023-07-10,Piura,Capacitacion Analytics,Capacitacion,Energia Renovable Ica S.A.C.,Miguel Torres,6,1296.72,7780.32
+2023-07-11,Lima,Data Warehouse,Licencias,Retail Plaza Sur S.A.C.,Diego Fernandez,4,27966.56,111866.24
+2023-07-11,Arequipa,Capacitacion Analytics,Capacitacion,Agroindustrias Chavimochic S.A.,Diego Fernandez,1,506.95,506.95
+2023-07-11,Lima,Modelo Predictivo,Consultoria,Aguas Cristalinas del Norte S.A.,Diego Fernandez,6,13531.22,81187.32
+2023-07-13,Trujillo,Capacitacion Analytics,Capacitacion,Editorial Amauta S.A.C.,Lucia Ramirez,6,1518.42,9110.52
+2023-07-18,Lima,Dashboard Corporativo,Licencias,Tecnologia Medica Vitalis S.A.C.,Rosa Huaman,6,5649.31,33895.86
+2023-07-18,Lima,Auditoria de Datos,Consultoria,Consorcio Vial Sierra Sur S.A.,Rosa Huaman,7,5976.86,41838.02
+2023-07-18,Piura,Modelo Predictivo,Consultoria,Turismo Machu Travel S.A.C.,Carlos Mendoza,5,17357.85,86789.25
+2023-07-19,Lima,Data Warehouse,Licencias,Frutas de Exportacion Olmos S.A.,Patricia Vargas,10,25327.94,253279.4
+2023-07-20,Lima,Capacitacion Analytics,Capacitacion,Turismo Machu Travel S.A.C.,Patricia Vargas,5,871.35,4356.75
+2023-07-21,Lima,Modelo Predictivo,Consultoria,Corporacion Avicola Piurana S.A.,Lucia Ramirez,8,9498.5,75988.0
+2023-07-21,Arequipa,Dashboard Corporativo,Licencias,Clinica San Bernardo S.A.,Diego Fernandez,4,3868.18,15472.72
+2023-07-22,Lima,Auditoria de Datos,Consultoria,Plasticos Industriales Ate S.A.C.,Jorge Salazar,4,3898.45,15593.8
+2023-07-23,Piura,Auditoria de Datos,Consultoria,Telecom Peru Conecta S.A.C.,Carlos Mendoza,3,5398.33,16194.99
+2023-07-23,Arequipa,Migracion Cloud,Consultoria,Agroindustrias Chavimochic S.A.,Lucia Ramirez,1,16249.74,16249.74
+2023-07-24,Lima,Integracion ERP,Consultoria,Plasticos Industriales Ate S.A.C.,Carlos Mendoza,9,9252.4,83271.6
+2023-07-24,Lima,Capacitacion Analytics,Capacitacion,Supermercados Mi Barrio S.A.C.,Miguel Torres,10,629.17,6291.7
+2023-07-25,Arequipa,Migracion Cloud,Consultoria,Supermercados Mi Barrio S.A.C.,Jorge Salazar,4,11702.55,46810.2
+2023-07-25,Trujillo,Dashboard Corporativo,Licencias,Constructora Los Incas S.A.,Jorge Salazar,4,7190.12,28760.48
+2023-07-25,Lima,Dashboard Corporativo,Licencias,Minera Cerro Verde Andino S.A.,Lucia Ramirez,9,2576.28,23186.52
+2023-07-26,Trujillo,Data Warehouse,Licencias,Cerveceria Del Valle S.A.C.,Ana Quispe,4,29624.81,118499.24
+2023-07-28,Lima,Data Warehouse,Licencias,Banco Continental del Sur S.A.A.,Lucia Ramirez,1,19354.57,19354.57
+2023-07-29,Cusco,Dashboard Corporativo,Licencias,Agroindustrias Chavimochic S.A.,Rosa Huaman,7,5379.46,37656.22
+2023-07-29,Lima,Dashboard Corporativo,Licencias,Molinos San Agustin S.A.A.,Jorge Salazar,6,2800.18,16801.08
+2023-07-30,Lima,Dashboard Corporativo,Licencias,Seguros Vida Andina S.A.,Carlos Mendoza,9,5158.31,46424.79
+2023-07-30,Arequipa,Integracion ERP,Consultoria,Retail Plaza Sur S.A.C.,Diego Fernandez,9,8750.91,78758.19
+2023-08-01,Lima,Dashboard Corporativo,Licencias,Universidad Tecnologica del Pacifico,Lucia Ramirez,1,5257.34,5257.34
+2023-08-03,Trujillo,Auditoria de Datos,Consultoria,Hoteles Cusco Imperial S.A.C.,Jorge Salazar,6,7397.79,44386.74
+2023-08-05,Arequipa,Dashboard Corporativo,Licencias,Gas Natural Altiplano S.A.C.,Rosa Huaman,7,4715.02,33005.14
+2023-08-06,Lima,Integracion ERP,Consultoria,Laboratorios Quimica Andina S.A.,Lucia Ramirez,6,9406.27,56437.62
+2023-08-07,Trujillo,Modelo Predictivo,Consultoria,Energia Renovable Ica S.A.C.,Lucia Ramirez,7,8753.32,61273.24
+2023-08-07,Lima,Dashboard Corporativo,Licencias,Financiera Credi Andes S.A.,Diego Fernandez,5,6805.48,34027.4
+2023-08-08,Arequipa,Dashboard Corporativo,Licencias,Seguros Vida Andina S.A.,Miguel Torres,8,3052.32,24418.56
+2023-08-10,Lima,Modelo Predictivo,Consultoria,Corporacion Avicola Piurana S.A.,Miguel Torres,8,9345.16,74761.28
+2023-08-10,Arequipa,Modelo Predictivo,Consultoria,Corporacion Avicola Piurana S.A.,Rosa Huaman,5,17401.37,87006.85
+2023-08-10,Piura,Capacitacion Analytics,Capacitacion,Frutas de Exportacion Olmos S.A.,Patricia Vargas,3,1669.4,5008.2
+2023-08-11,Lima,Integracion ERP,Consultoria,Laboratorios Quimica Andina S.A.,Ana Quispe,2,9320.26,18640.52
+2023-08-12,Arequipa,Integracion ERP,Consultoria,Molinos San Agustin S.A.A.,Patricia Vargas,1,7341.58,7341.58
+2023-08-13,Lima,Modelo Predictivo,Consultoria,Inversiones Miraflores S.A.C.,Ana Quispe,6,11021.82,66130.92
+2023-08-14,Lima,Migracion Cloud,Consultoria,Servicios Portuarios Paita S.A.C.,Carlos Mendoza,3,15750.84,47252.52
+2023-08-17,Cusco,Modelo Predictivo,Consultoria,Muebles Diseno Trujillo S.A.C.,Jorge Salazar,3,16109.26,48327.78
+2023-08-17,Trujillo,Dashboard Corporativo,Licencias,Editorial Amauta S.A.C.,Patricia Vargas,5,4724.22,23621.1
+2023-08-18,Piura,Modelo Predictivo,Consultoria,Corporacion Avicola Piurana S.A.,Carlos Mendoza,3,13099.57,39298.71
+2023-08-18,Lima,Dashboard Corporativo,Licencias,Inmobiliaria Terra Nova S.A.C.,Rosa Huaman,6,2803.5,16821.0
+2023-08-21,Piura,Modelo Predictivo,Consultoria,Universidad Tecnologica del Pacifico,Carlos Mendoza,8,13980.58,111844.64
+2023-08-22,Lima,Modelo Predictivo,Consultoria,Alimentos Selva Verde S.A.C.,Miguel Torres,6,17283.87,103703.22
+2023-08-23,Lima,Migracion Cloud,Consultoria,Farmacias Salud Total S.A.C.,Patricia Vargas,7,27524.65,192672.55
+2023-08-23,Lima,Capacitacion Analytics,Capacitacion,Energia Renovable Ica S.A.C.,Ana Quispe,10,774.49,7744.9
+2023-08-23,Lima,Modelo Predictivo,Consultoria,Hoteles Cusco Imperial S.A.C.,Ana Quispe,7,9687.84,67814.88
+2023-08-24,Trujillo,Capacitacion Analytics,Capacitacion,Cementos Huascaran S.A.A.,Jorge Salazar,5,1692.52,8462.6
+2023-08-24,Trujillo,Migracion Cloud,Consultoria,Consorcio Vial Sierra Sur S.A.,Lucia Ramirez,3,18245.98,54737.94
+2023-08-25,Lima,Modelo Predictivo,Consultoria,Molinos San Agustin S.A.A.,Diego Fernandez,9,15331.75,137985.75
+2023-08-25,Lima,Dashboard Corporativo,Licencias,Cerveceria Del Valle S.A.C.,Patricia Vargas,7,6131.57,42920.99
+2023-08-25,Arequipa,Capacitacion Analytics,Capacitacion,Agroindustrias Chavimochic S.A.,Rosa Huaman,8,1381.12,11048.96
+2023-08-26,Cusco,Dashboard Corporativo,Licencias,Transportes Andino Express S.A.C.,Carlos Mendoza,7,7494.94,52464.58
+2023-08-26,Arequipa,Migracion Cloud,Consultoria,Seguridad Integral Halcon S.A.C.,Miguel Torres,5,27669.03,138345.15
+2023-08-27,Lima,Data Warehouse,Licencias,Seguridad Integral Halcon S.A.C.,Diego Fernandez,10,24497.93,244979.3
+2023-08-29,Lima,Auditoria de Datos,Consultoria,Cerveceria Del Valle S.A.C.,Rosa Huaman,1,9379.92,9379.92
+2023-08-31,Lima,Dashboard Corporativo,Licencias,Plasticos Industriales Ate S.A.C.,Ana Quispe,8,3394.33,27154.64
+2023-09-02,Lima,Dashboard Corporativo,Licencias,Turismo Machu Travel S.A.C.,Diego Fernandez,1,4490.2,4490.2
+2023-09-03,Arequipa,Migracion Cloud,Consultoria,Aceros del Rimac S.A.A.,Rosa Huaman,8,17335.66,138685.28
+2023-09-05,Arequipa,Capacitacion Analytics,Capacitacion,Retail Plaza Sur S.A.C.,Carlos Mendoza,8,1452.95,11623.6
+2023-09-05,Lima,Data Warehouse,Licencias,Muebles Diseno Trujillo S.A.C.,Rosa Huaman,4,42513.36,170053.44
+2023-09-05,Trujillo,Auditoria de Datos,Consultoria,Frutas de Exportacion Olmos S.A.,Jorge Salazar,3,8229.86,24689.58
+2023-09-06,Arequipa,Dashboard Corporativo,Licencias,Cementos Huascaran S.A.A.,Patricia Vargas,5,2858.22,14291.1
+2023-09-06,Lima,Data Warehouse,Licencias,Telecom Peru Conecta S.A.C.,Miguel Torres,9,24915.44,224238.96
+2023-09-08,Lima,Dashboard Corporativo,Licencias,Minera Cerro Verde Andino S.A.,Lucia Ramirez,7,6699.81,46898.67
+2023-09-11,Lima,Modelo Predictivo,Consultoria,Financiera Credi Andes S.A.,Jorge Salazar,10,11925.84,119258.4
+2023-09-12,Lima,Integracion ERP,Consultoria,Molinos San Agustin S.A.A.,Diego Fernandez,1,12368.63,12368.63
+2023-09-13,Piura,Capacitacion Analytics,Capacitacion,Automotriz Lima Norte S.A.C.,Miguel Torres,5,797.92,3989.6
+2023-09-13,Lima,Integracion ERP,Consultoria,Universidad Tecnologica del Pacifico,Jorge Salazar,10,10397.78,103977.8
+2023-09-15,Cusco,Migracion Cloud,Consultoria,Hoteles Cusco Imperial S.A.C.,Rosa Huaman,9,16822.98,151406.82
+2023-09-15,Lima,Modelo Predictivo,Consultoria,Frutas de Exportacion Olmos S.A.,Diego Fernandez,5,13327.12,66635.6
+2023-09-16,Piura,Dashboard Corporativo,Licencias,Supermercados Mi Barrio S.A.C.,Jorge Salazar,4,5627.62,22510.48
+2023-09-16,Arequipa,Modelo Predictivo,Consultoria,Consorcio Vial Sierra Sur S.A.,Patricia Vargas,10,9625.12,96251.2
+2023-09-16,Arequipa,Migracion Cloud,Consultoria,Alimentos Selva Verde S.A.C.,Carlos Mendoza,1,11722.61,11722.61
+2023-09-17,Arequipa,Dashboard Corporativo,Licencias,Energia Renovable Ica S.A.C.,Jorge Salazar,10,4567.8,45678.0
+2023-09-18,Lima,Modelo Predictivo,Consultoria,Inmobiliaria Terra Nova S.A.C.,Diego Fernandez,9,14491.02,130419.18
+2023-09-19,Lima,Capacitacion Analytics,Capacitacion,Turismo Machu Travel S.A.C.,Miguel Torres,1,808.85,808.85
+2023-09-19,Lima,Auditoria de Datos,Consultoria,Tecnologia Medica Vitalis S.A.C.,Miguel Torres,10,10824.59,108245.9
+2023-09-20,Lima,Dashboard Corporativo,Licencias,Automotriz Lima Norte S.A.C.,Lucia Ramirez,10,5302.77,53027.7
+2023-09-24,Lima,Modelo Predictivo,Consultoria,Servicios Portuarios Paita S.A.C.,Rosa Huaman,10,13622.39,136223.9
+2023-09-25,Piura,Dashboard Corporativo,Licencias,Supermercados Mi Barrio S.A.C.,Lucia Ramirez,8,7151.06,57208.48
+2023-09-26,Piura,Capacitacion Analytics,Capacitacion,Corporacion Avicola Piurana S.A.,Lucia Ramirez,7,1438.74,10071.18
+2023-09-26,Arequipa,Dashboard Corporativo,Licencias,Gas Natural Altiplano S.A.C.,Jorge Salazar,7,6121.98,42853.86
+2023-09-27,Lima,Data Warehouse,Licencias,Telecom Peru Conecta S.A.C.,Lucia Ramirez,5,27403.26,137016.3
+2023-09-27,Cusco,Dashboard Corporativo,Licencias,Frutas de Exportacion Olmos S.A.,Carlos Mendoza,9,5522.87,49705.83
+2023-09-28,Lima,Modelo Predictivo,Consultoria,Turismo Machu Travel S.A.C.,Ana Quispe,4,13416.53,53666.12
+2023-09-28,Cusco,Auditoria de Datos,Consultoria,Minera Cerro Verde Andino S.A.,Jorge Salazar,3,7932.28,23796.84
+2023-09-29,Trujillo,Capacitacion Analytics,Capacitacion,Pesquera Costa Azul S.A.C.,Diego Fernandez,9,961.71,8655.39
+2023-10-01,Lima,Dashboard Corporativo,Licencias,Editorial Amauta S.A.C.,Miguel Torres,1,4117.06,4117.06
+2023-10-03,Lima,Dashboard Corporativo,Licencias,Seguros Vida Andina S.A.,Diego Fernandez,1,5565.2,5565.2
+2023-10-05,Piura,Migracion Cloud,Consultoria,Seguridad Integral Halcon S.A.C.,Diego Fernandez,6,17701.74,106210.44
+2023-10-05,Lima,Data Warehouse,Licencias,Seguros Vida Andina S.A.,Patricia Vargas,3,15243.58,45730.74
+2023-10-07,Lima,Capacitacion Analytics,Capacitacion,Distribuidora Molina Hermanos S.A.C.,Ana Quispe,2,492.08,984.16
+2023-10-08,Arequipa,Migracion Cloud,Consultoria,Clinica San Bernardo S.A.,Lucia Ramirez,5,24533.5,122667.5
+2023-10-11,Arequipa,Capacitacion Analytics,Capacitacion,Minera Cerro Verde Andino S.A.,Rosa Huaman,1,562.39,562.39
+2023-10-11,Lima,Auditoria de Datos,Consultoria,Retail Plaza Sur S.A.C.,Lucia Ramirez,10,9651.0,96510.0
+2023-10-13,Trujillo,Dashboard Corporativo,Licencias,Laboratorios Quimica Andina S.A.,Patricia Vargas,7,3155.7,22089.9
+2023-10-13,Arequipa,Modelo Predictivo,Consultoria,Gas Natural Altiplano S.A.C.,Miguel Torres,7,8339.12,58373.84
+2023-10-14,Trujillo,Dashboard Corporativo,Licencias,Transportes Andino Express S.A.C.,Lucia Ramirez,1,5351.38,5351.38
+2023-10-15,Cusco,Integracion ERP,Consultoria,Aguas Cristalinas del Norte S.A.,Diego Fernandez,3,14113.81,42341.43
+2023-10-16,Piura,Capacitacion Analytics,Capacitacion,Alimentos Selva Verde S.A.C.,Ana Quispe,8,1199.37,9594.96
+2023-10-19,Lima,Migracion Cloud,Consultoria,Pesquera Costa Azul S.A.C.,Carlos Mendoza,9,21769.72,195927.48
+2023-10-20,Lima,Dashboard Corporativo,Licencias,Aguas Cristalinas del Norte S.A.,Diego Fernandez,3,2900.32,8700.96
+2023-10-21,Cusco,Dashboard Corporativo,Licencias,Alimentos Selva Verde S.A.C.,Lucia Ramirez,6,6680.87,40085.22
+2023-10-23,Lima,Migracion Cloud,Consultoria,Cementos Huascaran S.A.A.,Lucia Ramirez,4,18924.55,75698.2
+2023-10-24,Lima,Modelo Predictivo,Consultoria,Turismo Machu Travel S.A.C.,Diego Fernandez,3,18544.38,55633.14
+2023-10-24,Cusco,Dashboard Corporativo,Licencias,Corporacion Avicola Piurana S.A.,Carlos Mendoza,7,3398.99,23792.93
+2023-10-26,Cusco,Auditoria de Datos,Consultoria,Seguridad Integral Halcon S.A.C.,Lucia Ramirez,9,6040.54,54364.86
+2023-10-29,Trujillo,Dashboard Corporativo,Licencias,Frutas de Exportacion Olmos S.A.,Patricia Vargas,6,4728.08,28368.48
+2023-10-30,Lima,Data Warehouse,Licencias,Cementos Huascaran S.A.A.,Rosa Huaman,2,38214.75,76429.5
+2023-10-30,Arequipa,Modelo Predictivo,Consultoria,Distribuidora Molina Hermanos S.A.C.,Miguel Torres,10,17256.07,172560.7
+2023-10-31,Lima,Migracion Cloud,Consultoria,Inversiones Miraflores S.A.C.,Ana Quispe,7,22460.24,157221.68
+2023-11-01,Lima,Dashboard Corporativo,Licencias,Grupo Logistico Callao S.A.,Jorge Salazar,7,2658.14,18606.98
+2023-11-02,Lima,Auditoria de Datos,Consultoria,Cementos Huascaran S.A.A.,Lucia Ramirez,8,10536.83,84294.64
+2023-11-02,Lima,Auditoria de Datos,Consultoria,Seguridad Integral Halcon S.A.C.,Jorge Salazar,2,7741.19,15482.38
+2023-11-02,Lima,Modelo Predictivo,Consultoria,Muebles Diseno Trujillo S.A.C.,Carlos Mendoza,2,12420.44,24840.88
+2023-11-05,Trujillo,Integracion ERP,Consultoria,Constructora Los Incas S.A.,Miguel Torres,8,6151.07,49208.56
+2023-11-07,Arequipa,Migracion Cloud,Consultoria,Energia Renovable Ica S.A.C.,Ana Quispe,10,26332.8,263328.0
+2023-11-08,Lima,Integracion ERP,Consultoria,Aceros del Rimac S.A.A.,Lucia Ramirez,7,14056.85,98397.95
+2023-11-09,Arequipa,Data Warehouse,Licencias,Hoteles Cusco Imperial S.A.C.,Rosa Huaman,10,28501.85,285018.5
+2023-11-09,Piura,Integracion ERP,Consultoria,Supermercados Mi Barrio S.A.C.,Patricia Vargas,6,16566.66,99399.96
+2023-11-10,Arequipa,Dashboard Corporativo,Licencias,Alimentos Selva Verde S.A.C.,Lucia Ramirez,9,3736.98,33632.82
+2023-11-10,Lima,Modelo Predictivo,Consultoria,Alimentos Selva Verde S.A.C.,Rosa Huaman,8,12744.18,101953.44
+2023-11-10,Cusco,Modelo Predictivo,Consultoria,Pesquera Costa Azul S.A.C.,Rosa Huaman,7,10559.35,73915.45
+2023-11-12,Lima,Integracion ERP,Consultoria,Inmobiliaria Terra Nova S.A.C.,Lucia Ramirez,9,10553.48,94981.32
+2023-11-13,Lima,Integracion ERP,Consultoria,Consorcio Vial Sierra Sur S.A.,Diego Fernandez,8,8736.39,69891.12
+2023-11-13,Arequipa,Dashboard Corporativo,Licencias,Grupo Logistico Callao S.A.,Lucia Ramirez,10,7161.69,71616.9
+2023-11-13,Lima,Integracion ERP,Consultoria,Cerveceria Del Valle S.A.C.,Diego Fernandez,9,10061.45,90553.05
+2023-11-14,Arequipa,Auditoria de Datos,Consultoria,Servicios Portuarios Paita S.A.C.,Diego Fernandez,5,9376.06,46880.3
+2023-11-15,Lima,Dashboard Corporativo,Licencias,Laboratorios Quimica Andina S.A.,Rosa Huaman,5,5339.17,26695.85
+2023-11-15,Cusco,Auditoria de Datos,Consultoria,Supermercados Mi Barrio S.A.C.,Jorge Salazar,8,7424.0,59392.0
+2023-11-17,Lima,Dashboard Corporativo,Licencias,Turismo Machu Travel S.A.C.,Rosa Huaman,6,4550.76,27304.56
+2023-11-18,Arequipa,Data Warehouse,Licencias,Agroindustrias Chavimochic S.A.,Miguel Torres,7,41481.09,290367.63
+2023-11-19,Trujillo,Dashboard Corporativo,Licencias,Inversiones Miraflores S.A.C.,Patricia Vargas,7,5722.87,40060.09
+2023-11-20,Lima,Capacitacion Analytics,Capacitacion,Textiles Pima Norte S.A.C.,Diego Fernandez,1,689.0,689.0
+2023-11-20,Lima,Auditoria de Datos,Consultoria,Textiles Pima Norte S.A.C.,Miguel Torres,8,8907.53,71260.24
+2023-11-20,Cusco,Dashboard Corporativo,Licencias,Financiera Credi Andes S.A.,Diego Fernandez,10,6278.71,62787.1
+2023-11-21,Lima,Auditoria de Datos,Consultoria,Transportes Andino Express S.A.C.,Jorge Salazar,4,10371.22,41484.88
+2023-11-22,Lima,Migracion Cloud,Consultoria,Supermercados Mi Barrio S.A.C.,Rosa Huaman,10,9459.93,94599.3
+2023-11-23,Lima,Migracion Cloud,Consultoria,Transportes Andino Express S.A.C.,Jorge Salazar,5,22690.65,113453.25
+2023-11-23,Arequipa,Dashboard Corporativo,Licencias,Consorcio Vial Sierra Sur S.A.,Diego Fernandez,6,3334.05,20004.3
+2023-11-24,Cusco,Dashboard Corporativo,Licencias,Energia Renovable Ica S.A.C.,Carlos Mendoza,4,3920.88,15683.52
+2023-11-26,Lima,Migracion Cloud,Consultoria,Aguas Cristalinas del Norte S.A.,Lucia Ramirez,1,21005.29,21005.29
+2023-11-27,Trujillo,Integracion ERP,Consultoria,Aceros del Rimac S.A.A.,Carlos Mendoza,4,8857.88,35431.52
+2023-11-27,Lima,Integracion ERP,Consultoria,Alimentos Selva Verde S.A.C.,Diego Fernandez,8,11405.46,91243.68
+2023-11-29,Lima,Auditoria de Datos,Consultoria,Laboratorios Quimica Andina S.A.,Miguel Torres,6,4841.73,29050.38
+2023-11-30,Lima,Data Warehouse,Licencias,Seguros Vida Andina S.A.,Lucia Ramirez,5,33951.37,169756.85
+2023-12-01,Lima,Migracion Cloud,Consultoria,Seguros Vida Andina S.A.,Ana Quispe,8,12077.99,96623.92
+2023-12-02,Lima,Auditoria de Datos,Consultoria,Seguros Vida Andina S.A.,Jorge Salazar,5,4539.32,22696.6
+2023-12-03,Lima,Dashboard Corporativo,Licencias,Transportes Andino Express S.A.C.,Jorge Salazar,5,3680.77,18403.85
+2023-12-04,Lima,Modelo Predictivo,Consultoria,Supermercados Mi Barrio S.A.C.,Jorge Salazar,2,8468.07,16936.14
+2023-12-05,Lima,Auditoria de Datos,Consultoria,Automotriz Lima Norte S.A.C.,Carlos Mendoza,10,4724.52,47245.2
+2023-12-05,Piura,Data Warehouse,Licencias,Seguridad Integral Halcon S.A.C.,Rosa Huaman,10,21935.06,219350.6
+2023-12-06,Trujillo,Migracion Cloud,Consultoria,Supermercados Mi Barrio S.A.C.,Miguel Torres,10,20304.41,203044.1
+2023-12-07,Lima,Modelo Predictivo,Consultoria,Retail Plaza Sur S.A.C.,Diego Fernandez,3,13772.04,41316.12
+2023-12-07,Trujillo,Modelo Predictivo,Consultoria,Seguros Vida Andina S.A.,Jorge Salazar,7,13682.79,95779.53
+2023-12-10,Arequipa,Dashboard Corporativo,Licencias,Alimentos Selva Verde S.A.C.,Patricia Vargas,2,5211.17,10422.34
+2023-12-14,Piura,Auditoria de Datos,Consultoria,Editorial Amauta S.A.C.,Lucia Ramirez,4,6368.65,25474.6
+2023-12-15,Trujillo,Dashboard Corporativo,Licencias,Inmobiliaria Terra Nova S.A.C.,Lucia Ramirez,10,3029.63,30296.3
+2023-12-17,Trujillo,Migracion Cloud,Consultoria,Constructora Los Incas S.A.,Miguel Torres,6,19861.11,119166.66
+2023-12-22,Lima,Capacitacion Analytics,Capacitacion,Plasticos Industriales Ate S.A.C.,Carlos Mendoza,6,1244.96,7469.76
+2023-12-23,Lima,Integracion ERP,Consultoria,Corporacion Avicola Piurana S.A.,Rosa Huaman,4,14038.68,56154.72
+2023-12-23,Lima,Data Warehouse,Licencias,Aceros del Rimac S.A.A.,Miguel Torres,6,31384.99,188309.94
+2023-12-24,Lima,Migracion Cloud,Consultoria,Servicios Portuarios Paita S.A.C.,Lucia Ramirez,5,17550.87,87754.35
+2023-12-25,Lima,Integracion ERP,Consultoria,Automotriz Lima Norte S.A.C.,Patricia Vargas,9,12918.76,116268.84
+2023-12-25,Trujillo,Integracion ERP,Consultoria,Distribuidora Molina Hermanos S.A.C.,Diego Fernandez,9,6591.8,59326.2
+2023-12-26,Lima,Auditoria de Datos,Consultoria,Aguas Cristalinas del Norte S.A.,Diego Fernandez,9,6055.36,54498.24
+2023-12-27,Lima,Auditoria de Datos,Consultoria,Aceros del Rimac S.A.A.,Rosa Huaman,1,8391.86,8391.86
+2023-12-27,Lima,Auditoria de Datos,Consultoria,Energia Renovable Ica S.A.C.,Lucia Ramirez,3,4300.79,12902.37
+2023-12-29,Arequipa,Dashboard Corporativo,Licencias,Constructora Los Incas S.A.,Carlos Mendoza,1,6245.97,6245.97
+2024-01-01,Lima,Auditoria de Datos,Consultoria,Energia Renovable Ica S.A.C.,Carlos Mendoza,10,7425.95,74259.5
+2024-01-01,Trujillo,Capacitacion Analytics,Capacitacion,Muebles Diseno Trujillo S.A.C.,Lucia Ramirez,8,1254.28,10034.24
+2024-01-03,Arequipa,Dashboard Corporativo,Licencias,Editorial Amauta S.A.C.,Diego Fernandez,6,5693.12,34158.72
+2024-01-03,Lima,Dashboard Corporativo,Licencias,Automotriz Lima Norte S.A.C.,Diego Fernandez,3,6393.66,19180.98
+2024-01-04,Lima,Capacitacion Analytics,Capacitacion,Distribuidora Molina Hermanos S.A.C.,Miguel Torres,3,1361.92,4085.76
+2024-01-07,Lima,Dashboard Corporativo,Licencias,Tecnologia Medica Vitalis S.A.C.,Miguel Torres,9,7431.39,66882.51
+2024-01-08,Arequipa,Integracion ERP,Consultoria,Gas Natural Altiplano S.A.C.,Patricia Vargas,4,6236.37,24945.48
+2024-01-08,Lima,Integracion ERP,Consultoria,Seguros Vida Andina S.A.,Ana Quispe,7,8125.86,56881.02
+2024-01-11,Arequipa,Dashboard Corporativo,Licencias,Textiles Pima Norte S.A.C.,Jorge Salazar,9,4804.17,43237.53
+2024-01-13,Lima,Auditoria de Datos,Consultoria,Telecom Peru Conecta S.A.C.,Patricia Vargas,2,6870.49,13740.98
+2024-01-15,Cusco,Migracion Cloud,Consultoria,Telecom Peru Conecta S.A.C.,Rosa Huaman,10,14786.53,147865.3
+2024-01-16,Piura,Data Warehouse,Licencias,Constructora Los Incas S.A.,Lucia Ramirez,1,21980.24,21980.24
+2024-01-20,Lima,Dashboard Corporativo,Licencias,Inversiones Miraflores S.A.C.,Rosa Huaman,9,3908.13,35173.17
+2024-01-22,Cusco,Auditoria de Datos,Consultoria,Energia Renovable Ica S.A.C.,Lucia Ramirez,3,4341.73,13025.19
+2024-01-24,Cusco,Auditoria de Datos,Consultoria,Inmobiliaria Terra Nova S.A.C.,Rosa Huaman,2,7064.53,14129.06
+2024-01-24,Arequipa,Integracion ERP,Consultoria,Inversiones Miraflores S.A.C.,Jorge Salazar,7,16169.3,113185.1
+2024-01-25,Lima,Capacitacion Analytics,Capacitacion,Agroindustrias Chavimochic S.A.,Jorge Salazar,4,1075.97,4303.88
+2024-01-25,Lima,Dashboard Corporativo,Licencias,Servicios Portuarios Paita S.A.C.,Miguel Torres,10,6356.13,63561.3
+2024-01-25,Piura,Capacitacion Analytics,Capacitacion,Inmobiliaria Terra Nova S.A.C.,Rosa Huaman,9,1197.45,10777.05
+2024-01-25,Lima,Migracion Cloud,Consultoria,Retail Plaza Sur S.A.C.,Lucia Ramirez,7,11420.49,79943.43
+2024-01-26,Lima,Modelo Predictivo,Consultoria,Servicios Portuarios Paita S.A.C.,Patricia Vargas,6,19604.97,117629.82
+2024-01-27,Cusco,Capacitacion Analytics,Capacitacion,Grupo Logistico Callao S.A.,Patricia Vargas,1,1701.59,1701.59
+2024-01-28,Lima,Capacitacion Analytics,Capacitacion,Consorcio Vial Sierra Sur S.A.,Patricia Vargas,2,786.1,1572.2
+2024-01-28,Arequipa,Integracion ERP,Consultoria,Distribuidora Molina Hermanos S.A.C.,Ana Quispe,7,15984.21,111889.47
+2024-01-28,Arequipa,Modelo Predictivo,Consultoria,Aceros del Rimac S.A.A.,Lucia Ramirez,10,17759.07,177590.7
+2024-01-29,Trujillo,Integracion ERP,Consultoria,Seguridad Integral Halcon S.A.C.,Lucia Ramirez,8,8188.54,65508.32
+2024-01-30,Trujillo,Capacitacion Analytics,Capacitacion,Alimentos Selva Verde S.A.C.,Ana Quispe,2,516.55,1033.1
+2024-01-31,Lima,Modelo Predictivo,Consultoria,Textiles Pima Norte S.A.C.,Lucia Ramirez,1,12597.64,12597.64
+2024-02-02,Piura,Dashboard Corporativo,Licencias,Inmobiliaria Terra Nova S.A.C.,Rosa Huaman,6,6649.47,39896.82
+2024-02-03,Trujillo,Data Warehouse,Licencias,Financiera Credi Andes S.A.,Lucia Ramirez,9,32143.22,289288.98
+2024-02-08,Cusco,Data Warehouse,Licencias,Tecnologia Medica Vitalis S.A.C.,Carlos Mendoza,9,19152.25,172370.25
+2024-02-10,Trujillo,Integracion ERP,Consultoria,Seguridad Integral Halcon S.A.C.,Jorge Salazar,9,15218.16,136963.44
+2024-02-11,Trujillo,Modelo Predictivo,Consultoria,Clinica San Bernardo S.A.,Ana Quispe,9,8758.28,78824.52
+2024-02-12,Lima,Migracion Cloud,Consultoria,Turismo Machu Travel S.A.C.,Diego Fernandez,6,24307.7,145846.2
+2024-02-12,Piura,Migracion Cloud,Consultoria,Inmobiliaria Terra Nova S.A.C.,Diego Fernandez,6,24289.45,145736.7
+2024-02-12,Cusco,Capacitacion Analytics,Capacitacion,Editorial Amauta S.A.C.,Patricia Vargas,9,980.39,8823.51
+2024-02-12,Lima,Integracion ERP,Consultoria,Transportes Andino Express S.A.C.,Rosa Huaman,10,11119.36,111193.6
+2024-02-13,Trujillo,Dashboard Corporativo,Licencias,Farmacias Salud Total S.A.C.,Diego Fernandez,6,4715.06,28290.36
+2024-02-13,Lima,Auditoria de Datos,Consultoria,Clinica San Bernardo S.A.,Lucia Ramirez,1,4158.46,4158.46
+2024-02-16,Lima,Dashboard Corporativo,Licencias,Gas Natural Altiplano S.A.C.,Patricia Vargas,2,4611.2,9222.4
+2024-02-16,Cusco,Dashboard Corporativo,Licencias,Seguridad Integral Halcon S.A.C.,Jorge Salazar,8,6569.58,52556.64
+2024-02-21,Arequipa,Dashboard Corporativo,Licencias,Supermercados Mi Barrio S.A.C.,Miguel Torres,4,3510.4,14041.6
+2024-02-21,Trujillo,Data Warehouse,Licencias,Turismo Machu Travel S.A.C.,Lucia Ramirez,3,35575.07,106725.21
+2024-02-23,Cusco,Data Warehouse,Licencias,Clinica San Bernardo S.A.,Diego Fernandez,1,23841.44,23841.44
+2024-02-25,Lima,Auditoria de Datos,Consultoria,Agroindustrias Chavimochic S.A.,Carlos Mendoza,9,6775.51,60979.59
+2024-02-28,Lima,Dashboard Corporativo,Licencias,Editorial Amauta S.A.C.,Carlos Mendoza,3,3206.74,9620.22
+2024-02-29,Trujillo,Integracion ERP,Consultoria,Turismo Machu Travel S.A.C.,Rosa Huaman,6,6931.3,41587.8
+2024-03-01,Lima,Modelo Predictivo,Consultoria,Cerveceria Del Valle S.A.C.,Ana Quispe,1,12962.35,12962.35
+2024-03-05,Lima,Dashboard Corporativo,Licencias,Energia Renovable Ica S.A.C.,Miguel Torres,3,6538.59,19615.77
+2024-03-06,Arequipa,Capacitacion Analytics,Capacitacion,Alimentos Selva Verde S.A.C.,Patricia Vargas,10,581.11,5811.1
+2024-03-06,Lima,Capacitacion Analytics,Capacitacion,Muebles Diseno Trujillo S.A.C.,Patricia Vargas,3,1553.14,4659.42
+2024-03-07,Lima,Capacitacion Analytics,Capacitacion,Corporacion Avicola Piurana S.A.,Miguel Torres,8,625.2,5001.6
+2024-03-08,Piura,Dashboard Corporativo,Licencias,Consorcio Vial Sierra Sur S.A.,Jorge Salazar,4,3419.43,13677.72
+2024-03-08,Lima,Modelo Predictivo,Consultoria,Aguas Cristalinas del Norte S.A.,Jorge Salazar,6,18120.34,108722.04
+2024-03-09,Arequipa,Migracion Cloud,Consultoria,Transportes Andino Express S.A.C.,Carlos Mendoza,1,13996.63,13996.63
+2024-03-09,Lima,Capacitacion Analytics,Capacitacion,Telecom Peru Conecta S.A.C.,Carlos Mendoza,3,661.96,1985.88
+2024-03-10,Lima,Dashboard Corporativo,Licencias,Farmacias Salud Total S.A.C.,Lucia Ramirez,1,6322.69,6322.69
+2024-03-10,Cusco,Data Warehouse,Licencias,Pesquera Costa Azul S.A.C.,Carlos Mendoza,9,35101.98,315917.82
+2024-03-11,Arequipa,Dashboard Corporativo,Licencias,Editorial Amauta S.A.C.,Diego Fernandez,10,6138.86,61388.6
+2024-03-12,Cusco,Auditoria de Datos,Consultoria,Farmacias Salud Total S.A.C.,Jorge Salazar,10,6253.35,62533.5
+2024-03-13,Lima,Capacitacion Analytics,Capacitacion,Distribuidora Molina Hermanos S.A.C.,Lucia Ramirez,6,1648.15,9888.9
+2024-03-13,Arequipa,Capacitacion Analytics,Capacitacion,Corporacion Avicola Piurana S.A.,Jorge Salazar,9,1263.11,11367.99
+2024-03-14,Arequipa,Dashboard Corporativo,Licencias,Pesquera Costa Azul S.A.C.,Rosa Huaman,8,3253.42,26027.36
+2024-03-14,Trujillo,Integracion ERP,Consultoria,Supermercados Mi Barrio S.A.C.,Jorge Salazar,9,6250.23,56252.07
+2024-03-16,Lima,Auditoria de Datos,Consultoria,Muebles Diseno Trujillo S.A.C.,Patricia Vargas,9,6488.01,58392.09
+2024-03-18,Arequipa,Data Warehouse,Licencias,Textiles Pima Norte S.A.C.,Rosa Huaman,6,34267.29,205603.74
+2024-03-19,Trujillo,Capacitacion Analytics,Capacitacion,Hoteles Cusco Imperial S.A.C.,Lucia Ramirez,7,1072.82,7509.74
+2024-03-20,Lima,Capacitacion Analytics,Capacitacion,Clinica San Bernardo S.A.,Miguel Torres,10,767.58,7675.8
+2024-03-21,Lima,Capacitacion Analytics,Capacitacion,Tecnologia Medica Vitalis S.A.C.,Rosa Huaman,6,951.39,5708.34
+2024-03-22,Arequipa,Capacitacion Analytics,Capacitacion,Editorial Amauta S.A.C.,Patricia Vargas,4,656.21,2624.84
+2024-03-23,Lima,Integracion ERP,Consultoria,Seguridad Integral Halcon S.A.C.,Miguel Torres,6,10189.72,61138.32
+2024-03-24,Lima,Capacitacion Analytics,Capacitacion,Consorcio Vial Sierra Sur S.A.,Rosa Huaman,1,1108.61,1108.61
+2024-03-24,Arequipa,Capacitacion Analytics,Capacitacion,Aceros del Rimac S.A.A.,Diego Fernandez,3,1265.99,3797.97
+2024-03-25,Arequipa,Dashboard Corporativo,Licencias,Grupo Logistico Callao S.A.,Patricia Vargas,2,3837.36,7674.72
+2024-03-25,Lima,Capacitacion Analytics,Capacitacion,Agroindustrias Chavimochic S.A.,Carlos Mendoza,1,1482.75,1482.75
+2024-03-25,Lima,Capacitacion Analytics,Capacitacion,Supermercados Mi Barrio S.A.C.,Carlos Mendoza,5,974.67,4873.35
+2024-03-27,Cusco,Modelo Predictivo,Consultoria,Retail Plaza Sur S.A.C.,Diego Fernandez,5,13494.77,67473.85
+2024-03-27,Cusco,Modelo Predictivo,Consultoria,Pesquera Costa Azul S.A.C.,Carlos Mendoza,9,15030.48,135274.32
+2024-03-27,Arequipa,Data Warehouse,Licencias,Universidad Tecnologica del Pacifico,Jorge Salazar,3,34642.74,103928.22
+2024-03-29,Lima,Auditoria de Datos,Consultoria,Molinos San Agustin S.A.A.,Carlos Mendoza,7,8086.29,56604.03
+2024-03-29,Cusco,Migracion Cloud,Consultoria,Gas Natural Altiplano S.A.C.,Carlos Mendoza,2,19093.86,38187.72
+2024-03-31,Trujillo,Capacitacion Analytics,Capacitacion,Corporacion Avicola Piurana S.A.,Lucia Ramirez,1,1797.89,1797.89
+2024-04-01,Trujillo,Data Warehouse,Licencias,Universidad Tecnologica del Pacifico,Lucia Ramirez,6,26151.59,156909.54
+2024-04-02,Arequipa,Dashboard Corporativo,Licencias,Editorial Amauta S.A.C.,Diego Fernandez,5,3399.45,16997.25
+2024-04-04,Lima,Capacitacion Analytics,Capacitacion,Molinos San Agustin S.A.A.,Carlos Mendoza,4,1199.17,4796.68
+2024-04-05,Lima,Capacitacion Analytics,Capacitacion,Inversiones Miraflores S.A.C.,Ana Quispe,4,1007.42,4029.68
+2024-04-05,Lima,Capacitacion Analytics,Capacitacion,Textiles Pima Norte S.A.C.,Diego Fernandez,9,1437.63,12938.67
+2024-04-05,Arequipa,Modelo Predictivo,Consultoria,Corporacion Avicola Piurana S.A.,Lucia Ramirez,2,7637.41,15274.82
+2024-04-05,Arequipa,Dashboard Corporativo,Licencias,Inmobiliaria Terra Nova S.A.C.,Ana Quispe,8,6960.29,55682.32
+2024-04-07,Lima,Dashboard Corporativo,Licencias,Financiera Credi Andes S.A.,Patricia Vargas,10,4597.91,45979.1
+2024-04-07,Cusco,Migracion Cloud,Consultoria,Corporacion Avicola Piurana S.A.,Rosa Huaman,3,24618.44,73855.32
+2024-04-10,Lima,Migracion Cloud,Consultoria,Financiera Credi Andes S.A.,Patricia Vargas,7,22730.29,159112.03
+2024-04-10,Trujillo,Dashboard Corporativo,Licencias,Automotriz Lima Norte S.A.C.,Lucia Ramirez,3,4705.58,14116.74
+2024-04-11,Lima,Migracion Cloud,Consultoria,Universidad Tecnologica del Pacifico,Ana Quispe,10,12316.24,123162.4
+2024-04-11,Lima,Auditoria de Datos,Consultoria,Automotriz Lima Norte S.A.C.,Carlos Mendoza,9,5934.91,53414.19
+2024-04-13,Piura,Capacitacion Analytics,Capacitacion,Seguridad Integral Halcon S.A.C.,Rosa Huaman,3,476.18,1428.54
+2024-04-13,Lima,Capacitacion Analytics,Capacitacion,Textiles Pima Norte S.A.C.,Jorge Salazar,9,1389.37,12504.33
+2024-04-14,Trujillo,Dashboard Corporativo,Licencias,Plasticos Industriales Ate S.A.C.,Rosa Huaman,3,4724.49,14173.47
+2024-04-16,Lima,Integracion ERP,Consultoria,Universidad Tecnologica del Pacifico,Patricia Vargas,2,13005.82,26011.64
+2024-04-16,Cusco,Capacitacion Analytics,Capacitacion,Energia Renovable Ica S.A.C.,Carlos Mendoza,6,680.58,4083.48
+2024-04-17,Trujillo,Auditoria de Datos,Consultoria,Plasticos Industriales Ate S.A.C.,Ana Quispe,9,7370.95,66338.55
+2024-04-18,Piura,Dashboard Corporativo,Licencias,Energia Renovable Ica S.A.C.,Miguel Torres,4,5968.98,23875.92
+2024-04-19,Cusco,Migracion Cloud,Consultoria,Inversiones Miraflores S.A.C.,Patricia Vargas,9,24679.8,222118.2
+2024-04-20,Arequipa,Migracion Cloud,Consultoria,Textiles Pima Norte S.A.C.,Carlos Mendoza,1,22287.94,22287.94
+2024-04-21,Trujillo,Migracion Cloud,Consultoria,Consorcio Vial Sierra Sur S.A.,Miguel Torres,4,11771.03,47084.12
+2024-04-21,Arequipa,Dashboard Corporativo,Licencias,Gas Natural Altiplano S.A.C.,Ana Quispe,8,5865.96,46927.68
+2024-04-22,Trujillo,Capacitacion Analytics,Capacitacion,Alimentos Selva Verde S.A.C.,Diego Fernandez,5,1011.4,5057.0
+2024-04-23,Arequipa,Auditoria de Datos,Consultoria,Aceros del Rimac S.A.A.,Miguel Torres,5,9903.72,49518.6
+2024-04-23,Arequipa,Auditoria de Datos,Consultoria,Muebles Diseno Trujillo S.A.C.,Diego Fernandez,10,10350.15,103501.5
+2024-04-23,Lima,Capacitacion Analytics,Capacitacion,Cerveceria Del Valle S.A.C.,Rosa Huaman,8,1308.78,10470.24
+2024-04-25,Cusco,Auditoria de Datos,Consultoria,Tecnologia Medica Vitalis S.A.C.,Ana Quispe,9,4342.79,39085.11
+2024-04-25,Arequipa,Migracion Cloud,Consultoria,Retail Plaza Sur S.A.C.,Diego Fernandez,7,14256.34,99794.38
+2024-04-25,Lima,Data Warehouse,Licencias,Universidad Tecnologica del Pacifico,Jorge Salazar,1,17678.62,17678.62
+2024-04-26,Arequipa,Modelo Predictivo,Consultoria,Editorial Amauta S.A.C.,Patricia Vargas,7,16837.07,117859.49
+2024-04-26,Lima,Dashboard Corporativo,Licencias,Automotriz Lima Norte S.A.C.,Patricia Vargas,3,3603.99,10811.97
+2024-04-28,Trujillo,Auditoria de Datos,Consultoria,Financiera Credi Andes S.A.,Rosa Huaman,6,5885.95,35315.7
+2024-04-29,Piura,Migracion Cloud,Consultoria,Supermercados Mi Barrio S.A.C.,Rosa Huaman,2,26811.0,53622.0
+2024-04-29,Cusco,Capacitacion Analytics,Capacitacion,Universidad Tecnologica del Pacifico,Jorge Salazar,6,1294.19,7765.14
+2024-04-30,Lima,Integracion ERP,Consultoria,Inversiones Miraflores S.A.C.,Rosa Huaman,4,12786.36,51145.44
+2024-05-02,Lima,Capacitacion Analytics,Capacitacion,Energia Renovable Ica S.A.C.,Diego Fernandez,5,1415.51,7077.55
+2024-05-02,Cusco,Modelo Predictivo,Consultoria,Transportes Andino Express S.A.C.,Rosa Huaman,2,10077.75,20155.5
+2024-05-03,Cusco,Auditoria de Datos,Consultoria,Constructora Los Incas S.A.,Carlos Mendoza,8,4923.32,39386.56
+2024-05-03,Trujillo,Modelo Predictivo,Consultoria,Distribuidora Molina Hermanos S.A.C.,Carlos Mendoza,8,14961.83,119694.64
+2024-05-04,Trujillo,Auditoria de Datos,Consultoria,Grupo Logistico Callao S.A.,Diego Fernandez,1,9636.29,9636.29
+2024-05-04,Arequipa,Dashboard Corporativo,Licencias,Turismo Machu Travel S.A.C.,Jorge Salazar,9,6424.72,57822.48
+2024-05-05,Lima,Auditoria de Datos,Consultoria,Retail Plaza Sur S.A.C.,Diego Fernandez,10,10602.18,106021.8
+2024-05-05,Lima,Auditoria de Datos,Consultoria,Seguridad Integral Halcon S.A.C.,Ana Quispe,7,8543.55,59804.85
+2024-05-06,Lima,Dashboard Corporativo,Licencias,Alimentos Selva Verde S.A.C.,Carlos Mendoza,5,3689.39,18446.95
+2024-05-07,Lima,Migracion Cloud,Consultoria,Constructora Los Incas S.A.,Carlos Mendoza,5,17693.35,88466.75
+2024-05-08,Lima,Modelo Predictivo,Consultoria,Laboratorios Quimica Andina S.A.,Patricia Vargas,3,7118.72,21356.16
+2024-05-08,Lima,Capacitacion Analytics,Capacitacion,Plasticos Industriales Ate S.A.C.,Diego Fernandez,9,1254.76,11292.84
+2024-05-09,Lima,Auditoria de Datos,Consultoria,Hoteles Cusco Imperial S.A.C.,Diego Fernandez,6,10003.47,60020.82
+2024-05-12,Piura,Data Warehouse,Licencias,Hoteles Cusco Imperial S.A.C.,Rosa Huaman,4,24347.3,97389.2
+2024-05-12,Trujillo,Integracion ERP,Consultoria,Plasticos Industriales Ate S.A.C.,Diego Fernandez,8,16733.55,133868.4
+2024-05-13,Piura,Migracion Cloud,Consultoria,Automotriz Lima Norte S.A.C.,Miguel Torres,8,20282.31,162258.48
+2024-05-13,Arequipa,Capacitacion Analytics,Capacitacion,Pesquera Costa Azul S.A.C.,Patricia Vargas,9,1423.81,12814.29
+2024-05-14,Cusco,Data Warehouse,Licencias,Textiles Pima Norte S.A.C.,Jorge Salazar,9,30054.69,270492.21
+2024-05-14,Lima,Modelo Predictivo,Consultoria,Consorcio Vial Sierra Sur S.A.,Jorge Salazar,10,13530.22,135302.2
+2024-05-14,Piura,Dashboard Corporativo,Licencias,Muebles Diseno Trujillo S.A.C.,Miguel Torres,4,5927.47,23709.88
+2024-05-15,Lima,Modelo Predictivo,Consultoria,Consorcio Vial Sierra Sur S.A.,Lucia Ramirez,2,18138.78,36277.56
+2024-05-15,Lima,Modelo Predictivo,Consultoria,Farmacias Salud Total S.A.C.,Diego Fernandez,2,12767.42,25534.84
+2024-05-16,Lima,Auditoria de Datos,Consultoria,Inmobiliaria Terra Nova S.A.C.,Jorge Salazar,5,5597.22,27986.1
+2024-05-16,Lima,Modelo Predictivo,Consultoria,Universidad Tecnologica del Pacifico,Ana Quispe,10,7927.47,79274.7
+2024-05-16,Lima,Dashboard Corporativo,Licencias,Financiera Credi Andes S.A.,Lucia Ramirez,9,3610.43,32493.87
+2024-05-17,Lima,Dashboard Corporativo,Licencias,Aguas Cristalinas del Norte S.A.,Rosa Huaman,3,5936.89,17810.67
+2024-05-19,Lima,Dashboard Corporativo,Licencias,Clinica San Bernardo S.A.,Rosa Huaman,10,3464.83,34648.3
+2024-05-20,Lima,Capacitacion Analytics,Capacitacion,Hoteles Cusco Imperial S.A.C.,Jorge Salazar,7,536.12,3752.84
+2024-05-21,Lima,Dashboard Corporativo,Licencias,Plasticos Industriales Ate S.A.C.,Miguel Torres,7,7450.8,52155.6
+2024-05-21,Lima,Integracion ERP,Consultoria,Transportes Andino Express S.A.C.,Diego Fernandez,9,13226.25,119036.25
+2024-05-22,Piura,Modelo Predictivo,Consultoria,Universidad Tecnologica del Pacifico,Carlos Mendoza,3,17514.51,52543.53
+2024-05-23,Arequipa,Capacitacion Analytics,Capacitacion,Agroindustrias Chavimochic S.A.,Carlos Mendoza,10,1348.08,13480.8
+2024-05-23,Arequipa,Auditoria de Datos,Consultoria,Seguros Vida Andina S.A.,Diego Fernandez,8,10016.14,80129.12
+2024-05-24,Cusco,Capacitacion Analytics,Capacitacion,Tecnologia Medica Vitalis S.A.C.,Rosa Huaman,2,1487.0,2974.0
+2024-05-25,Piura,Auditoria de Datos,Consultoria,Textiles Pima Norte S.A.C.,Rosa Huaman,5,5346.84,26734.2
+2024-05-26,Arequipa,Dashboard Corporativo,Licencias,Cementos Huascaran S.A.A.,Miguel Torres,5,7410.58,37052.9
+2024-05-26,Cusco,Dashboard Corporativo,Licencias,Constructora Los Incas S.A.,Carlos Mendoza,5,6125.86,30629.3
+2024-05-27,Lima,Dashboard Corporativo,Licencias,Consorcio Vial Sierra Sur S.A.,Diego Fernandez,3,3872.09,11616.27
+2024-05-27,Trujillo,Migracion Cloud,Consultoria,Financiera Credi Andes S.A.,Miguel Torres,4,17656.1,70624.4
+2024-05-28,Trujillo,Modelo Predictivo,Consultoria,Distribuidora Molina Hermanos S.A.C.,Rosa Huaman,10,8338.12,83381.2
+2024-05-28,Arequipa,Migracion Cloud,Consultoria,Supermercados Mi Barrio S.A.C.,Lucia Ramirez,1,19488.95,19488.95
+2024-05-29,Cusco,Modelo Predictivo,Consultoria,Servicios Portuarios Paita S.A.C.,Jorge Salazar,3,11227.62,33682.86
+2024-05-29,Lima,Capacitacion Analytics,Capacitacion,Farmacias Salud Total S.A.C.,Patricia Vargas,9,1579.0,14211.0
+2024-05-29,Lima,Dashboard Corporativo,Licencias,Banco Continental del Sur S.A.A.,Ana Quispe,9,5288.5,47596.5
+2024-05-31,Cusco,Capacitacion Analytics,Capacitacion,Muebles Diseno Trujillo S.A.C.,Rosa Huaman,4,1546.06,6184.24
+2024-05-31,Arequipa,Auditoria de Datos,Consultoria,Corporacion Avicola Piurana S.A.,Miguel Torres,9,9860.52,88744.68
+2024-06-01,Cusco,Capacitacion Analytics,Capacitacion,Retail Plaza Sur S.A.C.,Miguel Torres,10,1157.15,11571.5
+2024-06-04,Trujillo,Capacitacion Analytics,Capacitacion,Hoteles Cusco Imperial S.A.C.,Miguel Torres,7,871.79,6102.53
+2024-06-05,Lima,Capacitacion Analytics,Capacitacion,Molinos San Agustin S.A.A.,Miguel Torres,3,1201.04,3603.12
+2024-06-06,Lima,Dashboard Corporativo,Licencias,Tecnologia Medica Vitalis S.A.C.,Patricia Vargas,8,6064.49,48515.92
+2024-06-08,Trujillo,Migracion Cloud,Consultoria,Muebles Diseno Trujillo S.A.C.,Jorge Salazar,6,26284.97,157709.82
+2024-06-10,Cusco,Capacitacion Analytics,Capacitacion,Financiera Credi Andes S.A.,Carlos Mendoza,5,1344.53,6722.65
+2024-06-13,Arequipa,Capacitacion Analytics,Capacitacion,Gas Natural Altiplano S.A.C.,Ana Quispe,2,814.31,1628.62
+2024-06-14,Trujillo,Data Warehouse,Licencias,Distribuidora Molina Hermanos S.A.C.,Jorge Salazar,9,33486.63,301379.67
+2024-06-16,Arequipa,Data Warehouse,Licencias,Aceros del Rimac S.A.A.,Rosa Huaman,9,30882.46,277942.14
+2024-06-18,Lima,Capacitacion Analytics,Capacitacion,Automotriz Lima Norte S.A.C.,Ana Quispe,10,1040.63,10406.3
+2024-06-18,Cusco,Dashboard Corporativo,Licencias,Universidad Tecnologica del Pacifico,Lucia Ramirez,4,7414.78,29659.12
+2024-06-20,Lima,Data Warehouse,Licencias,Financiera Credi Andes S.A.,Lucia Ramirez,10,21262.14,212621.4
+2024-06-20,Lima,Integracion ERP,Consultoria,Inmobiliaria Terra Nova S.A.C.,Carlos Mendoza,7,6995.86,48971.02
+2024-06-22,Lima,Capacitacion Analytics,Capacitacion,Textiles Pima Norte S.A.C.,Jorge Salazar,7,1636.23,11453.61
+2024-06-23,Cusco,Dashboard Corporativo,Licencias,Financiera Credi Andes S.A.,Lucia Ramirez,8,5679.26,45434.08
+2024-06-24,Arequipa,Auditoria de Datos,Consultoria,Molinos San Agustin S.A.A.,Miguel Torres,6,7140.28,42841.68
+2024-06-25,Lima,Capacitacion Analytics,Capacitacion,Distribuidora Molina Hermanos S.A.C.,Diego Fernandez,7,937.3,6561.1
+2024-06-25,Lima,Integracion ERP,Consultoria,Distribuidora Molina Hermanos S.A.C.,Patricia Vargas,3,9548.6,28645.8
+2024-06-25,Cusco,Data Warehouse,Licencias,Editorial Amauta S.A.C.,Rosa Huaman,4,31305.03,125220.12
+2024-06-25,Cusco,Modelo Predictivo,Consultoria,Agroindustrias Chavimochic S.A.,Patricia Vargas,3,15670.96,47012.88
+2024-06-25,Arequipa,Data Warehouse,Licencias,Universidad Tecnologica del Pacifico,Ana Quispe,9,38140.3,343262.7
+2024-06-26,Lima,Migracion Cloud,Consultoria,Plasticos Industriales Ate S.A.C.,Rosa Huaman,10,12171.3,121713.0
+2024-06-26,Piura,Dashboard Corporativo,Licencias,Seguros Vida Andina S.A.,Patricia Vargas,1,6185.59,6185.59
+2024-06-26,Arequipa,Dashboard Corporativo,Licencias,Clinica San Bernardo S.A.,Ana Quispe,3,2935.38,8806.14
+2024-06-27,Piura,Modelo Predictivo,Consultoria,Molinos San Agustin S.A.A.,Rosa Huaman,3,10589.3,31767.9
+2024-06-27,Piura,Integracion ERP,Consultoria,Laboratorios Quimica Andina S.A.,Jorge Salazar,8,8052.89,64423.12
+2024-06-27,Trujillo,Capacitacion Analytics,Capacitacion,Universidad Tecnologica del Pacifico,Miguel Torres,6,1311.34,7868.04
+2024-06-27,Lima,Dashboard Corporativo,Licencias,Tecnologia Medica Vitalis S.A.C.,Diego Fernandez,4,5088.05,20352.2
+2024-06-28,Lima,Auditoria de Datos,Consultoria,Alimentos Selva Verde S.A.C.,Lucia Ramirez,1,4836.86,4836.86
+2024-06-30,Arequipa,Modelo Predictivo,Consultoria,Seguridad Integral Halcon S.A.C.,Diego Fernandez,3,11386.05,34158.15
+2024-06-30,Trujillo,Dashboard Corporativo,Licencias,Consorcio Vial Sierra Sur S.A.,Ana Quispe,9,5202.92,46826.28
+2024-06-30,Trujillo,Capacitacion Analytics,Capacitacion,Aceros del Rimac S.A.A.,Diego Fernandez,8,1641.81,13134.48
+2024-06-30,Lima,Auditoria de Datos,Consultoria,Seguros Vida Andina S.A.,Diego Fernandez,7,6060.21,42421.47
+2024-07-01,Cusco,Modelo Predictivo,Consultoria,Inversiones Miraflores S.A.C.,Miguel Torres,8,14737.49,117899.92
+2024-07-02,Lima,Capacitacion Analytics,Capacitacion,Grupo Logistico Callao S.A.,Lucia Ramirez,8,1753.46,14027.68
+2024-07-03,Cusco,Migracion Cloud,Consultoria,Clinica San Bernardo S.A.,Lucia Ramirez,2,13387.32,26774.64
+2024-07-05,Arequipa,Auditoria de Datos,Consultoria,Textiles Pima Norte S.A.C.,Rosa Huaman,7,4319.77,30238.39
+2024-07-06,Arequipa,Capacitacion Analytics,Capacitacion,Constructora Los Incas S.A.,Ana Quispe,3,843.33,2529.99
+2024-07-07,Lima,Dashboard Corporativo,Licencias,Supermercados Mi Barrio S.A.C.,Carlos Mendoza,8,6312.24,50497.92
+2024-07-08,Trujillo,Capacitacion Analytics,Capacitacion,Inmobiliaria Terra Nova S.A.C.,Jorge Salazar,6,984.08,5904.48
+2024-07-10,Lima,Capacitacion Analytics,Capacitacion,Distribuidora Molina Hermanos S.A.C.,Carlos Mendoza,1,523.63,523.63
+2024-07-11,Arequipa,Capacitacion Analytics,Capacitacion,Textiles Pima Norte S.A.C.,Miguel Torres,3,540.02,1620.06
+2024-07-11,Arequipa,Capacitacion Analytics,Capacitacion,Aceros del Rimac S.A.A.,Miguel Torres,9,947.57,8528.13
+2024-07-12,Lima,Modelo Predictivo,Consultoria,Textiles Pima Norte S.A.C.,Lucia Ramirez,1,10527.03,10527.03
+2024-07-12,Lima,Dashboard Corporativo,Licencias,Agroindustrias Chavimochic S.A.,Patricia Vargas,8,5222.63,41781.04
+2024-07-13,Cusco,Auditoria de Datos,Consultoria,Agroindustrias Chavimochic S.A.,Ana Quispe,4,8937.23,35748.92
+2024-07-15,Trujillo,Auditoria de Datos,Consultoria,Editorial Amauta S.A.C.,Ana Quispe,5,6881.64,34408.2
+2024-07-16,Lima,Data Warehouse,Licencias,Constructora Los Incas S.A.,Lucia Ramirez,7,20990.56,146933.92
+2024-07-16,Lima,Modelo Predictivo,Consultoria,Distribuidora Molina Hermanos S.A.C.,Ana Quispe,1,12892.68,12892.68
+2024-07-17,Lima,Capacitacion Analytics,Capacitacion,Transportes Andino Express S.A.C.,Rosa Huaman,8,1603.34,12826.72
+2024-07-19,Lima,Migracion Cloud,Consultoria,Inversiones Miraflores S.A.C.,Lucia Ramirez,10,27776.62,277766.2
+2024-07-19,Arequipa,Capacitacion Analytics,Capacitacion,Frutas de Exportacion Olmos S.A.,Jorge Salazar,7,1295.79,9070.53
+2024-07-19,Trujillo,Dashboard Corporativo,Licencias,Aceros del Rimac S.A.A.,Jorge Salazar,6,4422.98,26537.88
+2024-07-20,Arequipa,Capacitacion Analytics,Capacitacion,Turismo Machu Travel S.A.C.,Diego Fernandez,7,795.52,5568.64
+2024-07-20,Trujillo,Modelo Predictivo,Consultoria,Pesquera Costa Azul S.A.C.,Rosa Huaman,9,14970.75,134736.75
+2024-07-21,Trujillo,Data Warehouse,Licencias,Plasticos Industriales Ate S.A.C.,Patricia Vargas,4,28266.3,113065.2
+2024-07-21,Arequipa,Migracion Cloud,Consultoria,Inmobiliaria Terra Nova S.A.C.,Rosa Huaman,8,17088.38,136707.04
+2024-07-23,Piura,Capacitacion Analytics,Capacitacion,Muebles Diseno Trujillo S.A.C.,Rosa Huaman,9,1596.68,14370.12
+2024-07-23,Arequipa,Capacitacion Analytics,Capacitacion,Farmacias Salud Total S.A.C.,Patricia Vargas,3,1208.89,3626.67
+2024-07-23,Lima,Data Warehouse,Licencias,Inmobiliaria Terra Nova S.A.C.,Lucia Ramirez,2,41688.97,83377.94
+2024-07-23,Lima,Dashboard Corporativo,Licencias,Gas Natural Altiplano S.A.C.,Jorge Salazar,2,7391.22,14782.44
+2024-07-23,Trujillo,Integracion ERP,Consultoria,Universidad Tecnologica del Pacifico,Rosa Huaman,3,16272.81,48818.43
+2024-07-24,Arequipa,Modelo Predictivo,Consultoria,Universidad Tecnologica del Pacifico,Carlos Mendoza,2,16452.39,32904.78
+2024-07-24,Trujillo,Dashboard Corporativo,Licencias,Supermercados Mi Barrio S.A.C.,Miguel Torres,2,6354.98,12709.96
+2024-07-24,Lima,Auditoria de Datos,Consultoria,Clinica San Bernardo S.A.,Lucia Ramirez,3,7723.59,23170.77
+2024-07-25,Lima,Modelo Predictivo,Consultoria,Supermercados Mi Barrio S.A.C.,Rosa Huaman,2,16954.21,33908.42
+2024-07-25,Trujillo,Auditoria de Datos,Consultoria,Clinica San Bernardo S.A.,Patricia Vargas,9,8661.06,77949.54
+2024-07-26,Lima,Dashboard Corporativo,Licencias,Constructora Los Incas S.A.,Ana Quispe,1,6211.83,6211.83
+2024-07-26,Cusco,Dashboard Corporativo,Licencias,Supermercados Mi Barrio S.A.C.,Rosa Huaman,9,4296.22,38665.98
+2024-07-31,Arequipa,Migracion Cloud,Consultoria,Inmobiliaria Terra Nova S.A.C.,Diego Fernandez,2,24868.67,49737.34
+2024-08-02,Lima,Capacitacion Analytics,Capacitacion,Seguros Vida Andina S.A.,Diego Fernandez,5,1147.91,5739.55
+2024-08-02,Arequipa,Dashboard Corporativo,Licencias,Aceros del Rimac S.A.A.,Rosa Huaman,3,3241.28,9723.84
+2024-08-02,Cusco,Data Warehouse,Licencias,Turismo Machu Travel S.A.C.,Jorge Salazar,4,37546.21,150184.84
+2024-08-04,Cusco,Auditoria de Datos,Consultoria,Editorial Amauta S.A.C.,Jorge Salazar,4,3808.87,15235.48
+2024-08-05,Trujillo,Migracion Cloud,Consultoria,Telecom Peru Conecta S.A.C.,Miguel Torres,9,26236.09,236124.81
+2024-08-06,Lima,Dashboard Corporativo,Licencias,Gas Natural Altiplano S.A.C.,Ana Quispe,4,3693.93,14775.72
+2024-08-07,Trujillo,Capacitacion Analytics,Capacitacion,Corporacion Avicola Piurana S.A.,Patricia Vargas,6,1515.34,9092.04
+2024-08-08,Lima,Data Warehouse,Licencias,Laboratorios Quimica Andina S.A.,Ana Quispe,6,40582.92,243497.52
+2024-08-09,Lima,Dashboard Corporativo,Licencias,Consorcio Vial Sierra Sur S.A.,Patricia Vargas,7,4806.21,33643.47
+2024-08-10,Lima,Auditoria de Datos,Consultoria,Consorcio Vial Sierra Sur S.A.,Miguel Torres,8,6109.48,48875.84
+2024-08-11,Arequipa,Integracion ERP,Consultoria,Inmobiliaria Terra Nova S.A.C.,Lucia Ramirez,7,9510.65,66574.55
+2024-08-12,Lima,Data Warehouse,Licencias,Molinos San Agustin S.A.A.,Lucia Ramirez,6,33479.8,200878.8
+2024-08-12,Arequipa,Auditoria de Datos,Consultoria,Alimentos Selva Verde S.A.C.,Carlos Mendoza,10,10802.61,108026.1
+2024-08-13,Lima,Dashboard Corporativo,Licencias,Corporacion Avicola Piurana S.A.,Diego Fernandez,2,2744.59,5489.18
+2024-08-13,Cusco,Auditoria de Datos,Consultoria,Frutas de Exportacion Olmos S.A.,Carlos Mendoza,2,8814.4,17628.8
+2024-08-14,Lima,Modelo Predictivo,Consultoria,Grupo Logistico Callao S.A.,Rosa Huaman,10,9306.45,93064.5
+2024-08-15,Lima,Auditoria de Datos,Consultoria,Banco Continental del Sur S.A.A.,Ana Quispe,10,9352.32,93523.2
+2024-08-19,Arequipa,Dashboard Corporativo,Licencias,Laboratorios Quimica Andina S.A.,Jorge Salazar,5,5598.83,27994.15
+2024-08-20,Piura,Modelo Predictivo,Consultoria,Molinos San Agustin S.A.A.,Jorge Salazar,8,17856.37,142850.96
+2024-08-21,Arequipa,Dashboard Corporativo,Licencias,Corporacion Avicola Piurana S.A.,Miguel Torres,3,6063.17,18189.51
+2024-08-23,Trujillo,Auditoria de Datos,Consultoria,Distribuidora Molina Hermanos S.A.C.,Diego Fernandez,8,10005.26,80042.08
+2024-08-23,Lima,Auditoria de Datos,Consultoria,Energia Renovable Ica S.A.C.,Lucia Ramirez,10,5624.51,56245.1
+2024-08-24,Arequipa,Data Warehouse,Licencias,Pesquera Costa Azul S.A.C.,Ana Quispe,3,44086.27,132258.81
+2024-08-25,Cusco,Modelo Predictivo,Consultoria,Seguros Vida Andina S.A.,Patricia Vargas,7,11067.67,77473.69
+2024-08-27,Lima,Capacitacion Analytics,Capacitacion,Alimentos Selva Verde S.A.C.,Lucia Ramirez,9,1347.99,12131.91
+2024-08-27,Trujillo,Migracion Cloud,Consultoria,Grupo Logistico Callao S.A.,Lucia Ramirez,4,19411.03,77644.12
+2024-08-27,Trujillo,Capacitacion Analytics,Capacitacion,Seguros Vida Andina S.A.,Rosa Huaman,6,1706.67,10240.02
+2024-08-28,Lima,Integracion ERP,Consultoria,Seguridad Integral Halcon S.A.C.,Patricia Vargas,6,13585.55,81513.3
+2024-08-28,Lima,Capacitacion Analytics,Capacitacion,Automotriz Lima Norte S.A.C.,Jorge Salazar,10,1394.48,13944.8
+2024-08-29,Piura,Dashboard Corporativo,Licencias,Turismo Machu Travel S.A.C.,Diego Fernandez,4,4758.49,19033.96
+2024-08-30,Lima,Dashboard Corporativo,Licencias,Automotriz Lima Norte S.A.C.,Patricia Vargas,6,5481.06,32886.36
+2024-08-31,Lima,Migracion Cloud,Consultoria,Constructora Los Incas S.A.,Miguel Torres,10,11233.53,112335.3
+2024-09-03,Trujillo,Migracion Cloud,Consultoria,Seguridad Integral Halcon S.A.C.,Jorge Salazar,7,15596.2,109173.4
+2024-09-03,Lima,Dashboard Corporativo,Licencias,Consorcio Vial Sierra Sur S.A.,Carlos Mendoza,9,6445.94,58013.46
+2024-09-03,Arequipa,Auditoria de Datos,Consultoria,Cementos Huascaran S.A.A.,Lucia Ramirez,10,8789.5,87895.0
+2024-09-04,Lima,Dashboard Corporativo,Licencias,Clinica San Bernardo S.A.,Ana Quispe,5,7098.45,35492.25
+2024-09-05,Lima,Auditoria de Datos,Consultoria,Servicios Portuarios Paita S.A.C.,Carlos Mendoza,10,7231.62,72316.2
+2024-09-05,Lima,Integracion ERP,Consultoria,Inmobiliaria Terra Nova S.A.C.,Lucia Ramirez,3,8272.35,24817.05
+2024-09-06,Lima,Capacitacion Analytics,Capacitacion,Banco Continental del Sur S.A.A.,Ana Quispe,8,821.69,6573.52
+2024-09-07,Lima,Modelo Predictivo,Consultoria,Alimentos Selva Verde S.A.C.,Patricia Vargas,3,18932.46,56797.38
+2024-09-08,Arequipa,Dashboard Corporativo,Licencias,Pesquera Costa Azul S.A.C.,Carlos Mendoza,5,5381.42,26907.1
+2024-09-09,Cusco,Dashboard Corporativo,Licencias,Corporacion Avicola Piurana S.A.,Rosa Huaman,5,7165.15,35825.75
+2024-09-10,Cusco,Capacitacion Analytics,Capacitacion,Cementos Huascaran S.A.A.,Lucia Ramirez,5,1408.79,7043.95
+2024-09-10,Piura,Dashboard Corporativo,Licencias,Corporacion Avicola Piurana S.A.,Diego Fernandez,6,3478.33,20869.98
+2024-09-11,Lima,Auditoria de Datos,Consultoria,Molinos San Agustin S.A.A.,Patricia Vargas,7,7542.17,52795.19
+2024-09-11,Cusco,Migracion Cloud,Consultoria,Tecnologia Medica Vitalis S.A.C.,Carlos Mendoza,3,26819.01,80457.03
+2024-09-14,Arequipa,Data Warehouse,Licencias,Consorcio Vial Sierra Sur S.A.,Ana Quispe,5,38127.05,190635.25
+2024-09-14,Lima,Dashboard Corporativo,Licencias,Energia Renovable Ica S.A.C.,Diego Fernandez,4,5797.65,23190.6
+2024-09-14,Lima,Dashboard Corporativo,Licencias,Clinica San Bernardo S.A.,Miguel Torres,5,2965.63,14828.15
+2024-09-15,Lima,Dashboard Corporativo,Licencias,Consorcio Vial Sierra Sur S.A.,Patricia Vargas,10,7216.67,72166.7
+2024-09-17,Arequipa,Dashboard Corporativo,Licencias,Retail Plaza Sur S.A.C.,Patricia Vargas,9,7457.31,67115.79
+2024-09-17,Lima,Capacitacion Analytics,Capacitacion,Consorcio Vial Sierra Sur S.A.,Lucia Ramirez,6,723.85,4343.1
+2024-09-19,Lima,Modelo Predictivo,Consultoria,Seguridad Integral Halcon S.A.C.,Diego Fernandez,3,13828.0,41484.0
+2024-09-19,Cusco,Auditoria de Datos,Consultoria,Molinos San Agustin S.A.A.,Ana Quispe,1,9013.78,9013.78
+2024-09-21,Cusco,Modelo Predictivo,Consultoria,Laboratorios Quimica Andina S.A.,Rosa Huaman,1,18987.15,18987.15
+2024-09-21,Arequipa,Integracion ERP,Consultoria,Muebles Diseno Trujillo S.A.C.,Diego Fernandez,7,14660.38,102622.66
+2024-09-23,Lima,Capacitacion Analytics,Capacitacion,Muebles Diseno Trujillo S.A.C.,Rosa Huaman,9,545.02,4905.18
+2024-09-24,Lima,Migracion Cloud,Consultoria,Telecom Peru Conecta S.A.C.,Diego Fernandez,7,21339.58,149377.06
+2024-09-25,Trujillo,Capacitacion Analytics,Capacitacion,Minera Cerro Verde Andino S.A.,Miguel Torres,2,1426.83,2853.66
+2024-09-27,Cusco,Dashboard Corporativo,Licencias,Clinica San Bernardo S.A.,Lucia Ramirez,3,2752.6,8257.8
+2024-09-28,Trujillo,Modelo Predictivo,Consultoria,Cementos Huascaran S.A.A.,Patricia Vargas,9,17364.31,156278.79
+2024-09-29,Cusco,Modelo Predictivo,Consultoria,Distribuidora Molina Hermanos S.A.C.,Miguel Torres,9,14037.6,126338.4
+2024-09-30,Cusco,Auditoria de Datos,Consultoria,Consorcio Vial Sierra Sur S.A.,Lucia Ramirez,7,5296.71,37076.97
+2024-09-30,Lima,Modelo Predictivo,Consultoria,Farmacias Salud Total S.A.C.,Jorge Salazar,9,11016.98,99152.82
+2024-10-04,Lima,Capacitacion Analytics,Capacitacion,Pesquera Costa Azul S.A.C.,Jorge Salazar,7,573.39,4013.73
+2024-10-04,Arequipa,Migracion Cloud,Consultoria,Telecom Peru Conecta S.A.C.,Miguel Torres,10,25258.69,252586.9
+2024-10-04,Arequipa,Data Warehouse,Licencias,Telecom Peru Conecta S.A.C.,Patricia Vargas,3,17757.15,53271.45
+2024-10-05,Lima,Dashboard Corporativo,Licencias,Gas Natural Altiplano S.A.C.,Carlos Mendoza,3,5985.19,17955.57
+2024-10-06,Lima,Modelo Predictivo,Consultoria,Transportes Andino Express S.A.C.,Patricia Vargas,3,7300.31,21900.93
+2024-10-06,Lima,Auditoria de Datos,Consultoria,Banco Continental del Sur S.A.A.,Jorge Salazar,4,4384.44,17537.76
+2024-10-08,Lima,Capacitacion Analytics,Capacitacion,Supermercados Mi Barrio S.A.C.,Carlos Mendoza,1,940.27,940.27
+2024-10-08,Piura,Modelo Predictivo,Consultoria,Hoteles Cusco Imperial S.A.C.,Miguel Torres,1,10785.33,10785.33
+2024-10-09,Cusco,Dashboard Corporativo,Licencias,Servicios Portuarios Paita S.A.C.,Rosa Huaman,6,4926.51,29559.06
+2024-10-09,Trujillo,Migracion Cloud,Consultoria,Hoteles Cusco Imperial S.A.C.,Diego Fernandez,2,26375.01,52750.02
+2024-10-10,Lima,Integracion ERP,Consultoria,Gas Natural Altiplano S.A.C.,Rosa Huaman,10,9433.57,94335.7
+2024-10-11,Arequipa,Capacitacion Analytics,Capacitacion,Grupo Logistico Callao S.A.,Ana Quispe,9,1356.86,12211.74
+2024-10-13,Lima,Modelo Predictivo,Consultoria,Transportes Andino Express S.A.C.,Lucia Ramirez,3,13274.62,39823.86
+2024-10-16,Cusco,Auditoria de Datos,Consultoria,Alimentos Selva Verde S.A.C.,Ana Quispe,5,10450.47,52252.35
+2024-10-19,Lima,Capacitacion Analytics,Capacitacion,Molinos San Agustin S.A.A.,Ana Quispe,8,1209.56,9676.48
+2024-10-21,Piura,Migracion Cloud,Consultoria,Servicios Portuarios Paita S.A.C.,Carlos Mendoza,7,25488.79,178421.53
+2024-10-21,Lima,Auditoria de Datos,Consultoria,Plasticos Industriales Ate S.A.C.,Lucia Ramirez,3,5767.39,17302.17
+2024-10-22,Lima,Dashboard Corporativo,Licencias,Muebles Diseno Trujillo S.A.C.,Diego Fernandez,1,3660.91,3660.91
+2024-10-22,Trujillo,Capacitacion Analytics,Capacitacion,Tecnologia Medica Vitalis S.A.C.,Jorge Salazar,5,1387.74,6938.7
+2024-10-24,Lima,Capacitacion Analytics,Capacitacion,Automotriz Lima Norte S.A.C.,Lucia Ramirez,6,1529.41,9176.46
+2024-10-25,Arequipa,Modelo Predictivo,Consultoria,Seguros Vida Andina S.A.,Carlos Mendoza,1,17599.94,17599.94
+2024-10-25,Arequipa,Capacitacion Analytics,Capacitacion,Distribuidora Molina Hermanos S.A.C.,Patricia Vargas,9,1127.33,10145.97
+2024-10-26,Lima,Data Warehouse,Licencias,Supermercados Mi Barrio S.A.C.,Patricia Vargas,8,34339.33,274714.64
+2024-10-26,Lima,Migracion Cloud,Consultoria,Cementos Huascaran S.A.A.,Patricia Vargas,3,11689.58,35068.74
+2024-10-27,Lima,Dashboard Corporativo,Licencias,Seguros Vida Andina S.A.,Miguel Torres,7,3187.56,22312.92
+2024-10-30,Lima,Integracion ERP,Consultoria,Editorial Amauta S.A.C.,Carlos Mendoza,10,7901.93,79019.3
+2024-10-31,Lima,Integracion ERP,Consultoria,Banco Continental del Sur S.A.A.,Lucia Ramirez,9,9871.04,88839.36
+2024-10-31,Lima,Dashboard Corporativo,Licencias,Automotriz Lima Norte S.A.C.,Ana Quispe,7,7369.46,51586.22
+2024-11-01,Lima,Auditoria de Datos,Consultoria,Grupo Logistico Callao S.A.,Lucia Ramirez,9,6450.5,58054.5
+2024-11-02,Piura,Auditoria de Datos,Consultoria,Constructora Los Incas S.A.,Patricia Vargas,2,4619.12,9238.24
+2024-11-03,Trujillo,Auditoria de Datos,Consultoria,Turismo Machu Travel S.A.C.,Rosa Huaman,8,8063.1,64504.8
+2024-11-03,Lima,Migracion Cloud,Consultoria,Telecom Peru Conecta S.A.C.,Diego Fernandez,3,21520.7,64562.1
+2024-11-03,Lima,Modelo Predictivo,Consultoria,Inmobiliaria Terra Nova S.A.C.,Patricia Vargas,4,12928.37,51713.48
+2024-11-06,Arequipa,Modelo Predictivo,Consultoria,Automotriz Lima Norte S.A.C.,Jorge Salazar,4,13402.56,53610.24
+2024-11-07,Arequipa,Migracion Cloud,Consultoria,Seguridad Integral Halcon S.A.C.,Carlos Mendoza,9,12532.81,112795.29
+2024-11-07,Cusco,Modelo Predictivo,Consultoria,Seguridad Integral Halcon S.A.C.,Ana Quispe,9,17543.97,157895.73
+2024-11-08,Lima,Dashboard Corporativo,Licencias,Supermercados Mi Barrio S.A.C.,Patricia Vargas,5,5116.33,25581.65
+2024-11-08,Lima,Integracion ERP,Consultoria,Inversiones Miraflores S.A.C.,Patricia Vargas,5,6466.58,32332.9
+2024-11-09,Lima,Dashboard Corporativo,Licencias,Banco Continental del Sur S.A.A.,Lucia Ramirez,4,4737.5,18950.0
+2024-11-10,Trujillo,Modelo Predictivo,Consultoria,Alimentos Selva Verde S.A.C.,Jorge Salazar,2,17687.8,35375.6
+2024-11-11,Lima,Modelo Predictivo,Consultoria,Banco Continental del Sur S.A.A.,Rosa Huaman,9,11653.52,104881.68
+2024-11-11,Trujillo,Migracion Cloud,Consultoria,Hoteles Cusco Imperial S.A.C.,Jorge Salazar,3,17586.22,52758.66
+2024-11-13,Trujillo,Capacitacion Analytics,Capacitacion,Aceros del Rimac S.A.A.,Ana Quispe,3,625.11,1875.33
+2024-11-14,Cusco,Dashboard Corporativo,Licencias,Seguridad Integral Halcon S.A.C.,Jorge Salazar,8,2854.37,22834.96
+2024-11-14,Arequipa,Modelo Predictivo,Consultoria,Editorial Amauta S.A.C.,Lucia Ramirez,2,7204.2,14408.4
+2024-11-17,Arequipa,Integracion ERP,Consultoria,Retail Plaza Sur S.A.C.,Ana Quispe,5,7645.38,38226.9
+2024-11-18,Piura,Capacitacion Analytics,Capacitacion,Frutas de Exportacion Olmos S.A.,Miguel Torres,1,1731.07,1731.07
+2024-11-19,Lima,Modelo Predictivo,Consultoria,Corporacion Avicola Piurana S.A.,Diego Fernandez,3,18276.34,54829.02
+2024-11-19,Cusco,Dashboard Corporativo,Licencias,Gas Natural Altiplano S.A.C.,Carlos Mendoza,7,4369.8,30588.6
+2024-11-20,Piura,Auditoria de Datos,Consultoria,Molinos San Agustin S.A.A.,Lucia Ramirez,3,8679.07,26037.21
+2024-11-22,Lima,Migracion Cloud,Consultoria,Distribuidora Molina Hermanos S.A.C.,Miguel Torres,9,20879.39,187914.51
+2024-11-23,Arequipa,Auditoria de Datos,Consultoria,Distribuidora Molina Hermanos S.A.C.,Miguel Torres,5,4868.05,24340.25
+2024-11-24,Lima,Capacitacion Analytics,Capacitacion,Retail Plaza Sur S.A.C.,Lucia Ramirez,10,1080.28,10802.8
+2024-11-24,Trujillo,Modelo Predictivo,Consultoria,Aceros del Rimac S.A.A.,Miguel Torres,7,14464.45,101251.15
+2024-11-25,Lima,Integracion ERP,Consultoria,Constructora Los Incas S.A.,Rosa Huaman,1,15110.77,15110.77
+2024-11-27,Lima,Auditoria de Datos,Consultoria,Seguridad Integral Halcon S.A.C.,Ana Quispe,8,5750.26,46002.08
+2024-11-27,Lima,Migracion Cloud,Consultoria,Muebles Diseno Trujillo S.A.C.,Carlos Mendoza,10,14175.87,141758.7
+2024-11-27,Lima,Data Warehouse,Licencias,Frutas de Exportacion Olmos S.A.,Patricia Vargas,2,32129.45,64258.9
+2024-11-28,Lima,Capacitacion Analytics,Capacitacion,Alimentos Selva Verde S.A.C.,Lucia Ramirez,9,1007.61,9068.49
+2024-11-28,Arequipa,Auditoria de Datos,Consultoria,Supermercados Mi Barrio S.A.C.,Patricia Vargas,5,4356.24,21781.2
+2024-11-29,Trujillo,Migracion Cloud,Consultoria,Pesquera Costa Azul S.A.C.,Patricia Vargas,1,23543.27,23543.27
+2024-12-01,Arequipa,Migracion Cloud,Consultoria,Telecom Peru Conecta S.A.C.,Jorge Salazar,2,24166.24,48332.48
+2024-12-02,Lima,Dashboard Corporativo,Licencias,Clinica San Bernardo S.A.,Ana Quispe,9,7391.17,66520.53
+2024-12-02,Arequipa,Data Warehouse,Licencias,Molinos San Agustin S.A.A.,Carlos Mendoza,4,38942.95,155771.8
+2024-12-02,Cusco,Auditoria de Datos,Consultoria,Textiles Pima Norte S.A.C.,Rosa Huaman,7,5669.06,39683.42
+2024-12-02,Lima,Data Warehouse,Licencias,Cerveceria Del Valle S.A.C.,Jorge Salazar,8,20847.77,166782.16
+2024-12-03,Trujillo,Dashboard Corporativo,Licencias,Telecom Peru Conecta S.A.C.,Carlos Mendoza,6,6867.46,41204.76
+2024-12-03,Arequipa,Data Warehouse,Licencias,Laboratorios Quimica Andina S.A.,Rosa Huaman,10,36938.8,369388.0
+2024-12-03,Trujillo,Capacitacion Analytics,Capacitacion,Seguridad Integral Halcon S.A.C.,Jorge Salazar,3,1542.01,4626.03
+2024-12-03,Trujillo,Dashboard Corporativo,Licencias,Seguridad Integral Halcon S.A.C.,Ana Quispe,8,3934.08,31472.64
+2024-12-03,Lima,Capacitacion Analytics,Capacitacion,Hoteles Cusco Imperial S.A.C.,Ana Quispe,5,825.1,4125.5
+2024-12-03,Lima,Data Warehouse,Licencias,Tecnologia Medica Vitalis S.A.C.,Patricia Vargas,6,43685.51,262113.06
+2024-12-03,Lima,Dashboard Corporativo,Licencias,Tecnologia Medica Vitalis S.A.C.,Patricia Vargas,10,4658.93,46589.3
+2024-12-03,Lima,Capacitacion Analytics,Capacitacion,Pesquera Costa Azul S.A.C.,Miguel Torres,3,1608.78,4826.34
+2024-12-03,Arequipa,Dashboard Corporativo,Licencias,Cementos Huascaran S.A.A.,Carlos Mendoza,9,4174.84,37573.56
+2024-12-04,Piura,Capacitacion Analytics,Capacitacion,Financiera Credi Andes S.A.,Rosa Huaman,8,1382.17,11057.36
+2024-12-04,Lima,Dashboard Corporativo,Licencias,Universidad Tecnologica del Pacifico,Ana Quispe,1,2942.23,2942.23
+2024-12-04,Lima,Dashboard Corporativo,Licencias,Agroindustrias Chavimochic S.A.,Patricia Vargas,6,2807.09,16842.54
+2024-12-04,Lima,Capacitacion Analytics,Capacitacion,Gas Natural Altiplano S.A.C.,Lucia Ramirez,6,563.94,3383.64
+2024-12-04,Arequipa,Capacitacion Analytics,Capacitacion,Inmobiliaria Terra Nova S.A.C.,Patricia Vargas,8,658.1,5264.8
+2024-12-04,Trujillo,Data Warehouse,Licencias,Inversiones Miraflores S.A.C.,Rosa Huaman,8,29237.69,233901.52
+2024-12-04,Cusco,Capacitacion Analytics,Capacitacion,Muebles Diseno Trujillo S.A.C.,Patricia Vargas,4,582.67,2330.68
+2024-12-05,Cusco,Data Warehouse,Licencias,Banco Continental del Sur S.A.A.,Miguel Torres,5,25039.7,125198.5
+2024-12-05,Arequipa,Modelo Predictivo,Consultoria,Textiles Pima Norte S.A.C.,Diego Fernandez,7,12870.92,90096.44
+2024-12-05,Arequipa,Modelo Predictivo,Consultoria,Farmacias Salud Total S.A.C.,Lucia Ramirez,5,14385.94,71929.7
+2024-12-05,Lima,Migracion Cloud,Consultoria,Telecom Peru Conecta S.A.C.,Miguel Torres,4,25177.46,100709.84
+2024-12-05,Lima,Auditoria de Datos,Consultoria,Universidad Tecnologica del Pacifico,Diego Fernandez,4,4494.04,17976.16
+2024-12-05,Trujillo,Auditoria de Datos,Consultoria,Cementos Huascaran S.A.A.,Rosa Huaman,7,8621.57,60350.99
+2024-12-05,Trujillo,Dashboard Corporativo,Licencias,Hoteles Cusco Imperial S.A.C.,Jorge Salazar,6,6171.57,37029.42
+2024-12-07,Piura,Integracion ERP,Consultoria,Farmacias Salud Total S.A.C.,Ana Quispe,1,8614.06,8614.06
+2024-12-07,Lima,Dashboard Corporativo,Licencias,Hoteles Cusco Imperial S.A.C.,Patricia Vargas,10,4225.38,42253.8
+2024-12-08,Arequipa,Capacitacion Analytics,Capacitacion,Alimentos Selva Verde S.A.C.,Ana Quispe,1,749.55,749.55
+2024-12-08,Cusco,Integracion ERP,Consultoria,Plasticos Industriales Ate S.A.C.,Ana Quispe,3,14941.36,44824.08
+2024-12-08,Lima,Capacitacion Analytics,Capacitacion,Transportes Andino Express S.A.C.,Patricia Vargas,5,1746.55,8732.75
+2024-12-08,Arequipa,Capacitacion Analytics,Capacitacion,Muebles Diseno Trujillo S.A.C.,Miguel Torres,7,676.26,4733.82
+2024-12-09,Lima,Capacitacion Analytics,Capacitacion,Gas Natural Altiplano S.A.C.,Miguel Torres,2,945.41,1890.82
+2024-12-09,Arequipa,Dashboard Corporativo,Licencias,Gas Natural Altiplano S.A.C.,Jorge Salazar,4,3904.86,15619.44
+2024-12-09,Lima,Capacitacion Analytics,Capacitacion,Corporacion Avicola Piurana S.A.,Jorge Salazar,1,1055.91,1055.91
+2024-12-10,Lima,Capacitacion Analytics,Capacitacion,Textiles Pima Norte S.A.C.,Rosa Huaman,1,1083.46,1083.46
+2024-12-10,Lima,Capacitacion Analytics,Capacitacion,Muebles Diseno Trujillo S.A.C.,Miguel Torres,10,1396.05,13960.5
+2024-12-11,Lima,Modelo Predictivo,Consultoria,Tecnologia Medica Vitalis S.A.C.,Jorge Salazar,4,8072.63,32290.52
+2024-12-11,Lima,Auditoria de Datos,Consultoria,Muebles Diseno Trujillo S.A.C.,Ana Quispe,2,4633.52,9267.04
+2024-12-11,Lima,Capacitacion Analytics,Capacitacion,Inmobiliaria Terra Nova S.A.C.,Lucia Ramirez,9,856.85,7711.65
+2024-12-11,Cusco,Capacitacion Analytics,Capacitacion,Cerveceria Del Valle S.A.C.,Rosa Huaman,2,645.95,1291.9
+2024-12-11,Cusco,Capacitacion Analytics,Capacitacion,Constructora Los Incas S.A.,Miguel Torres,8,466.02,3728.16
+2024-12-12,Trujillo,Migracion Cloud,Consultoria,Corporacion Avicola Piurana S.A.,Lucia Ramirez,9,19589.47,176305.23
+2024-12-12,Lima,Capacitacion Analytics,Capacitacion,Telecom Peru Conecta S.A.C.,Miguel Torres,8,1077.66,8621.28
+2024-12-12,Trujillo,Dashboard Corporativo,Licencias,Constructora Los Incas S.A.,Miguel Torres,1,5892.47,5892.47
+2024-12-12,Lima,Modelo Predictivo,Consultoria,Cerveceria Del Valle S.A.C.,Patricia Vargas,10,17050.96,170509.6
+2024-12-13,Lima,Capacitacion Analytics,Capacitacion,Energia Renovable Ica S.A.C.,Lucia Ramirez,10,1793.28,17932.8
+2024-12-13,Lima,Dashboard Corporativo,Licencias,Farmacias Salud Total S.A.C.,Ana Quispe,9,6247.13,56224.17
+2024-12-13,Lima,Auditoria de Datos,Consultoria,Aguas Cristalinas del Norte S.A.,Jorge Salazar,2,6849.9,13699.8
+2024-12-13,Lima,Dashboard Corporativo,Licencias,Clinica San Bernardo S.A.,Patricia Vargas,6,5162.6,30975.6
+2024-12-14,Lima,Data Warehouse,Licencias,Banco Continental del Sur S.A.A.,Rosa Huaman,10,18394.93,183949.3
+2024-12-14,Lima,Integracion ERP,Consultoria,Frutas de Exportacion Olmos S.A.,Lucia Ramirez,3,13996.69,41990.07
+2024-12-14,Cusco,Capacitacion Analytics,Capacitacion,Servicios Portuarios Paita S.A.C.,Diego Fernandez,8,912.84,7302.72
+2024-12-14,Lima,Integracion ERP,Consultoria,Universidad Tecnologica del Pacifico,Rosa Huaman,3,13064.87,39194.61
+2024-12-14,Arequipa,Dashboard Corporativo,Licencias,Inmobiliaria Terra Nova S.A.C.,Lucia Ramirez,8,4493.72,35949.76
+2024-12-14,Cusco,Migracion Cloud,Consultoria,Servicios Portuarios Paita S.A.C.,Patricia Vargas,7,16216.22,113513.54
+2024-12-14,Lima,Migracion Cloud,Consultoria,Automotriz Lima Norte S.A.C.,Diego Fernandez,9,25535.28,229817.52
+2024-12-14,Cusco,Migracion Cloud,Consultoria,Aguas Cristalinas del Norte S.A.,Diego Fernandez,5,14074.67,70373.35
+2024-12-15,Lima,Capacitacion Analytics,Capacitacion,Alimentos Selva Verde S.A.C.,Rosa Huaman,9,700.47,6304.23
+2024-12-15,Arequipa,Data Warehouse,Licencias,Servicios Portuarios Paita S.A.C.,Jorge Salazar,4,44510.05,178040.2
+2024-12-15,Lima,Migracion Cloud,Consultoria,Grupo Logistico Callao S.A.,Diego Fernandez,8,17976.58,143812.64
+2024-12-15,Lima,Dashboard Corporativo,Licencias,Supermercados Mi Barrio S.A.C.,Carlos Mendoza,5,6169.07,30845.35
+2024-12-15,Lima,Capacitacion Analytics,Capacitacion,Farmacias Salud Total S.A.C.,Lucia Ramirez,5,1786.99,8934.95
+2024-12-15,Lima,Auditoria de Datos,Consultoria,Plasticos Industriales Ate S.A.C.,Lucia Ramirez,1,7136.89,7136.89
+2024-12-15,Lima,Dashboard Corporativo,Licencias,Financiera Credi Andes S.A.,Ana Quispe,1,6277.42,6277.42
+2024-12-15,Arequipa,Auditoria de Datos,Consultoria,Gas Natural Altiplano S.A.C.,Jorge Salazar,9,9143.21,82288.89
+2024-12-16,Lima,Migracion Cloud,Consultoria,Frutas de Exportacion Olmos S.A.,Diego Fernandez,8,27688.0,221504.0
+2024-12-16,Piura,Auditoria de Datos,Consultoria,Aceros del Rimac S.A.A.,Miguel Torres,6,3764.95,22589.7
+2024-12-16,Piura,Integracion ERP,Consultoria,Clinica San Bernardo S.A.,Rosa Huaman,6,11204.77,67228.62
+2024-12-16,Piura,Capacitacion Analytics,Capacitacion,Servicios Portuarios Paita S.A.C.,Diego Fernandez,6,1310.52,7863.12
+2024-12-17,Lima,Capacitacion Analytics,Capacitacion,Energia Renovable Ica S.A.C.,Jorge Salazar,5,875.46,4377.3
+2024-12-17,Lima,Dashboard Corporativo,Licencias,Cerveceria Del Valle S.A.C.,Lucia Ramirez,5,2647.33,13236.65
+2024-12-17,Lima,Auditoria de Datos,Consultoria,Hoteles Cusco Imperial S.A.C.,Lucia Ramirez,5,7111.5,35557.5
+2024-12-17,Arequipa,Auditoria de Datos,Consultoria,Financiera Credi Andes S.A.,Patricia Vargas,8,4086.76,32694.08
+2024-12-17,Lima,Dashboard Corporativo,Licencias,Cementos Huascaran S.A.A.,Patricia Vargas,2,6208.43,12416.86
+2024-12-17,Arequipa,Capacitacion Analytics,Capacitacion,Tecnologia Medica Vitalis S.A.C.,Patricia Vargas,9,1142.1,10278.9
+2024-12-17,Lima,Modelo Predictivo,Consultoria,Laboratorios Quimica Andina S.A.,Miguel Torres,8,10396.28,83170.24
+2024-12-17,Piura,Migracion Cloud,Consultoria,Agroindustrias Chavimochic S.A.,Miguel Torres,9,24188.07,217692.63
+2024-12-18,Lima,Integracion ERP,Consultoria,Grupo Logistico Callao S.A.,Rosa Huaman,6,7920.75,47524.5
+2024-12-18,Piura,Dashboard Corporativo,Licencias,Turismo Machu Travel S.A.C.,Jorge Salazar,5,5687.87,28439.35
+2024-12-18,Lima,Integracion ERP,Consultoria,Minera Cerro Verde Andino S.A.,Lucia Ramirez,3,12475.97,37427.91
+2024-12-18,Arequipa,Dashboard Corporativo,Licencias,Turismo Machu Travel S.A.C.,Diego Fernandez,7,3399.58,23797.06
+2024-12-19,Lima,Migracion Cloud,Consultoria,Editorial Amauta S.A.C.,Diego Fernandez,10,25908.39,259083.9
+2024-12-19,Lima,Dashboard Corporativo,Licencias,Hoteles Cusco Imperial S.A.C.,Miguel Torres,10,3057.75,30577.5
+2024-12-19,Lima,Data Warehouse,Licencias,Cementos Huascaran S.A.A.,Ana Quispe,7,25122.2,175855.4
+2024-12-20,Cusco,Data Warehouse,Licencias,Molinos San Agustin S.A.A.,Lucia Ramirez,5,42784.41,213922.05
+2024-12-20,Trujillo,Dashboard Corporativo,Licencias,Inmobiliaria Terra Nova S.A.C.,Miguel Torres,7,5668.44,39679.08
+2024-12-20,Arequipa,Modelo Predictivo,Consultoria,Energia Renovable Ica S.A.C.,Ana Quispe,4,13572.75,54291.0
+2024-12-20,Cusco,Migracion Cloud,Consultoria,Farmacias Salud Total S.A.C.,Patricia Vargas,4,25299.31,101197.24
+2024-12-20,Cusco,Integracion ERP,Consultoria,Distribuidora Molina Hermanos S.A.C.,Diego Fernandez,2,14886.25,29772.5
+2024-12-20,Cusco,Integracion ERP,Consultoria,Editorial Amauta S.A.C.,Diego Fernandez,1,15482.16,15482.16
+2024-12-21,Lima,Capacitacion Analytics,Capacitacion,Corporacion Avicola Piurana S.A.,Rosa Huaman,5,833.42,4167.1
+2024-12-21,Lima,Auditoria de Datos,Consultoria,Cerveceria Del Valle S.A.C.,Carlos Mendoza,3,10968.77,32906.31
+2024-12-21,Arequipa,Capacitacion Analytics,Capacitacion,Tecnologia Medica Vitalis S.A.C.,Jorge Salazar,4,1018.37,4073.48
+2024-12-21,Lima,Capacitacion Analytics,Capacitacion,Inmobiliaria Terra Nova S.A.C.,Diego Fernandez,4,469.17,1876.68
+2024-12-21,Arequipa,Capacitacion Analytics,Capacitacion,Hoteles Cusco Imperial S.A.C.,Rosa Huaman,5,1791.34,8956.7
+2024-12-21,Trujillo,Capacitacion Analytics,Capacitacion,Servicios Portuarios Paita S.A.C.,Ana Quispe,8,1490.0,11920.0
+2024-12-22,Cusco,Dashboard Corporativo,Licencias,Constructora Los Incas S.A.,Carlos Mendoza,2,6339.71,12679.42
+2024-12-22,Lima,Modelo Predictivo,Consultoria,Retail Plaza Sur S.A.C.,Diego Fernandez,9,13095.29,117857.61
+2024-12-22,Lima,Migracion Cloud,Consultoria,Cerveceria Del Valle S.A.C.,Carlos Mendoza,8,19710.42,157683.36
+2024-12-22,Lima,Auditoria de Datos,Consultoria,Supermercados Mi Barrio S.A.C.,Patricia Vargas,6,10454.17,62725.02
+2024-12-22,Trujillo,Data Warehouse,Licencias,Agroindustrias Chavimochic S.A.,Carlos Mendoza,10,16230.53,162305.3
+2024-12-23,Cusco,Data Warehouse,Licencias,Consorcio Vial Sierra Sur S.A.,Lucia Ramirez,4,20072.38,80289.52
+2024-12-23,Lima,Auditoria de Datos,Consultoria,Agroindustrias Chavimochic S.A.,Carlos Mendoza,3,7938.28,23814.84
+2024-12-23,Lima,Integracion ERP,Consultoria,Inmobiliaria Terra Nova S.A.C.,Carlos Mendoza,6,16273.36,97640.16
+2024-12-24,Lima,Integracion ERP,Consultoria,Minera Cerro Verde Andino S.A.,Patricia Vargas,9,13753.71,123783.39
+2024-12-24,Lima,Dashboard Corporativo,Licencias,Frutas de Exportacion Olmos S.A.,Ana Quispe,7,3210.44,22473.08
+2024-12-24,Arequipa,Integracion ERP,Consultoria,Banco Continental del Sur S.A.A.,Jorge Salazar,4,9437.5,37750.0
+2024-12-24,Lima,Integracion ERP,Consultoria,Telecom Peru Conecta S.A.C.,Jorge Salazar,7,8319.42,58235.94
+2024-12-24,Cusco,Capacitacion Analytics,Capacitacion,Telecom Peru Conecta S.A.C.,Patricia Vargas,3,1402.57,4207.71
+2024-12-24,Lima,Dashboard Corporativo,Licencias,Cerveceria Del Valle S.A.C.,Diego Fernandez,5,5771.72,28858.6
+2024-12-24,Lima,Auditoria de Datos,Consultoria,Turismo Machu Travel S.A.C.,Patricia Vargas,8,6433.65,51469.2
+2024-12-25,Lima,Dashboard Corporativo,Licencias,Grupo Logistico Callao S.A.,Lucia Ramirez,9,3447.3,31025.7
+2024-12-25,Lima,Capacitacion Analytics,Capacitacion,Farmacias Salud Total S.A.C.,Ana Quispe,6,1501.47,9008.82
+2024-12-25,Lima,Capacitacion Analytics,Capacitacion,Frutas de Exportacion Olmos S.A.,Jorge Salazar,9,1044.25,9398.25
+2024-12-26,Lima,Migracion Cloud,Consultoria,Hoteles Cusco Imperial S.A.C.,Lucia Ramirez,3,27081.24,81243.72
+2024-12-26,Lima,Data Warehouse,Licencias,Telecom Peru Conecta S.A.C.,Lucia Ramirez,6,16583.23,99499.38
+2024-12-26,Arequipa,Integracion ERP,Consultoria,Energia Renovable Ica S.A.C.,Patricia Vargas,10,7595.77,75957.7
+2024-12-26,Lima,Capacitacion Analytics,Capacitacion,Automotriz Lima Norte S.A.C.,Patricia Vargas,6,1461.27,8767.62
+2024-12-27,Trujillo,Migracion Cloud,Consultoria,Editorial Amauta S.A.C.,Carlos Mendoza,7,9285.27,64996.89
+2024-12-27,Lima,Integracion ERP,Consultoria,Muebles Diseno Trujillo S.A.C.,Ana Quispe,1,14207.66,14207.66
+2024-12-27,Arequipa,Data Warehouse,Licencias,Textiles Pima Norte S.A.C.,Carlos Mendoza,5,42541.26,212706.3
+2024-12-28,Arequipa,Dashboard Corporativo,Licencias,Hoteles Cusco Imperial S.A.C.,Jorge Salazar,1,3337.88,3337.88
+2024-12-28,Lima,Dashboard Corporativo,Licencias,Pesquera Costa Azul S.A.C.,Miguel Torres,6,6392.64,38355.84
+2024-12-28,Lima,Auditoria de Datos,Consultoria,Supermercados Mi Barrio S.A.C.,Diego Fernandez,2,10421.48,20842.96
+2024-12-28,Piura,Integracion ERP,Consultoria,Universidad Tecnologica del Pacifico,Ana Quispe,10,11455.43,114554.3
+2024-12-28,Arequipa,Integracion ERP,Consultoria,Farmacias Salud Total S.A.C.,Jorge Salazar,4,14077.97,56311.88
+2024-12-29,Piura,Auditoria de Datos,Consultoria,Energia Renovable Ica S.A.C.,Jorge Salazar,4,8182.38,32729.52
+2024-12-29,Cusco,Capacitacion Analytics,Capacitacion,Distribuidora Molina Hermanos S.A.C.,Lucia Ramirez,3,771.23,2313.69
+2024-12-29,Lima,Modelo Predictivo,Consultoria,Agroindustrias Chavimochic S.A.,Ana Quispe,9,8507.93,76571.37
+2024-12-30,Piura,Data Warehouse,Licencias,Cerveceria Del Valle S.A.C.,Patricia Vargas,7,25306.39,177144.73
+2024-12-30,Arequipa,Integracion ERP,Consultoria,Alimentos Selva Verde S.A.C.,Ana Quispe,10,6567.82,65678.2
+2024-12-30,Trujillo,Modelo Predictivo,Consultoria,Grupo Logistico Callao S.A.,Ana Quispe,2,18930.26,37860.52
+2024-12-31,Lima,Modelo Predictivo,Consultoria,Textiles Pima Norte S.A.C.,Patricia Vargas,2,8015.06,16030.12
+2024-12-31,Trujillo,Migracion Cloud,Consultoria,Agroindustrias Chavimochic S.A.,Miguel Torres,5,27251.04,136255.2
+2024-12-31,Lima,Capacitacion Analytics,Capacitacion,Frutas de Exportacion Olmos S.A.,Patricia Vargas,4,1748.38,6993.52
+2024-12-31,Cusco,Capacitacion Analytics,Capacitacion,Transportes Andino Express S.A.C.,Rosa Huaman,4,1381.88,5527.52
+2025-01-02,Lima,Modelo Predictivo,Consultoria,Transportes Andino Express S.A.C.,Jorge Salazar,10,19487.63,194876.3
+2025-01-03,Arequipa,Modelo Predictivo,Consultoria,Editorial Amauta S.A.C.,Diego Fernandez,9,18008.45,162076.05
+2025-01-04,Lima,Migracion Cloud,Consultoria,Alimentos Selva Verde S.A.C.,Ana Quispe,10,13651.68,136516.8
+2025-01-04,Trujillo,Integracion ERP,Consultoria,Financiera Credi Andes S.A.,Miguel Torres,2,13287.36,26574.72
+2025-01-05,Lima,Data Warehouse,Licencias,Grupo Logistico Callao S.A.,Jorge Salazar,4,28495.64,113982.56
+2025-01-05,Trujillo,Auditoria de Datos,Consultoria,Minera Cerro Verde Andino S.A.,Miguel Torres,1,6440.58,6440.58
+2025-01-09,Lima,Dashboard Corporativo,Licencias,Cerveceria Del Valle S.A.C.,Carlos Mendoza,9,3065.86,27592.74
+2025-01-10,Trujillo,Dashboard Corporativo,Licencias,Universidad Tecnologica del Pacifico,Lucia Ramirez,2,7315.58,14631.16
+2025-01-10,Lima,Capacitacion Analytics,Capacitacion,Seguridad Integral Halcon S.A.C.,Miguel Torres,5,865.49,4327.45
+2025-01-11,Lima,Dashboard Corporativo,Licencias,Tecnologia Medica Vitalis S.A.C.,Ana Quispe,7,4485.06,31395.42
+2025-01-11,Cusco,Capacitacion Analytics,Capacitacion,Inmobiliaria Terra Nova S.A.C.,Rosa Huaman,4,1657.08,6628.32
+2025-01-12,Lima,Capacitacion Analytics,Capacitacion,Seguridad Integral Halcon S.A.C.,Ana Quispe,4,966.77,3867.08
+2025-01-13,Piura,Data Warehouse,Licencias,Constructora Los Incas S.A.,Diego Fernandez,4,15249.51,60998.04
+2025-01-15,Piura,Modelo Predictivo,Consultoria,Frutas de Exportacion Olmos S.A.,Ana Quispe,7,11772.08,82404.56
+2025-01-16,Trujillo,Modelo Predictivo,Consultoria,Retail Plaza Sur S.A.C.,Ana Quispe,1,10950.76,10950.76
+2025-01-17,Cusco,Auditoria de Datos,Consultoria,Automotriz Lima Norte S.A.C.,Carlos Mendoza,9,5648.93,50840.37
+2025-01-17,Cusco,Capacitacion Analytics,Capacitacion,Servicios Portuarios Paita S.A.C.,Rosa Huaman,10,991.1,9911.0
+2025-01-19,Arequipa,Auditoria de Datos,Consultoria,Inversiones Miraflores S.A.C.,Rosa Huaman,6,9382.35,56294.1
+2025-01-19,Lima,Modelo Predictivo,Consultoria,Farmacias Salud Total S.A.C.,Patricia Vargas,4,19426.48,77705.92
+2025-01-22,Piura,Capacitacion Analytics,Capacitacion,Muebles Diseno Trujillo S.A.C.,Carlos Mendoza,3,1185.91,3557.73
+2025-01-24,Lima,Auditoria de Datos,Consultoria,Corporacion Avicola Piurana S.A.,Patricia Vargas,3,8451.24,25353.72
+2025-01-25,Lima,Dashboard Corporativo,Licencias,Frutas de Exportacion Olmos S.A.,Rosa Huaman,7,4146.42,29024.94
+2025-01-25,Lima,Dashboard Corporativo,Licencias,Textiles Pima Norte S.A.C.,Ana Quispe,9,6878.91,61910.19
+2025-01-26,Arequipa,Modelo Predictivo,Consultoria,Frutas de Exportacion Olmos S.A.,Diego Fernandez,7,17088.22,119617.54
+2025-01-26,Lima,Capacitacion Analytics,Capacitacion,Clinica San Bernardo S.A.,Rosa Huaman,2,948.24,1896.48
+2025-01-28,Lima,Dashboard Corporativo,Licencias,Corporacion Avicola Piurana S.A.,Ana Quispe,7,3224.24,22569.68
+2025-01-28,Arequipa,Auditoria de Datos,Consultoria,Clinica San Bernardo S.A.,Ana Quispe,3,5881.98,17645.94
+2025-01-28,Trujillo,Modelo Predictivo,Consultoria,Financiera Credi Andes S.A.,Jorge Salazar,4,18253.84,73015.36
+2025-01-29,Arequipa,Integracion ERP,Consultoria,Supermercados Mi Barrio S.A.C.,Carlos Mendoza,1,7403.11,7403.11
+2025-01-30,Cusco,Capacitacion Analytics,Capacitacion,Turismo Machu Travel S.A.C.,Carlos Mendoza,2,1647.8,3295.6
+2025-02-03,Trujillo,Migracion Cloud,Consultoria,Editorial Amauta S.A.C.,Lucia Ramirez,7,26289.13,184023.91
+2025-02-04,Lima,Capacitacion Analytics,Capacitacion,Transportes Andino Express S.A.C.,Lucia Ramirez,6,943.81,5662.86
+2025-02-06,Lima,Capacitacion Analytics,Capacitacion,Agroindustrias Chavimochic S.A.,Rosa Huaman,1,546.18,546.18
+2025-02-07,Lima,Auditoria de Datos,Consultoria,Transportes Andino Express S.A.C.,Miguel Torres,6,8788.52,52731.12
+2025-02-11,Cusco,Dashboard Corporativo,Licencias,Alimentos Selva Verde S.A.C.,Rosa Huaman,10,7253.63,72536.3
+2025-02-14,Lima,Modelo Predictivo,Consultoria,Editorial Amauta S.A.C.,Miguel Torres,10,7257.86,72578.6
+2025-02-15,Piura,Migracion Cloud,Consultoria,Supermercados Mi Barrio S.A.C.,Miguel Torres,1,21025.27,21025.27
+2025-02-15,Trujillo,Dashboard Corporativo,Licencias,Gas Natural Altiplano S.A.C.,Jorge Salazar,10,4001.97,40019.7
+2025-02-15,Arequipa,Data Warehouse,Licencias,Energia Renovable Ica S.A.C.,Lucia Ramirez,2,25007.09,50014.18
+2025-02-15,Lima,Auditoria de Datos,Consultoria,Plasticos Industriales Ate S.A.C.,Diego Fernandez,7,5271.54,36900.78
+2025-02-15,Lima,Capacitacion Analytics,Capacitacion,Transportes Andino Express S.A.C.,Jorge Salazar,5,1411.23,7056.15
+2025-02-16,Lima,Dashboard Corporativo,Licencias,Agroindustrias Chavimochic S.A.,Ana Quispe,6,4084.39,24506.34
+2025-02-17,Lima,Dashboard Corporativo,Licencias,Banco Continental del Sur S.A.A.,Jorge Salazar,4,4882.7,19530.8
+2025-02-17,Arequipa,Capacitacion Analytics,Capacitacion,Servicios Portuarios Paita S.A.C.,Rosa Huaman,9,1444.31,12998.79
+2025-02-17,Piura,Integracion ERP,Consultoria,Agroindustrias Chavimochic S.A.,Diego Fernandez,8,12353.16,98825.28
+2025-02-18,Lima,Auditoria de Datos,Consultoria,Agroindustrias Chavimochic S.A.,Rosa Huaman,7,8476.46,59335.22
+2025-02-18,Lima,Data Warehouse,Licencias,Hoteles Cusco Imperial S.A.C.,Jorge Salazar,10,38058.91,380589.1
+2025-02-19,Lima,Dashboard Corporativo,Licencias,Frutas de Exportacion Olmos S.A.,Miguel Torres,3,3451.06,10353.18
+2025-02-19,Lima,Capacitacion Analytics,Capacitacion,Muebles Diseno Trujillo S.A.C.,Miguel Torres,1,1553.0,1553.0
+2025-02-20,Arequipa,Auditoria de Datos,Consultoria,Laboratorios Quimica Andina S.A.,Carlos Mendoza,4,3714.28,14857.12
+2025-02-20,Arequipa,Integracion ERP,Consultoria,Distribuidora Molina Hermanos S.A.C.,Carlos Mendoza,1,16041.48,16041.48
+2025-02-22,Arequipa,Capacitacion Analytics,Capacitacion,Telecom Peru Conecta S.A.C.,Lucia Ramirez,2,992.1,1984.2
+2025-02-22,Piura,Integracion ERP,Consultoria,Aceros del Rimac S.A.A.,Jorge Salazar,7,7968.81,55781.67
+2025-02-23,Arequipa,Migracion Cloud,Consultoria,Alimentos Selva Verde S.A.C.,Ana Quispe,6,11114.28,66685.68
+2025-02-23,Lima,Capacitacion Analytics,Capacitacion,Editorial Amauta S.A.C.,Diego Fernandez,1,1500.02,1500.02
+2025-02-24,Lima,Integracion ERP,Consultoria,Gas Natural Altiplano S.A.C.,Rosa Huaman,3,9889.55,29668.65
+2025-02-25,Arequipa,Modelo Predictivo,Consultoria,Textiles Pima Norte S.A.C.,Jorge Salazar,5,7641.04,38205.2
+2025-02-26,Arequipa,Migracion Cloud,Consultoria,Automotriz Lima Norte S.A.C.,Miguel Torres,9,13402.19,120619.71
+2025-02-27,Lima,Migracion Cloud,Consultoria,Plasticos Industriales Ate S.A.C.,Diego Fernandez,4,24931.84,99727.36
+2025-02-27,Arequipa,Integracion ERP,Consultoria,Telecom Peru Conecta S.A.C.,Miguel Torres,10,9035.53,90355.3
+2025-03-01,Lima,Dashboard Corporativo,Licencias,Servicios Portuarios Paita S.A.C.,Patricia Vargas,9,7118.18,64063.62
+2025-03-06,Arequipa,Auditoria de Datos,Consultoria,Energia Renovable Ica S.A.C.,Ana Quispe,8,10898.16,87185.28
+2025-03-07,Piura,Dashboard Corporativo,Licencias,Corporacion Avicola Piurana S.A.,Ana Quispe,1,2595.39,2595.39
+2025-03-08,Arequipa,Data Warehouse,Licencias,Laboratorios Quimica Andina S.A.,Lucia Ramirez,9,15551.66,139964.94
+2025-03-09,Cusco,Integracion ERP,Consultoria,Seguros Vida Andina S.A.,Carlos Mendoza,5,12797.61,63988.05
+2025-03-10,Lima,Data Warehouse,Licencias,Gas Natural Altiplano S.A.C.,Lucia Ramirez,3,20020.81,60062.43
+2025-03-17,Lima,Integracion ERP,Consultoria,Corporacion Avicola Piurana S.A.,Rosa Huaman,10,15534.5,155345.0
+2025-03-19,Arequipa,Integracion ERP,Consultoria,Clinica San Bernardo S.A.,Jorge Salazar,7,7196.19,50373.33
+2025-03-21,Cusco,Capacitacion Analytics,Capacitacion,Transportes Andino Express S.A.C.,Rosa Huaman,8,1719.59,13756.72
+2025-03-21,Lima,Capacitacion Analytics,Capacitacion,Consorcio Vial Sierra Sur S.A.,Diego Fernandez,2,919.35,1838.7
+2025-03-21,Trujillo,Integracion ERP,Consultoria,Cementos Huascaran S.A.A.,Carlos Mendoza,9,15706.44,141357.96
+2025-03-23,Trujillo,Capacitacion Analytics,Capacitacion,Cementos Huascaran S.A.A.,Carlos Mendoza,9,1157.14,10414.26
+2025-03-24,Arequipa,Auditoria de Datos,Consultoria,Molinos San Agustin S.A.A.,Carlos Mendoza,2,4821.31,9642.62
+2025-03-25,Cusco,Migracion Cloud,Consultoria,Molinos San Agustin S.A.A.,Lucia Ramirez,9,9876.66,88889.94
+2025-03-26,Lima,Migracion Cloud,Consultoria,Banco Continental del Sur S.A.A.,Lucia Ramirez,7,12576.31,88034.17
+2025-03-27,Lima,Capacitacion Analytics,Capacitacion,Alimentos Selva Verde S.A.C.,Rosa Huaman,3,1429.92,4289.76
+2025-03-28,Lima,Auditoria de Datos,Consultoria,Aceros del Rimac S.A.A.,Carlos Mendoza,8,3697.74,29581.92
+2025-03-28,Arequipa,Data Warehouse,Licencias,Cementos Huascaran S.A.A.,Rosa Huaman,8,37936.15,303489.2
+2025-03-29,Arequipa,Dashboard Corporativo,Licencias,Constructora Los Incas S.A.,Lucia Ramirez,4,7308.26,29233.04
+2025-03-29,Lima,Capacitacion Analytics,Capacitacion,Cementos Huascaran S.A.A.,Diego Fernandez,1,564.86,564.86
+2025-03-31,Trujillo,Auditoria de Datos,Consultoria,Molinos San Agustin S.A.A.,Jorge Salazar,3,10623.15,31869.45
+2025-03-31,Arequipa,Modelo Predictivo,Consultoria,Plasticos Industriales Ate S.A.C.,Patricia Vargas,5,19730.35,98651.75
+2025-04-01,Arequipa,Capacitacion Analytics,Capacitacion,Inmobiliaria Terra Nova S.A.C.,Carlos Mendoza,1,1242.34,1242.34
+2025-04-01,Arequipa,Auditoria de Datos,Consultoria,Textiles Pima Norte S.A.C.,Patricia Vargas,7,9977.43,69842.01
+2025-04-04,Lima,Capacitacion Analytics,Capacitacion,Pesquera Costa Azul S.A.C.,Lucia Ramirez,4,1553.29,6213.16
+2025-04-04,Lima,Auditoria de Datos,Consultoria,Telecom Peru Conecta S.A.C.,Carlos Mendoza,10,9692.79,96927.9
+2025-04-04,Lima,Data Warehouse,Licencias,Retail Plaza Sur S.A.C.,Patricia Vargas,9,23978.83,215809.47
+2025-04-06,Trujillo,Integracion ERP,Consultoria,Hoteles Cusco Imperial S.A.C.,Lucia Ramirez,10,14860.78,148607.8
+2025-04-07,Cusco,Integracion ERP,Consultoria,Inmobiliaria Terra Nova S.A.C.,Diego Fernandez,8,10554.45,84435.6
+2025-04-08,Cusco,Capacitacion Analytics,Capacitacion,Servicios Portuarios Paita S.A.C.,Carlos Mendoza,6,1326.71,7960.26
+2025-04-08,Lima,Migracion Cloud,Consultoria,Tecnologia Medica Vitalis S.A.C.,Miguel Torres,1,23106.89,23106.89
+2025-04-11,Trujillo,Migracion Cloud,Consultoria,Gas Natural Altiplano S.A.C.,Jorge Salazar,7,10491.07,73437.49
+2025-04-12,Lima,Capacitacion Analytics,Capacitacion,Automotriz Lima Norte S.A.C.,Miguel Torres,1,791.97,791.97
+2025-04-12,Lima,Dashboard Corporativo,Licencias,Supermercados Mi Barrio S.A.C.,Diego Fernandez,4,5130.96,20523.84
+2025-04-12,Piura,Capacitacion Analytics,Capacitacion,Molinos San Agustin S.A.A.,Lucia Ramirez,9,1111.42,10002.78
+2025-04-13,Cusco,Migracion Cloud,Consultoria,Aguas Cristalinas del Norte S.A.,Carlos Mendoza,9,27961.31,251651.79
+2025-04-14,Lima,Migracion Cloud,Consultoria,Seguros Vida Andina S.A.,Lucia Ramirez,4,12872.23,51488.92
+2025-04-15,Cusco,Modelo Predictivo,Consultoria,Supermercados Mi Barrio S.A.C.,Rosa Huaman,6,13259.44,79556.64
+2025-04-15,Trujillo,Dashboard Corporativo,Licencias,Consorcio Vial Sierra Sur S.A.,Rosa Huaman,10,6603.77,66037.7
+2025-04-16,Lima,Dashboard Corporativo,Licencias,Molinos San Agustin S.A.A.,Miguel Torres,7,6464.52,45251.64
+2025-04-16,Lima,Capacitacion Analytics,Capacitacion,Frutas de Exportacion Olmos S.A.,Ana Quispe,8,1260.14,10081.12
+2025-04-16,Trujillo,Capacitacion Analytics,Capacitacion,Seguros Vida Andina S.A.,Carlos Mendoza,10,927.7,9277.0
+2025-04-16,Cusco,Capacitacion Analytics,Capacitacion,Pesquera Costa Azul S.A.C.,Rosa Huaman,2,1370.05,2740.1
+2025-04-19,Lima,Capacitacion Analytics,Capacitacion,Frutas de Exportacion Olmos S.A.,Diego Fernandez,7,455.55,3188.85
+2025-04-21,Lima,Integracion ERP,Consultoria,Supermercados Mi Barrio S.A.C.,Patricia Vargas,9,14532.18,130789.62
+2025-04-21,Trujillo,Auditoria de Datos,Consultoria,Grupo Logistico Callao S.A.,Ana Quispe,3,6828.31,20484.93
+2025-04-23,Piura,Modelo Predictivo,Consultoria,Inmobiliaria Terra Nova S.A.C.,Rosa Huaman,10,12963.37,129633.7
+2025-04-23,Lima,Dashboard Corporativo,Licencias,Consorcio Vial Sierra Sur S.A.,Rosa Huaman,8,3399.54,27196.32
+2025-04-23,Arequipa,Data Warehouse,Licencias,Textiles Pima Norte S.A.C.,Carlos Mendoza,8,29122.07,232976.56
+2025-04-24,Cusco,Auditoria de Datos,Consultoria,Farmacias Salud Total S.A.C.,Patricia Vargas,4,6613.88,26455.52
+2025-04-26,Lima,Data Warehouse,Licencias,Tecnologia Medica Vitalis S.A.C.,Ana Quispe,6,15338.92,92033.52
+2025-04-28,Arequipa,Dashboard Corporativo,Licencias,Pesquera Costa Azul S.A.C.,Lucia Ramirez,7,2912.73,20389.11
+2025-04-29,Arequipa,Capacitacion Analytics,Capacitacion,Laboratorios Quimica Andina S.A.,Patricia Vargas,4,1176.31,4705.24
+2025-04-29,Arequipa,Dashboard Corporativo,Licencias,Automotriz Lima Norte S.A.C.,Ana Quispe,6,6712.03,40272.18
+2025-04-29,Cusco,Dashboard Corporativo,Licencias,Aguas Cristalinas del Norte S.A.,Rosa Huaman,5,5244.43,26222.15
+2025-04-30,Lima,Migracion Cloud,Consultoria,Clinica San Bernardo S.A.,Rosa Huaman,2,14994.55,29989.1
+2025-04-30,Trujillo,Migracion Cloud,Consultoria,Hoteles Cusco Imperial S.A.C.,Carlos Mendoza,9,16292.51,146632.59
+2025-05-01,Lima,Modelo Predictivo,Consultoria,Supermercados Mi Barrio S.A.C.,Diego Fernandez,3,13279.34,39838.02
+2025-05-02,Trujillo,Modelo Predictivo,Consultoria,Consorcio Vial Sierra Sur S.A.,Rosa Huaman,6,16256.62,97539.72
+2025-05-08,Cusco,Capacitacion Analytics,Capacitacion,Hoteles Cusco Imperial S.A.C.,Miguel Torres,10,631.89,6318.9
+2025-05-08,Lima,Integracion ERP,Consultoria,Banco Continental del Sur S.A.A.,Ana Quispe,3,6583.94,19751.82
+2025-05-08,Lima,Migracion Cloud,Consultoria,Transportes Andino Express S.A.C.,Carlos Mendoza,4,14589.51,58358.04
+2025-05-09,Cusco,Auditoria de Datos,Consultoria,Farmacias Salud Total S.A.C.,Jorge Salazar,9,4824.55,43420.95
+2025-05-10,Piura,Data Warehouse,Licencias,Molinos San Agustin S.A.A.,Diego Fernandez,3,35962.66,107887.98
+2025-05-10,Arequipa,Dashboard Corporativo,Licencias,Aceros del Rimac S.A.A.,Ana Quispe,4,4570.2,18280.8
+2025-05-11,Lima,Modelo Predictivo,Consultoria,Constructora Los Incas S.A.,Miguel Torres,7,14738.01,103166.07
+2025-05-13,Trujillo,Data Warehouse,Licencias,Servicios Portuarios Paita S.A.C.,Lucia Ramirez,6,30037.54,180225.24
+2025-05-14,Lima,Capacitacion Analytics,Capacitacion,Tecnologia Medica Vitalis S.A.C.,Diego Fernandez,1,584.82,584.82
+2025-05-14,Lima,Dashboard Corporativo,Licencias,Transportes Andino Express S.A.C.,Miguel Torres,1,5632.4,5632.4
+2025-05-14,Cusco,Capacitacion Analytics,Capacitacion,Muebles Diseno Trujillo S.A.C.,Patricia Vargas,2,495.24,990.48
+2025-05-15,Piura,Modelo Predictivo,Consultoria,Grupo Logistico Callao S.A.,Lucia Ramirez,2,17209.33,34418.66
+2025-05-16,Trujillo,Integracion ERP,Consultoria,Consorcio Vial Sierra Sur S.A.,Carlos Mendoza,1,10161.94,10161.94
+2025-05-16,Lima,Capacitacion Analytics,Capacitacion,Corporacion Avicola Piurana S.A.,Miguel Torres,8,462.06,3696.48
+2025-05-17,Lima,Dashboard Corporativo,Licencias,Financiera Credi Andes S.A.,Patricia Vargas,1,2780.19,2780.19
+2025-05-17,Arequipa,Modelo Predictivo,Consultoria,Hoteles Cusco Imperial S.A.C.,Ana Quispe,7,16117.08,112819.56
+2025-05-18,Trujillo,Auditoria de Datos,Consultoria,Consorcio Vial Sierra Sur S.A.,Rosa Huaman,8,7012.07,56096.56
+2025-05-20,Cusco,Dashboard Corporativo,Licencias,Hoteles Cusco Imperial S.A.C.,Patricia Vargas,3,5296.48,15889.44
+2025-05-20,Lima,Modelo Predictivo,Consultoria,Muebles Diseno Trujillo S.A.C.,Carlos Mendoza,4,10879.74,43518.96
+2025-05-21,Piura,Dashboard Corporativo,Licencias,Seguridad Integral Halcon S.A.C.,Lucia Ramirez,9,6635.05,59715.45
+2025-05-23,Piura,Data Warehouse,Licencias,Laboratorios Quimica Andina S.A.,Diego Fernandez,8,24622.15,196977.2
+2025-05-25,Cusco,Modelo Predictivo,Consultoria,Consorcio Vial Sierra Sur S.A.,Miguel Torres,8,8039.44,64315.52
+2025-05-27,Lima,Integracion ERP,Consultoria,Farmacias Salud Total S.A.C.,Patricia Vargas,7,12032.77,84229.39
+2025-05-27,Arequipa,Modelo Predictivo,Consultoria,Pesquera Costa Azul S.A.C.,Carlos Mendoza,2,13508.46,27016.92
+2025-05-27,Piura,Data Warehouse,Licencias,Muebles Diseno Trujillo S.A.C.,Carlos Mendoza,2,18551.62,37103.24
+2025-05-28,Lima,Capacitacion Analytics,Capacitacion,Aceros del Rimac S.A.A.,Ana Quispe,6,627.62,3765.72
+2025-05-30,Arequipa,Data Warehouse,Licencias,Agroindustrias Chavimochic S.A.,Jorge Salazar,7,39709.29,277965.03
+2025-05-30,Cusco,Modelo Predictivo,Consultoria,Banco Continental del Sur S.A.A.,Diego Fernandez,3,12414.78,37244.34
+2025-06-01,Piura,Auditoria de Datos,Consultoria,Pesquera Costa Azul S.A.C.,Lucia Ramirez,5,9826.6,49133.0
+2025-06-01,Trujillo,Modelo Predictivo,Consultoria,Constructora Los Incas S.A.,Ana Quispe,9,14972.42,134751.78
+2025-06-02,Lima,Modelo Predictivo,Consultoria,Banco Continental del Sur S.A.A.,Jorge Salazar,10,14568.02,145680.2
+2025-06-03,Arequipa,Integracion ERP,Consultoria,Cementos Huascaran S.A.A.,Ana Quispe,10,7480.0,74800.0
+2025-06-06,Lima,Dashboard Corporativo,Licencias,Inmobiliaria Terra Nova S.A.C.,Patricia Vargas,2,7168.84,14337.68
+2025-06-07,Piura,Migracion Cloud,Consultoria,Retail Plaza Sur S.A.C.,Miguel Torres,1,11837.09,11837.09
+2025-06-08,Cusco,Dashboard Corporativo,Licencias,Transportes Andino Express S.A.C.,Diego Fernandez,7,4001.67,28011.69
+2025-06-09,Trujillo,Capacitacion Analytics,Capacitacion,Aceros del Rimac S.A.A.,Lucia Ramirez,2,1391.79,2783.58
+2025-06-10,Lima,Integracion ERP,Consultoria,Clinica San Bernardo S.A.,Carlos Mendoza,2,14570.19,29140.38
+2025-06-11,Trujillo,Data Warehouse,Licencias,Clinica San Bernardo S.A.,Jorge Salazar,6,40562.49,243374.94
+2025-06-11,Piura,Dashboard Corporativo,Licencias,Editorial Amauta S.A.C.,Jorge Salazar,2,5335.22,10670.44
+2025-06-11,Arequipa,Modelo Predictivo,Consultoria,Consorcio Vial Sierra Sur S.A.,Jorge Salazar,3,10733.43,32200.29
+2025-06-12,Lima,Dashboard Corporativo,Licencias,Hoteles Cusco Imperial S.A.C.,Lucia Ramirez,2,2608.51,5217.02
+2025-06-12,Lima,Dashboard Corporativo,Licencias,Pesquera Costa Azul S.A.C.,Miguel Torres,1,3273.57,3273.57
+2025-06-15,Piura,Capacitacion Analytics,Capacitacion,Muebles Diseno Trujillo S.A.C.,Carlos Mendoza,6,1026.89,6161.34
+2025-06-16,Piura,Capacitacion Analytics,Capacitacion,Editorial Amauta S.A.C.,Rosa Huaman,2,1540.23,3080.46
+2025-06-16,Lima,Dashboard Corporativo,Licencias,Automotriz Lima Norte S.A.C.,Carlos Mendoza,6,5791.45,34748.7
+2025-06-16,Lima,Integracion ERP,Consultoria,Servicios Portuarios Paita S.A.C.,Patricia Vargas,10,6320.29,63202.9
+2025-06-18,Lima,Auditoria de Datos,Consultoria,Molinos San Agustin S.A.A.,Carlos Mendoza,4,6915.03,27660.12
+2025-06-19,Lima,Dashboard Corporativo,Licencias,Laboratorios Quimica Andina S.A.,Miguel Torres,7,4369.1,30583.7
+2025-06-20,Trujillo,Dashboard Corporativo,Licencias,Editorial Amauta S.A.C.,Ana Quispe,8,5883.59,47068.72
+2025-06-21,Lima,Data Warehouse,Licencias,Grupo Logistico Callao S.A.,Jorge Salazar,2,18706.33,37412.66
+2025-06-21,Cusco,Auditoria de Datos,Consultoria,Minera Cerro Verde Andino S.A.,Miguel Torres,10,9443.23,94432.3
+2025-06-23,Lima,Capacitacion Analytics,Capacitacion,Servicios Portuarios Paita S.A.C.,Rosa Huaman,2,1651.19,3302.38
+2025-06-23,Arequipa,Capacitacion Analytics,Capacitacion,Textiles Pima Norte S.A.C.,Carlos Mendoza,9,756.07,6804.63
+2025-06-23,Lima,Dashboard Corporativo,Licencias,Gas Natural Altiplano S.A.C.,Carlos Mendoza,7,3158.98,22112.86
+2025-06-24,Cusco,Capacitacion Analytics,Capacitacion,Servicios Portuarios Paita S.A.C.,Jorge Salazar,5,1331.25,6656.25
+2025-06-24,Lima,Dashboard Corporativo,Licencias,Financiera Credi Andes S.A.,Ana Quispe,10,5943.27,59432.7
+2025-06-24,Cusco,Capacitacion Analytics,Capacitacion,Agroindustrias Chavimochic S.A.,Rosa Huaman,9,887.3,7985.7
+2025-06-25,Piura,Capacitacion Analytics,Capacitacion,Transportes Andino Express S.A.C.,Carlos Mendoza,1,1021.78,1021.78
+2025-06-25,Lima,Capacitacion Analytics,Capacitacion,Banco Continental del Sur S.A.A.,Rosa Huaman,10,1295.71,12957.1
+2025-06-26,Lima,Auditoria de Datos,Consultoria,Tecnologia Medica Vitalis S.A.C.,Lucia Ramirez,8,8610.82,68886.56
+2025-06-27,Cusco,Auditoria de Datos,Consultoria,Muebles Diseno Trujillo S.A.C.,Diego Fernandez,9,8172.09,73548.81
+2025-06-27,Lima,Dashboard Corporativo,Licencias,Consorcio Vial Sierra Sur S.A.,Patricia Vargas,3,6011.11,18033.33
+2025-06-29,Lima,Migracion Cloud,Consultoria,Inmobiliaria Terra Nova S.A.C.,Carlos Mendoza,1,16491.1,16491.1
+2025-07-02,Trujillo,Modelo Predictivo,Consultoria,Aceros del Rimac S.A.A.,Carlos Mendoza,2,14720.4,29440.8
+2025-07-03,Arequipa,Capacitacion Analytics,Capacitacion,Muebles Diseno Trujillo S.A.C.,Jorge Salazar,1,1008.72,1008.72
+2025-07-06,Arequipa,Auditoria de Datos,Consultoria,Aguas Cristalinas del Norte S.A.,Rosa Huaman,2,3813.7,7627.4
+2025-07-07,Lima,Dashboard Corporativo,Licencias,Financiera Credi Andes S.A.,Carlos Mendoza,8,4714.8,37718.4
+2025-07-08,Lima,Migracion Cloud,Consultoria,Editorial Amauta S.A.C.,Diego Fernandez,3,27915.67,83747.01
+2025-07-10,Lima,Migracion Cloud,Consultoria,Automotriz Lima Norte S.A.C.,Rosa Huaman,4,27765.39,111061.56
+2025-07-11,Piura,Modelo Predictivo,Consultoria,Plasticos Industriales Ate S.A.C.,Jorge Salazar,3,12801.36,38404.08
+2025-07-11,Trujillo,Auditoria de Datos,Consultoria,Minera Cerro Verde Andino S.A.,Rosa Huaman,8,5335.35,42682.8
+2025-07-12,Cusco,Migracion Cloud,Consultoria,Laboratorios Quimica Andina S.A.,Rosa Huaman,2,18055.44,36110.88
+2025-07-13,Lima,Migracion Cloud,Consultoria,Telecom Peru Conecta S.A.C.,Diego Fernandez,5,14408.86,72044.3
+2025-07-17,Lima,Integracion ERP,Consultoria,Financiera Credi Andes S.A.,Jorge Salazar,7,10191.78,71342.46
+2025-07-18,Cusco,Integracion ERP,Consultoria,Laboratorios Quimica Andina S.A.,Ana Quispe,5,12573.43,62867.15
+2025-07-18,Lima,Capacitacion Analytics,Capacitacion,Seguridad Integral Halcon S.A.C.,Carlos Mendoza,5,1150.25,5751.25
+2025-07-18,Arequipa,Capacitacion Analytics,Capacitacion,Corporacion Avicola Piurana S.A.,Diego Fernandez,10,1331.92,13319.2
+2025-07-18,Lima,Integracion ERP,Consultoria,Gas Natural Altiplano S.A.C.,Lucia Ramirez,8,10446.17,83569.36
+2025-07-20,Arequipa,Integracion ERP,Consultoria,Seguros Vida Andina S.A.,Diego Fernandez,6,7316.15,43896.9
+2025-07-20,Trujillo,Data Warehouse,Licencias,Transportes Andino Express S.A.C.,Ana Quispe,7,25403.4,177823.8
+2025-07-20,Cusco,Data Warehouse,Licencias,Hoteles Cusco Imperial S.A.C.,Ana Quispe,4,15719.6,62878.4
+2025-07-20,Piura,Dashboard Corporativo,Licencias,Tecnologia Medica Vitalis S.A.C.,Lucia Ramirez,1,4971.48,4971.48
+2025-07-20,Lima,Integracion ERP,Consultoria,Cerveceria Del Valle S.A.C.,Ana Quispe,10,7696.94,76969.4
+2025-07-21,Piura,Dashboard Corporativo,Licencias,Clinica San Bernardo S.A.,Patricia Vargas,10,3160.95,31609.5
+2025-07-21,Arequipa,Dashboard Corporativo,Licencias,Cerveceria Del Valle S.A.C.,Diego Fernandez,10,3580.7,35807.0
+2025-07-23,Lima,Auditoria de Datos,Consultoria,Alimentos Selva Verde S.A.C.,Diego Fernandez,3,9325.79,27977.37
+2025-07-24,Arequipa,Auditoria de Datos,Consultoria,Energia Renovable Ica S.A.C.,Diego Fernandez,3,9496.52,28489.56
+2025-07-24,Piura,Dashboard Corporativo,Licencias,Turismo Machu Travel S.A.C.,Diego Fernandez,8,4796.84,38374.72
+2025-07-24,Arequipa,Auditoria de Datos,Consultoria,Grupo Logistico Callao S.A.,Rosa Huaman,2,8633.58,17267.16
+2025-07-25,Trujillo,Modelo Predictivo,Consultoria,Corporacion Avicola Piurana S.A.,Rosa Huaman,1,17807.54,17807.54
+2025-07-27,Trujillo,Integracion ERP,Consultoria,Automotriz Lima Norte S.A.C.,Ana Quispe,1,7705.28,7705.28
+2025-07-28,Arequipa,Modelo Predictivo,Consultoria,Alimentos Selva Verde S.A.C.,Carlos Mendoza,2,16109.06,32218.12
+2025-07-29,Arequipa,Dashboard Corporativo,Licencias,Hoteles Cusco Imperial S.A.C.,Miguel Torres,6,7159.22,42955.32
+2025-07-30,Arequipa,Dashboard Corporativo,Licencias,Seguridad Integral Halcon S.A.C.,Rosa Huaman,9,7166.25,64496.25
+2025-07-30,Lima,Migracion Cloud,Consultoria,Seguridad Integral Halcon S.A.C.,Ana Quispe,4,24531.4,98125.6
+2025-07-31,Lima,Dashboard Corporativo,Licencias,Banco Continental del Sur S.A.A.,Carlos Mendoza,6,4261.62,25569.72
+2025-08-02,Lima,Auditoria de Datos,Consultoria,Minera Cerro Verde Andino S.A.,Diego Fernandez,9,8122.37,73101.33
+2025-08-03,Trujillo,Dashboard Corporativo,Licencias,Clinica San Bernardo S.A.,Diego Fernandez,9,7131.75,64185.75
+2025-08-03,Lima,Modelo Predictivo,Consultoria,Inmobiliaria Terra Nova S.A.C.,Patricia Vargas,10,11356.43,113564.3
+2025-08-04,Lima,Auditoria de Datos,Consultoria,Molinos San Agustin S.A.A.,Rosa Huaman,3,5211.63,15634.89
+2025-08-04,Lima,Capacitacion Analytics,Capacitacion,Banco Continental del Sur S.A.A.,Miguel Torres,1,1310.63,1310.63
+2025-08-05,Trujillo,Capacitacion Analytics,Capacitacion,Seguridad Integral Halcon S.A.C.,Jorge Salazar,2,1153.54,2307.08
+2025-08-08,Lima,Data Warehouse,Licencias,Gas Natural Altiplano S.A.C.,Lucia Ramirez,4,32337.94,129351.76
+2025-08-09,Lima,Integracion ERP,Consultoria,Turismo Machu Travel S.A.C.,Carlos Mendoza,5,12775.97,63879.85
+2025-08-09,Lima,Dashboard Corporativo,Licencias,Agroindustrias Chavimochic S.A.,Miguel Torres,5,7120.69,35603.45
+2025-08-09,Lima,Auditoria de Datos,Consultoria,Agroindustrias Chavimochic S.A.,Ana Quispe,4,8035.34,32141.36
+2025-08-10,Cusco,Modelo Predictivo,Consultoria,Turismo Machu Travel S.A.C.,Miguel Torres,10,18307.22,183072.2
+2025-08-10,Lima,Capacitacion Analytics,Capacitacion,Pesquera Costa Azul S.A.C.,Jorge Salazar,1,1760.23,1760.23
+2025-08-10,Lima,Dashboard Corporativo,Licencias,Gas Natural Altiplano S.A.C.,Carlos Mendoza,1,3834.31,3834.31
+2025-08-10,Arequipa,Data Warehouse,Licencias,Automotriz Lima Norte S.A.C.,Jorge Salazar,6,31004.55,186027.3
+2025-08-12,Lima,Auditoria de Datos,Consultoria,Editorial Amauta S.A.C.,Carlos Mendoza,8,5439.94,43519.52
+2025-08-14,Lima,Integracion ERP,Consultoria,Textiles Pima Norte S.A.C.,Patricia Vargas,8,6785.23,54281.84
+2025-08-15,Lima,Dashboard Corporativo,Licencias,Textiles Pima Norte S.A.C.,Lucia Ramirez,1,4403.51,4403.51
+2025-08-16,Cusco,Integracion ERP,Consultoria,Distribuidora Molina Hermanos S.A.C.,Ana Quispe,6,13299.04,79794.24
+2025-08-17,Lima,Capacitacion Analytics,Capacitacion,Transportes Andino Express S.A.C.,Jorge Salazar,9,1707.5,15367.5
+2025-08-17,Cusco,Capacitacion Analytics,Capacitacion,Hoteles Cusco Imperial S.A.C.,Ana Quispe,2,1249.42,2498.84
+2025-08-19,Arequipa,Dashboard Corporativo,Licencias,Financiera Credi Andes S.A.,Ana Quispe,2,6482.43,12964.86
+2025-08-19,Arequipa,Capacitacion Analytics,Capacitacion,Grupo Logistico Callao S.A.,Ana Quispe,10,1252.29,12522.9
+2025-08-20,Lima,Integracion ERP,Consultoria,Retail Plaza Sur S.A.C.,Lucia Ramirez,6,12020.76,72124.56
+2025-08-20,Lima,Migracion Cloud,Consultoria,Molinos San Agustin S.A.A.,Carlos Mendoza,3,18982.43,56947.29
+2025-08-21,Arequipa,Integracion ERP,Consultoria,Constructora Los Incas S.A.,Carlos Mendoza,4,7739.94,30959.76
+2025-08-21,Lima,Capacitacion Analytics,Capacitacion,Inversiones Miraflores S.A.C.,Jorge Salazar,6,1636.21,9817.26
+2025-08-21,Lima,Modelo Predictivo,Consultoria,Turismo Machu Travel S.A.C.,Patricia Vargas,1,19833.46,19833.46
+2025-08-23,Trujillo,Integracion ERP,Consultoria,Telecom Peru Conecta S.A.C.,Miguel Torres,10,6002.03,60020.3
+2025-08-25,Arequipa,Dashboard Corporativo,Licencias,Cerveceria Del Valle S.A.C.,Miguel Torres,5,3541.31,17706.55
+2025-08-26,Lima,Dashboard Corporativo,Licencias,Supermercados Mi Barrio S.A.C.,Patricia Vargas,10,4209.56,42095.6
+2025-08-26,Lima,Integracion ERP,Consultoria,Grupo Logistico Callao S.A.,Rosa Huaman,5,14794.09,73970.45
+2025-08-26,Trujillo,Auditoria de Datos,Consultoria,Seguridad Integral Halcon S.A.C.,Jorge Salazar,5,7250.41,36252.05
+2025-08-27,Arequipa,Dashboard Corporativo,Licencias,Banco Continental del Sur S.A.A.,Rosa Huaman,9,6387.09,57483.81
+2025-08-27,Arequipa,Dashboard Corporativo,Licencias,Constructora Los Incas S.A.,Patricia Vargas,10,3637.14,36371.4
+2025-08-27,Lima,Modelo Predictivo,Consultoria,Banco Continental del Sur S.A.A.,Miguel Torres,4,17229.96,68919.84
+2025-08-30,Piura,Integracion ERP,Consultoria,Servicios Portuarios Paita S.A.C.,Jorge Salazar,9,9353.01,84177.09
+2025-08-31,Lima,Capacitacion Analytics,Capacitacion,Farmacias Salud Total S.A.C.,Rosa Huaman,1,982.92,982.92
+2025-08-31,Lima,Integracion ERP,Consultoria,Turismo Machu Travel S.A.C.,Rosa Huaman,8,9187.61,73500.88
+2025-09-02,Piura,Capacitacion Analytics,Capacitacion,Consorcio Vial Sierra Sur S.A.,Ana Quispe,5,783.16,3915.8
+2025-09-03,Lima,Data Warehouse,Licencias,Muebles Diseno Trujillo S.A.C.,Miguel Torres,5,44909.19,224545.95
+2025-09-03,Lima,Migracion Cloud,Consultoria,Pesquera Costa Azul S.A.C.,Patricia Vargas,1,9826.16,9826.16
+2025-09-05,Piura,Dashboard Corporativo,Licencias,Agroindustrias Chavimochic S.A.,Diego Fernandez,8,4420.44,35363.52
+2025-09-07,Trujillo,Capacitacion Analytics,Capacitacion,Transportes Andino Express S.A.C.,Diego Fernandez,5,1419.81,7099.05
+2025-09-12,Piura,Integracion ERP,Consultoria,Consorcio Vial Sierra Sur S.A.,Rosa Huaman,6,8185.96,49115.76
+2025-09-13,Piura,Auditoria de Datos,Consultoria,Hoteles Cusco Imperial S.A.C.,Ana Quispe,10,4084.21,40842.1
+2025-09-15,Arequipa,Auditoria de Datos,Consultoria,Gas Natural Altiplano S.A.C.,Diego Fernandez,9,7519.14,67672.26
+2025-09-16,Trujillo,Dashboard Corporativo,Licencias,Seguros Vida Andina S.A.,Rosa Huaman,7,3618.97,25332.79
+2025-09-17,Lima,Dashboard Corporativo,Licencias,Financiera Credi Andes S.A.,Patricia Vargas,6,5559.91,33359.46
+2025-09-18,Cusco,Auditoria de Datos,Consultoria,Financiera Credi Andes S.A.,Ana Quispe,9,6668.47,60016.23
+2025-09-18,Lima,Migracion Cloud,Consultoria,Hoteles Cusco Imperial S.A.C.,Patricia Vargas,4,18444.03,73776.12
+2025-09-19,Trujillo,Integracion ERP,Consultoria,Gas Natural Altiplano S.A.C.,Patricia Vargas,5,6493.65,32468.25
+2025-09-19,Piura,Dashboard Corporativo,Licencias,Universidad Tecnologica del Pacifico,Patricia Vargas,2,3378.15,6756.3
+2025-09-21,Lima,Data Warehouse,Licencias,Supermercados Mi Barrio S.A.C.,Diego Fernandez,2,21984.31,43968.62
+2025-09-21,Lima,Capacitacion Analytics,Capacitacion,Constructora Los Incas S.A.,Diego Fernandez,5,1312.0,6560.0
+2025-09-21,Lima,Integracion ERP,Consultoria,Pesquera Costa Azul S.A.C.,Miguel Torres,8,13261.1,106088.8
+2025-09-22,Arequipa,Migracion Cloud,Consultoria,Gas Natural Altiplano S.A.C.,Jorge Salazar,1,13393.09,13393.09
+2025-09-23,Arequipa,Auditoria de Datos,Consultoria,Alimentos Selva Verde S.A.C.,Jorge Salazar,10,3814.95,38149.5
+2025-09-25,Piura,Data Warehouse,Licencias,Energia Renovable Ica S.A.C.,Patricia Vargas,6,15966.89,95801.34
+2025-09-26,Cusco,Capacitacion Analytics,Capacitacion,Tecnologia Medica Vitalis S.A.C.,Miguel Torres,10,461.25,4612.5
+2025-09-26,Arequipa,Modelo Predictivo,Consultoria,Farmacias Salud Total S.A.C.,Carlos Mendoza,10,18597.76,185977.6
+2025-09-27,Cusco,Migracion Cloud,Consultoria,Molinos San Agustin S.A.A.,Rosa Huaman,4,25110.98,100443.92
+2025-09-27,Lima,Capacitacion Analytics,Capacitacion,Supermercados Mi Barrio S.A.C.,Carlos Mendoza,1,1220.87,1220.87
+2025-09-27,Trujillo,Dashboard Corporativo,Licencias,Frutas de Exportacion Olmos S.A.,Patricia Vargas,2,4124.48,8248.96
+2025-09-29,Lima,Auditoria de Datos,Consultoria,Telecom Peru Conecta S.A.C.,Carlos Mendoza,3,5858.75,17576.25
+2025-09-29,Piura,Migracion Cloud,Consultoria,Constructora Los Incas S.A.,Ana Quispe,1,22363.73,22363.73
+2025-09-30,Lima,Dashboard Corporativo,Licencias,Turismo Machu Travel S.A.C.,Ana Quispe,4,4556.26,18225.04
+2025-10-02,Arequipa,Integracion ERP,Consultoria,Seguros Vida Andina S.A.,Diego Fernandez,10,10453.53,104535.3
+2025-10-02,Lima,Data Warehouse,Licencias,Muebles Diseno Trujillo S.A.C.,Patricia Vargas,1,28640.5,28640.5
+2025-10-04,Lima,Migracion Cloud,Consultoria,Inmobiliaria Terra Nova S.A.C.,Lucia Ramirez,4,16194.89,64779.56
+2025-10-04,Lima,Capacitacion Analytics,Capacitacion,Clinica San Bernardo S.A.,Carlos Mendoza,8,1271.94,10175.52
+2025-10-05,Cusco,Capacitacion Analytics,Capacitacion,Cementos Huascaran S.A.A.,Miguel Torres,9,1036.88,9331.92
+2025-10-07,Trujillo,Capacitacion Analytics,Capacitacion,Hoteles Cusco Imperial S.A.C.,Rosa Huaman,4,659.62,2638.48
+2025-10-08,Piura,Dashboard Corporativo,Licencias,Automotriz Lima Norte S.A.C.,Carlos Mendoza,3,2838.33,8514.99
+2025-10-09,Arequipa,Modelo Predictivo,Consultoria,Alimentos Selva Verde S.A.C.,Lucia Ramirez,7,12189.49,85326.43
+2025-10-09,Lima,Capacitacion Analytics,Capacitacion,Hoteles Cusco Imperial S.A.C.,Carlos Mendoza,8,1113.45,8907.6
+2025-10-11,Lima,Integracion ERP,Consultoria,Consorcio Vial Sierra Sur S.A.,Diego Fernandez,4,12703.46,50813.84
+2025-10-11,Lima,Data Warehouse,Licencias,Editorial Amauta S.A.C.,Miguel Torres,10,30708.84,307088.4
+2025-10-14,Lima,Dashboard Corporativo,Licencias,Laboratorios Quimica Andina S.A.,Diego Fernandez,6,4257.2,25543.2
+2025-10-16,Piura,Modelo Predictivo,Consultoria,Distribuidora Molina Hermanos S.A.C.,Diego Fernandez,7,14705.83,102940.81
+2025-10-17,Lima,Modelo Predictivo,Consultoria,Farmacias Salud Total S.A.C.,Ana Quispe,10,13586.97,135869.7
+2025-10-17,Cusco,Modelo Predictivo,Consultoria,Consorcio Vial Sierra Sur S.A.,Rosa Huaman,3,16653.6,49960.8
+2025-10-19,Arequipa,Integracion ERP,Consultoria,Laboratorios Quimica Andina S.A.,Patricia Vargas,3,13282.25,39846.75
+2025-10-21,Cusco,Modelo Predictivo,Consultoria,Corporacion Avicola Piurana S.A.,Patricia Vargas,8,11926.21,95409.68
+2025-10-22,Lima,Integracion ERP,Consultoria,Pesquera Costa Azul S.A.C.,Rosa Huaman,9,12203.83,109834.47
+2025-10-24,Lima,Capacitacion Analytics,Capacitacion,Telecom Peru Conecta S.A.C.,Patricia Vargas,9,1512.89,13616.01
+2025-10-25,Lima,Capacitacion Analytics,Capacitacion,Textiles Pima Norte S.A.C.,Ana Quispe,5,1626.93,8134.65
+2025-10-26,Cusco,Integracion ERP,Consultoria,Servicios Portuarios Paita S.A.C.,Jorge Salazar,7,12876.46,90135.22
+2025-10-30,Arequipa,Auditoria de Datos,Consultoria,Corporacion Avicola Piurana S.A.,Miguel Torres,6,6112.31,36673.86
+2025-10-31,Cusco,Dashboard Corporativo,Licencias,Cerveceria Del Valle S.A.C.,Carlos Mendoza,9,7295.74,65661.66
+2025-11-01,Lima,Auditoria de Datos,Consultoria,Alimentos Selva Verde S.A.C.,Diego Fernandez,5,4240.65,21203.25
+2025-11-02,Trujillo,Capacitacion Analytics,Capacitacion,Clinica San Bernardo S.A.,Jorge Salazar,4,450.97,1803.88
+2025-11-02,Cusco,Capacitacion Analytics,Capacitacion,Constructora Los Incas S.A.,Ana Quispe,9,1431.56,12884.04
+2025-11-04,Lima,Capacitacion Analytics,Capacitacion,Laboratorios Quimica Andina S.A.,Lucia Ramirez,3,1441.26,4323.78
+2025-11-05,Lima,Capacitacion Analytics,Capacitacion,Seguridad Integral Halcon S.A.C.,Patricia Vargas,9,1313.36,11820.24
+2025-11-05,Lima,Dashboard Corporativo,Licencias,Aceros del Rimac S.A.A.,Rosa Huaman,3,5198.34,15595.02
+2025-11-05,Trujillo,Dashboard Corporativo,Licencias,Editorial Amauta S.A.C.,Ana Quispe,8,4447.83,35582.64
+2025-11-06,Cusco,Modelo Predictivo,Consultoria,Universidad Tecnologica del Pacifico,Rosa Huaman,2,17289.06,34578.12
+2025-11-06,Lima,Auditoria de Datos,Consultoria,Energia Renovable Ica S.A.C.,Lucia Ramirez,10,5603.45,56034.5
+2025-11-08,Lima,Capacitacion Analytics,Capacitacion,Turismo Machu Travel S.A.C.,Jorge Salazar,3,854.11,2562.33
+2025-11-09,Cusco,Auditoria de Datos,Consultoria,Cerveceria Del Valle S.A.C.,Rosa Huaman,9,5468.39,49215.51
+2025-11-09,Lima,Integracion ERP,Consultoria,Minera Cerro Verde Andino S.A.,Miguel Torres,10,8794.98,87949.8
+2025-11-12,Lima,Capacitacion Analytics,Capacitacion,Inversiones Miraflores S.A.C.,Diego Fernandez,6,465.44,2792.64
+2025-11-13,Lima,Capacitacion Analytics,Capacitacion,Transportes Andino Express S.A.C.,Jorge Salazar,8,1559.62,12476.96
+2025-11-18,Trujillo,Dashboard Corporativo,Licencias,Energia Renovable Ica S.A.C.,Carlos Mendoza,2,3845.98,7691.96
+2025-11-19,Piura,Data Warehouse,Licencias,Aguas Cristalinas del Norte S.A.,Carlos Mendoza,8,25013.77,200110.16
+2025-11-21,Lima,Modelo Predictivo,Consultoria,Telecom Peru Conecta S.A.C.,Jorge Salazar,10,14019.09,140190.9
+2025-11-24,Trujillo,Auditoria de Datos,Consultoria,Muebles Diseno Trujillo S.A.C.,Diego Fernandez,10,3996.02,39960.2
+2025-11-25,Lima,Capacitacion Analytics,Capacitacion,Universidad Tecnologica del Pacifico,Diego Fernandez,9,1374.26,12368.34
+2025-11-26,Lima,Modelo Predictivo,Consultoria,Frutas de Exportacion Olmos S.A.,Miguel Torres,4,9549.29,38197.16
+2025-11-27,Piura,Auditoria de Datos,Consultoria,Aguas Cristalinas del Norte S.A.,Rosa Huaman,5,9426.47,47132.35
+2025-11-28,Lima,Integracion ERP,Consultoria,Gas Natural Altiplano S.A.C.,Lucia Ramirez,4,11320.29,45281.16
+2025-11-30,Cusco,Capacitacion Analytics,Capacitacion,Plasticos Industriales Ate S.A.C.,Lucia Ramirez,1,930.14,930.14
+2025-12-03,Trujillo,Dashboard Corporativo,Licencias,Corporacion Avicola Piurana S.A.,Diego Fernandez,9,3229.09,29061.81
+2025-12-04,Cusco,Capacitacion Analytics,Capacitacion,Pesquera Costa Azul S.A.C.,Patricia Vargas,1,699.41,699.41
+2025-12-06,Lima,Auditoria de Datos,Consultoria,Muebles Diseno Trujillo S.A.C.,Rosa Huaman,7,10239.97,71679.79
+2025-12-06,Cusco,Dashboard Corporativo,Licencias,Plasticos Industriales Ate S.A.C.,Carlos Mendoza,5,4047.59,20237.95
+2025-12-10,Cusco,Data Warehouse,Licencias,Agroindustrias Chavimochic S.A.,Jorge Salazar,2,16636.4,33272.8
+2025-12-13,Lima,Capacitacion Analytics,Capacitacion,Inversiones Miraflores S.A.C.,Ana Quispe,8,1428.17,11425.36
+2025-12-16,Lima,Migracion Cloud,Consultoria,Pesquera Costa Azul S.A.C.,Jorge Salazar,2,16404.74,32809.48
+2025-12-19,Trujillo,Migracion Cloud,Consultoria,Clinica San Bernardo S.A.,Jorge Salazar,5,25347.01,126735.05
+2025-12-19,Cusco,Auditoria de Datos,Consultoria,Clinica San Bernardo S.A.,Rosa Huaman,3,6406.18,19218.54
+2025-12-22,Cusco,Dashboard Corporativo,Licencias,Banco Continental del Sur S.A.A.,Diego Fernandez,3,4017.86,12053.58
+2025-12-23,Lima,Modelo Predictivo,Consultoria,Alimentos Selva Verde S.A.C.,Miguel Torres,8,7777.08,62216.64
+2025-12-23,Arequipa,Dashboard Corporativo,Licencias,Automotriz Lima Norte S.A.C.,Diego Fernandez,4,2947.97,11791.88
+2025-12-23,Lima,Migracion Cloud,Consultoria,Constructora Los Incas S.A.,Lucia Ramirez,3,18892.33,56676.99
+2025-12-23,Lima,Migracion Cloud,Consultoria,Frutas de Exportacion Olmos S.A.,Jorge Salazar,2,11471.41,22942.82
+2025-12-23,Lima,Modelo Predictivo,Consultoria,Corporacion Avicola Piurana S.A.,Patricia Vargas,9,12659.6,113936.4
+2025-12-26,Cusco,Migracion Cloud,Consultoria,Aceros del Rimac S.A.A.,Rosa Huaman,5,16099.23,80496.15
+2025-12-27,Lima,Auditoria de Datos,Consultoria,Financiera Credi Andes S.A.,Miguel Torres,2,10614.51,21229.02
+2025-12-28,Trujillo,Capacitacion Analytics,Capacitacion,Telecom Peru Conecta S.A.C.,Carlos Mendoza,6,871.85,5231.1
+2025-12-29,Lima,Integracion ERP,Consultoria,Agroindustrias Chavimochic S.A.,Miguel Torres,7,15337.91,107365.37
+2025-12-29,Lima,Modelo Predictivo,Consultoria,Universidad Tecnologica del Pacifico,Carlos Mendoza,5,8294.85,41474.25
+2025-12-29,Lima,Integracion ERP,Consultoria,Energia Renovable Ica S.A.C.,Lucia Ramirez,4,7488.37,29953.48
