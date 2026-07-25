@@ -262,7 +262,10 @@ agente-ia-andes-data/
 │   ├── config.py               # Rutas, nombres de modelo, API key y parámetros del RAG
 │   ├── ingest.py               # Fase offline: PDF -> chunks -> embeddings -> FAISS
 │   ├── tools.py                # Las dos herramientas: buscar_politicas y consultar_ventas
-│   └── agent.py                # Ensamblado: modelo + herramientas + instrucciones
+│   ├── agent.py                # Ensamblado: modelo + herramientas + instrucciones
+│   └── uso.py                  # Contador local de consumo de la API (peticiones y tokens)
+│
+├── docs/                       # Capturas de pantalla para este README
 │
 ├── scripts/
 │   ├── generar_datos.py        # Genera el PDF y el CSV ficticios (semilla 42)
@@ -280,11 +283,13 @@ agente-ia-andes-data/
 
 ## 8. Capturas de pantalla
 
-![Consulta sobre políticas internas](docs/capturas/chat-politicas.png)
-*El agente responde una pregunta normativa usando `buscar_politicas` y cita la página del manual.*
+![Consulta sobre políticas internas](docs/chat-politicas.png)
+*Pregunta normativa. El agente eligió `buscar_politicas`, respondió y citó la página del manual.*
 
-![Consulta sobre el histórico de ventas](docs/capturas/chat-ventas.png)
-*El agente responde una pregunta numérica usando `consultar_ventas`, calculando sobre el CSV con pandas.*
+![Consulta sobre el histórico de ventas](docs/chat-ventas.png)
+*Pregunta numérica. El mismo agente eligió `consultar_ventas` y calculó el resultado sobre el CSV con pandas.*
+
+Obsérvese la línea **«Herramientas usadas»** al pie de cada respuesta: es la misma aplicación resolviendo dos preguntas por caminos completamente distintos, sin que nadie se lo indique. Esa decisión es el núcleo del proyecto.
 
 ---
 
@@ -322,7 +327,8 @@ Streamlit vuelve a ejecutar el script completo en cada interacción del usuario.
 - **`consultar_ventas` ejecuta código Python generado por el LLM.** El espacio de nombres se restringe a `df` y `pd`, y la salida se trunca para no inundar el prompt, pero **no es un sandbox real**. Es aceptable para uso local sobre datos propios; no debería exponerse a usuarios no confiables en internet sin aislamiento adicional (contenedor, intérprete restringido o servicio de ejecución externo).
 - **El agente no tiene memoria persistente entre sesiones.** El historial de la conversación se mantiene dentro de la sesión de Streamlit y se pierde al recargar la página o reiniciar el servidor.
 - **Los documentos son fijos.** No se pueden cargar archivos nuevos desde la interfaz: para cambiar las fuentes hay que reemplazar los archivos en `data/` y volver a ejecutar la ingesta.
-- **La capa gratuita de Gemini tiene un cupo diario por modelo.** Cada pregunta consume entre 2 y 3 llamadas a la API, así que un uso intensivo puede agotarlo y producir un error `429 RESOURCE_EXHAUSTED`. No es un fallo del proyecto: la cuota se renueva cada día y se aplica por modelo, de modo que cambiar `MODELO_LLM` en el `.env` por otro modelo disponible lo resuelve de inmediato (ver sección 9).
+- **La capa gratuita de Gemini tiene un cupo diario por modelo.** Cada pregunta consume entre 2 y 3 llamadas a la API, así que un uso intensivo puede agotarlo y producir un error `429 RESOURCE_EXHAUSTED`. No es un fallo del proyecto: la cuota se renueva cada día y se aplica por modelo, de modo que cambiar `MODELO_LLM` en el `.env` por otro modelo disponible lo resuelve de inmediato (ver sección 9). La aplicación detecta ese error concreto y, en lugar de mostrar una traza, explica qué pasó y cómo continuar.
+- **El contador de consumo de la barra lateral es local, no oficial.** `src/uso.py` acumula en `.uso_api.json` las peticiones y los tokens que ha gastado *esta* aplicación, agrupados por día. Es útil para anticipar el límite antes de chocar con él, pero **no es el saldo de la cuenta**: la API de Gemini no expone ningún endpoint de cuota restante, y las llamadas hechas con la misma clave desde otro programa no aparecen aquí. El dato oficial está en [ai.dev/rate-limit](https://ai.dev/rate-limit).
 - **`langchain-community` emite un `DeprecationWarning`** al importarse. El paquete está siendo descontinuado en favor de paquetes independientes por integración. No afecta al funcionamiento actual.
 
 ---
